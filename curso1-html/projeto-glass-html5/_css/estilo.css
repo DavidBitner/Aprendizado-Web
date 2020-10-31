@@ -58,6 +58,20 @@ nav#menu li{
     margin: 2px;
 }
 
+nav#menu li:hover{
+    transition: 1s;
+    background-color: darkgray;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+}
+
 nav#menu h1{
     display: none;
 }
