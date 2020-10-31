@@ -9,6 +9,12 @@ Marca/Tag =  É tudo que você colocar entre os sinais de maior e menor
 <code></code> = Mostrar o texto como código de programação
 <figure></figure> = Serve para apontar quando uma imagem dentro da página faz parte do conteúdo
 <figcaption></figcaption> = Serve para determinar a legenda de uma imagem
+<link rel="stylesheet" href=""> = Referênciar o lugar onde o style do projeto vai ficar
+<h1>Doidera</h1> = Titulos
+<a href="http://google.com"></a> = Links
+<a href="http://google.com" target="_blank"></a> = Abrir link numa nova aba
+padding = A quantidade de espaço entre o item e o container que ele pertence
+
 
 
 <style>
@@ -17,9 +23,104 @@ Marca/Tag =  É tudo que você colocar entre os sinais de maior e menor
         font-weight: bold;
         text-indent: 50px;
     }
+
     body{
-        background-color: green;
-        color: red;
+        background-color: black;
+        color: white;
         background-image: url("exemplo.jpg");
     }
+
+    /* Imagem */
+    figure{
+        opacity: 0;
+        border: 8px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 1px 1px 4px blue;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: 1s;
+    }
+
+    figure.foto-legenda:hover figcaption{
+        opacity: 1;
+    }
+
+    /* Posições */
+    div.static{
+        position: static;
+        border: 3px solid green;
+    }
+
+    div.relative{
+        position: relative;
+        left: 400px;
+        border: 200px solid green;
+    }
+
+    div.fixed{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid green;
+    }
+
+    div.absolute{
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid green;
+    }
+
+    div.sticky{
+        position: sticky;
+        top: 0;
+        background-color: lightgreen;
+        border: 2px solid green;
+    }
+
+    /* Listas */
+    ul{
+        list-style: none;
+        text-transform: uppercase;
+    }
+
 </style>
+
+<pre>
+Posições
+static = Elementos HTML são posicionados na posição estatica automaticamente. Elementos posicionados como estáticos não são afetados por propriedades como top, bottom, left e right. Um elemento com a posição estatica não é posicionado de nenhuma forma especial. Ele é sempre posicionado em relação ao flow da página
+relative = Um elemento com a posição relativa é posicionado relativo ao seu container. Com a propriedade de left, right, bottom e top um elemento com a posição relativa ficará ajustado nessa posição relativa ao seu container. Outro conteúdo não será ajustado para preencher qualquer gap deixado pelo elemento.
+fixed = Um elemento com a posição fixada será relativo a tela em que o usuário está vendo o conteúdo, o que significa que o elemento ficará sempre na mesma posição, independente do scroll da página. As propriedades top, right, left e bottom são usadas para posicionar o elemento.
+absolute = Um elemento com a posição absoluta ficará posicionado em relação ao seu ancestral mais próximo. Entretanto, se um elemento posicionado de maneira absoluta não possui ancestrais, ele usa o corpo do documento como ancestral e se move junto com o scroll da tela
+sticky = Um elemento com a posição sticky é posicionado em relação com a posição do scroll do usuário. Um elemento sticky alterna entre relativo e fixado dependendo da posição do scroll do usuário, ele fica posicionado como relativo até o scroll puxa-lo para fora da tela, fazendo com que o elemento fique fixado até o scroll retornar para a posição do elemento.
+</pre>
+
+
+<nav>
+    <h1>Menu Principal</h1>
+    <ol>
+        <li>Home</li>
+        <li>Especificações</li>
+        <li>Fotos</li>
+        <li>Multimídia</li>
+        <li>Fale conosco</li>
+    </ol>
+</nav>
+
+nav = Menu de navegação
+<ol></ol> = Ordered lists
+<ol type="1"></ol> = 1. 2. 3. 4. 5.
+<ol type="A"></ol> = A. B. C. D. E.
+<ol type="a"></ol> = a. b. c. d. e.
+<ol type="I"></ol> = I. II. III. IV. V.
+<ol type="i"></ol> = i. ii. iii. iv. v.
+<ol type="1" start="3"></ol> = 3. 4. 5. 6. 7.
+
+<ul></ul> = Unordered lists
+types = circle, square, disc
+
+<li></li> = List Item
