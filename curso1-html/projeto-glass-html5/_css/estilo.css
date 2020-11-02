@@ -119,3 +119,27 @@ figure.foto-legenda:hover figcaption{
     padding: 0px;
     margin-top: 0px;
 }
+
+#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px #606060 solid;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    border-top: 1px #606060 solid;
+}
+
+#rodape p{
+    text-align: center;
+}
