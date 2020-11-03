@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Lampada</title>
     <meta charset="utf-8">
     <script>
-        function acendeLampada(){
+        function acendeLampada() {
             document.getElementById("luz").src = "projeto-glass-html5/_imagens/lampada-acesa.jpg"
         }
-        function apagaLampada(){
+        function apagaLampada() {
             document.getElementById("luz").src = "projeto-glass-html5/_imagens/lampada-apagada.jpg"
         }
-        function quebraLampada(){
+        function quebraLampada() {
             document.getElementById("luz").src = "projeto-glass-html5/_imagens/lampada-quebrada.jpg"
         }
     </script>
@@ -18,6 +19,8 @@
 
 <body>
     <h1>Acenda a lâmpada</h1>
-    <img src="projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz" onclick="quebraLampada()" onmouseover="acendeLampada()" onmouseout="apagaLampada()">
+    <img src="projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz" onclick="quebraLampada()"
+        onmouseover="acendeLampada()" onmouseout="apagaLampada()">
 </body>
+
 </html>
