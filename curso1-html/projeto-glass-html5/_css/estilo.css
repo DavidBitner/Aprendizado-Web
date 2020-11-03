@@ -140,7 +140,31 @@ figure.foto-legenda:hover figcaption{
     border: 1px solid #606060;
     padding-top: 10px;
     text-align: center;
-    vertical-align: middle;
+}
+
+#tabelaspec .coluna-esquerda{
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+}
+
+#tabelaspec .coluna-direita{
+    background-color: #cecece;
+    font-weight: bold;
+}
+
+#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
 }
 
 #lateral{
