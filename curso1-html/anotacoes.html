@@ -1,9 +1,14 @@
+<!-- HTML -->>
 Marca/Tag =  É tudo que você colocar entre os sinais de maior e menor
 <html lang="pt-bt"> = Para determinar a lingua do documento html se usa o parâmetro "lang=" dentro da primeira tag html
 <meta charset="UTF-8"> = Para determinar o padrão que será lido pelo na vegador, usa-se a tag "meta" e o parâmetro "charset="
 <div></div> = As divs servem para dividir o arquivo, cada div tem seu id para identificar qual sessão do arquivo está sendo modificada
 <img src="" alt=""> = Quando for necessário adicionar uma imagem, usa-se esta tag
 <header></header> = Tag do cabeçalho da página
+<section></section> = Tag para apontar uma sessão da página
+<aside></aside> = Tag para apontar o que está ao lado na página
+<nav></nav> = Menu da página
+<footer></footer> = Cabeçalho da página
 <span></span> = Tag para personalização de uma parte especifica do texto
 <pre></pre> = Texto préformatado, tudo dentro destas tags será mostrado com a formatação feita manualmente
 <code></code> = Mostrar o texto como código de programação
@@ -13,7 +18,8 @@ Marca/Tag =  É tudo que você colocar entre os sinais de maior e menor
 <h1>Doidera</h1> = Titulos
 <a href="http://google.com"></a> = Links
 <a href="http://google.com" target="_blank"></a> = Abrir link numa nova aba
-url("../exemplo") = 
+url("../exemplo") = Os dois pontos servem para apontar um diretório antes
+
 
 
 padding = A quantidade de espaço entre o item e o container que ele pertence
@@ -49,8 +55,8 @@ sticky = Um elemento com a posição sticky é posicionado em relação com a po
         <li>Fale conosco</li>
     </ol>
 </nav>
-
 nav = Menu de navegação
+
 <ol></ol> = Ordered lists
 <ol type="1"></ol> = 1. 2. 3. 4. 5.
 <ol type="A"></ol> = A. B. C. D. E.
@@ -70,6 +76,7 @@ types = circle, square, disc
 </table>
 
 
+<!-- CSS -->>
 <style>
     h1 {
         text-align: center;
@@ -165,3 +172,17 @@ types = circle, square, disc
         padding-top: 10px;
     }
 </style>
+
+
+<!--JAVASCRIPT-->
+<script></script> = Onde ficaram os códigos JS dentro do arquivo
+onclick="nomeDoScript()" = Evento é disparado quando houver um clique do mouse no objeto
+onmousemove="nomeDoScript()" = Evento é disparado quando o mouse passar por cima do objeto
+
+function nomeDoScript(){
+    código
+} = Script com o nome "nomeDoScript"
+
+alert("texto") = Alerta no navegador
+document.write("texto") = Escrever no corpo do documento
+document.getElementById("id_do_objeto") = Referênciar algo no código JS pelo id dentro do HTML
