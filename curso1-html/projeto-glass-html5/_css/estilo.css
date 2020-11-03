@@ -1,8 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @font-face{
-    font-family: 'FonteLogo';
-    src: url('../_fonts/bubblegum-sans-regular.otf');
+    font-family: "FonteLogo";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 p{
     text-align: justify;
@@ -91,20 +91,20 @@ figure.foto-legenda:hover figcaption{
     position: relative;
 }
 
+#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
 #cabecalho #icone{
     position: absolute;
     left: 730px;
     top: 50px;
 }
 
-#cabecalho{
-    border-bottom: 1px #606060 solid;
-    height: 150px;
-    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 80px;
-}
-
 #cabecalho h1{
-    font-family: 'FonteLogo', Helvetica, sans-serif;
+    font-family: "FonteLogo", Helvetica, sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
@@ -113,7 +113,7 @@ figure.foto-legenda:hover figcaption{
 }
 
 #cabecalho h2{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-size: 15pt;
     color: #606060;
     padding: 0px;
@@ -127,6 +127,20 @@ figure.foto-legenda:hover figcaption{
     border-right: 1px #606060 solid;
     padding-right: 20px;
     padding-bottom: 20px;
+}
+
+#tabelaspec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabelaspec td{
+    border: 1px solid #606060;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #lateral{
