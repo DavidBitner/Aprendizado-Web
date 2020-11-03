@@ -13,82 +13,21 @@ Marca/Tag =  É tudo que você colocar entre os sinais de maior e menor
 <h1>Doidera</h1> = Titulos
 <a href="http://google.com"></a> = Links
 <a href="http://google.com" target="_blank"></a> = Abrir link numa nova aba
+url("../exemplo") = 
+
+
 padding = A quantidade de espaço entre o item e o container que ele pertence
+margin = Quantidade de espaço em volta do bloco
+padding = Quantidade de espaço dentro do bloco
+box-shadow: 1px 2px 4px blue = 1px de sombreamento a esquerda, 2px de sombreamento abaixo, 4px de difusão de sombra da cor azul
+transition = tempo de transição de um estado para outro
+border-bottom: 1px gray solid = Borda de baixo com 1px de largura da cor cinza do tipo solida
+height = Altura
+weidth = largura
+background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px; = 
+Os dois pontos antes da barra serve para voltar um diretório. no-repeat serve para não repetir a imagem dentro do bloco e os dois parametros com pixeis servem para mostrar a quantidade de pixeis a esquerda e acima
+float = Posição da tela que o bloco ficará flutuando
 
-
-
-<style>
-    h1{
-        text-align: center;
-        font-weight: bold;
-        text-indent: 50px;
-    }
-
-    body{
-        background-color: black;
-        color: white;
-        background-image: url("exemplo.jpg");
-    }
-
-    /* Imagem */
-    figure{
-        opacity: 0;
-        border: 8px;
-        width: 100%;
-        height: 100%;
-        box-shadow: 1px 1px 4px blue;
-        padding: 10px;
-        box-sizing: border-box;
-        transition: 1s;
-    }
-
-    figure.foto-legenda:hover figcaption{
-        opacity: 1;
-    }
-
-    /* Posições */
-    div.static{
-        position: static;
-        border: 3px solid green;
-    }
-
-    div.relative{
-        position: relative;
-        left: 400px;
-        border: 200px solid green;
-    }
-
-    div.fixed{
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 300px;
-        border: 3px solid green;
-    }
-
-    div.absolute{
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width: 200px;
-        height: 100px;
-        border: 3px solid green;
-    }
-
-    div.sticky{
-        position: sticky;
-        top: 0;
-        background-color: lightgreen;
-        border: 2px solid green;
-    }
-
-    /* Listas */
-    ul{
-        list-style: none;
-        text-transform: uppercase;
-    }
-
-</style>
 
 <pre>
 Posições
@@ -124,3 +63,105 @@ nav = Menu de navegação
 types = circle, square, disc
 
 <li></li> = List Item
+
+<table>
+    <tr><td rowspan="2">Doidera</td></tr>
+    <tr><td>Doidera</td></tr>
+</table>
+
+
+<style>
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        text-indent: 50px;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        background-image: url("../exemplo.jpg");
+        margin: 10px 10px 10px 10px;
+    }
+
+    /* Imagem */
+    figure {
+        opacity: 0;
+        border: 8px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 1px 1px 4px blue;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: 1s;
+    }
+
+    figure.foto-legenda:hover figcaption {
+        opacity: 1;
+    }
+
+    /* Posições */
+    div.static {
+        position: static;
+        border: 3px solid green;
+        border-bottom: 1px #606060 solid;
+    }
+
+    div.relative {
+        position: relative;
+        left: 400px;
+        border: 200px solid green;
+    }
+
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid green;
+    }
+
+    div.absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid green;
+    }
+
+    div.sticky {
+        position: sticky;
+        top: 0;
+        background-color: lightgreen;
+        border: 2px solid green;
+    }
+
+    /* Listas */
+    ul {
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    /* Id e classe*/
+    .classe {
+        background-color: white;
+    }
+
+    #id {
+        background-color: white;
+    }
+
+    /* Tabelas */
+    #tabelaspec{
+        border: 1px solid #606060;
+        border-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #tabelaspec td{
+        border: 1px solid #606060;
+        padding-top: 10px;
+    }
+</style>
