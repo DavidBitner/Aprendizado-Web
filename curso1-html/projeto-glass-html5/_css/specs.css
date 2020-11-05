@@ -2,16 +2,14 @@
 
 #conteudo {
     width: 1000px;
-    margin: auto;
 }
 
-#frame-apec {
-    width: 380px;
-    height: 280px;
+#frame-spec {
+    width: 400px;
+    height: 320px;
     border: none;
-    overflow: hidden;
 }
 
-#frame-spec::-webkit-scrollbar {
-    display: none;
+#img-mapa {
+    width: 495px;
 }
