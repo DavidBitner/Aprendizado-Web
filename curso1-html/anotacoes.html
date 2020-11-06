@@ -75,6 +75,77 @@ types = circle, square, disc
     <tr><td>Doidera</td></tr>
 </table>
 
+<video controls id="filme" poster="_imagens/video-mini03.jpg">
+    <source src="_media/getting-started.mp4" type="video/mp4">
+    Não foi possível carregar o video.
+</video>
+
+<iframe id="filme" width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+<audio controls id="musica">
+    <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+    Não foi possível carregar o audio.
+</audio>
+
+
+<form method="POST" id="fContato" action="mailto:myemail@email.com">
+    <fieldset id="usuario">
+        <legend>Identificação do Usuário</legend>
+        <p><label for="iNome">Nome:</label> <input type="text" name="nNome" id="iNome" size="20" maxlength="30"
+                placeholder="Nome completo"></p>
+        <p><label for="iSenha">Senha:</label> <input type="password" name="nSenha" id="iSenha" size="8" maxlength="8">
+        </p>
+        <p><label for="iEmail">E-mail:</label> <input type="email" name="nEmail" id="iEmail" size="20" maxlength="40">
+        </p>
+        <fieldset id="sexo">
+            <legend>Sexo:</legend>
+            <input type="radio" name="nSexo" id="iMasc"> <label for="iMasc">Masculino</label>
+            <input type="radio" name="nSexo" id="iFem"> <label for="iFem">Feminino</label>
+        </fieldset>
+        <p><label for="iData">Data de Nascimento:</label> <input type="date" name="nData" id="iData">
+        </p>
+    </fieldset>
+
+    <fieldset id="endereco">
+        <legend>Endereço do Usuário</legend>
+        <p><label for="iRua">Logradouro:</label> <input type="text" name="nRua" id="iRua" size="13" maxlength="80"
+                placeholder="Rua, Av, Trav, ..."></p>
+        <p><label for="iNum">Número:</label> <input type="number" name="nNum" id="iNum" min="0" max="99999"></p>
+        <p><label for="iEst">Estado:</label></p>
+        <select name="nEst" id="iEst">
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP" selected>São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Cararina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+        <p><label for="iCid">Cidade:</label> <input type="text" name="nCid" id="iCid" size="20" maxlength="40"
+                placeholder="Cidade" list="cidades"></p>
+        <datalist id="cidades">
+            <option value="Rio de Janeiro"></option>
+            <option value="Nova Iguaçu"></option>
+            <option value="Volta Redonda"></option>
+        </datalist>
+    </fieldset>
+
+    <fieldset id="mensagem">
+        <legend>Mensagem do Usuário</legend>
+        <p><label for="iUrg">Grau de Urgência: Min</label><input type="range" name="nUrg" id="iUrg" min="0" max="10"
+                step="2">Max</p>
+        <p><label for="iMsg">Mensagem:</label><textarea name="nMsg" id="iMsg" cols="45" rows="5"
+                placeholder="Deixe aqui a sua mensagem"></textarea></p>
+    </fieldset>
+
+    [BOTÃO ENVIAR]
+</form>
+
 
 <!-- CSS -->>
 <style>
