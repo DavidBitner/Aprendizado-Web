@@ -20,54 +20,88 @@
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul>
-                    <li onmouseover="mudaFoto('_imagens/home.png')"
-                        onmouseout="mudaFoto('_imagens/contato.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a
+                            href="index.html">Home</a></li>
                     <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
-                        onmouseout="mudaFoto('_imagens/contato.png')"><a
-                            href="specs.html">Especificações</a></li>
-                    <li onmouseover="mudaFoto('_imagens/fotos.png')"
-                        onmouseout="mudaFoto('_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
-                    <li onmouseover="mudaFoto('_imagens/multimidia.png')"
-                        onmouseout="mudaFoto('_imagens/contato.png')"><a
-                            href="multimidia.html">Multimídia</a></li>
-                    <li onmouseover="mudaFoto('_imagens/contato.png')"
-                        onmouseout="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale
+                        onmouseout="mudaFoto('_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a
+                            href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')">
+                        <a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a
+                            href="fale-conosco.html">Fale
                             conosco</a></li>
                 </ul>
             </nav>
         </header>
 
-        Fale Conosco > Contato
-        Formulário de Contato
-        por Gustavo Guanabara
-        Atualizado em 01/Maio/2013
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-noticia-principal">
+                    <h3>Fale Conosco > Contato</h3>
+                    <h1>Formulário de Contato</h1>
+                    <h2>por Dd</h2>
+                    <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                </header>
 
-        Identificação do Usuário
-            Nome:
-            Senha:
-            E-mail:
-            Sexo:
-                - Masculino
-                - Feminino
-            Data de Nascimento:
+                <form method="POST" id="fContato" action="mailto:myemail@email.com">
+                    <fieldset id="usuario">
+                        <legend>Identificação do Usuário</legend>
+                        <p><label for="iNome">Nome:</label> <input type="text" name="nNome" id="iNome" size="20"
+                                maxlength="30" placeholder="Nome completo"></p>
+                        <p><label for="iSenha">Senha:</label> <input type="password" name="nSenha" id="iSenha" size="8"
+                                maxlength="8"></p>
+                        <p><label for="iEmail">E-mail:</label> <input type="email" name="nEmail" id="iEmail" size="20"
+                                maxlength="40"></p>
+                        <fieldset id="sexo">
+                            <legend>Sexo:</legend>
+                            <input type="radio" name="nSexo" id="iMasc"> <label for="iMasc">Masculino</label>
+                            <input type="radio" name="nSexo" id="iFem"> <label for="iFem">Feminino</label>
+                        </fieldset>
+                        <p><label for="iData">Data de Nascimento:</label> <input type="date" name="nData" id="iData">
+                        </p>
+                    </fieldset>
 
-        Endereço do Usuário
-            Logradouro:
-            Número:
-            Estado:
-            Cidade:
+                    <fieldset id="endereco">
+                        <legend>Endereço do Usuário</legend>
+                        <p><label for="iRua">Logradouro:</label> <input type="text" name="nRua" id="iRua" size="13"
+                                maxlength="80" placeholder="Rua, Av, Trav, ..."></p>
+                        <p><label for="iNum">Número:</label> <input type="number" name="nNum" id="iNum" min="0"
+                                max="99999"></p>
+                        <p><label for="iEst">Estado:</label></p>
+                        <select name="nEst" id="iEst">
+                            <optgroup label="Região Sudeste">
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP" selected>São Paulo</option>
+                                <option value="MG">Minas Gerais</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="SC">Santa Cararina</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                            </optgroup>
+                        </select>
+                        <p><label for="iCid">Cidade:</label> <input type="text" name="nCid" id="iCid" size="20"
+                                maxlength="40" placeholder="Cidade" list="cidades"></p>
+                        <datalist id="cidades">
+                            <option value="Rio de Janeiro"></option>
+                            <option value="Nova Iguaçu"></option>
+                            <option value="Volta Redonda"></option>
+                        </datalist>
+                    </fieldset>
 
-        Mensagem do Usuário
-            Grau de Urgência:
-            Mensagem:
+                    <fieldset id="mensagem">
+                        <legend>Mensagem do Usuário</legend>
+                        <p><label for="iUrg">Grau de Urgência: Min</label><input type="range" name="nUrg" id="iUrg"
+                                min="0" max="10" step="2">Max</p>
+                        <p><label for="iMsg">Mensagem:</label><textarea name="nMsg" id="iMsg" cols="45" rows="5"
+                                placeholder="Deixe aqui a sua mensagem"></textarea></p>
+                    </fieldset>
 
-        Quero um Google Glass
-            Gostaria de adquirir um Google Glass quando disponível
-            Cor:
-            Quantidade:
-            Preço Total: R$
-
-        [BOTÃO ENVIAR]
+                    [BOTÃO ENVIAR]
+                </form>
+            </article>
+        </section>
 
         <footer id="rodape">
             <p>
@@ -79,5 +113,5 @@
         </footer>
     </div>
 </body>
-        
+
 </html>
