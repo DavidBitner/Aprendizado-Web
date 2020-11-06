@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <title>Tudo sobre o Google glass</title>
     <link rel="stylesheet" href="_css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="_css/form.css">
+    <script src="_javascript/funcoes.js"></script>
+    <script>
+        function calc_total() {
+            var qtd = parseInt(document.getElementById('iQtd').value)
+            tot = qtd * 1500
+            document.getElementById('iTot').value = tot
+        }
+    </script>
 </head>
-
-<script src="_javascript/funcoes.js"></script>
 
 <body>
     <div id="interface">
@@ -44,7 +51,7 @@
                     <h3 class="direita">Atualizado em 01/Maio/2013</h3>
                 </header>
 
-                <form method="POST" id="fContato" action="mailto:myemail@email.com">
+                <form method="POST" id="fContato" action="mailto:myemail@email.com" oninput="calc_total();">
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
                         <p><label for="iNome">Nome:</label> <input type="text" name="nNome" id="iNome" size="20"
@@ -55,7 +62,7 @@
                                 maxlength="40"></p>
                         <fieldset id="sexo">
                             <legend>Sexo:</legend>
-                            <input type="radio" name="nSexo" id="iMasc"> <label for="iMasc">Masculino</label>
+                            <input type="radio" name="nSexo" id="iMasc"> <label for="iMasc">Masculino</label><br>
                             <input type="radio" name="nSexo" id="iFem"> <label for="iFem">Feminino</label>
                         </fieldset>
                         <p><label for="iData">Data de Nascimento:</label> <input type="date" name="nData" id="iData">
@@ -94,11 +101,21 @@
                         <legend>Mensagem do Usuário</legend>
                         <p><label for="iUrg">Grau de Urgência: Min</label><input type="range" name="nUrg" id="iUrg"
                                 min="0" max="10" step="2">Max</p>
-                        <p><label for="iMsg">Mensagem:</label><textarea name="nMsg" id="iMsg" cols="45" rows="5"
+                        <p><label for="iMsg">Mensagem:</label><textarea name="nMsg" id="iMsg" cols="35" rows="5"
                                 placeholder="Deixe aqui a sua mensagem"></textarea></p>
                     </fieldset>
 
-                    [BOTÃO ENVIAR]
+                    <fieldset id="pedido">
+                        <legend>Quero um Google Glass</legend>
+                        <p><input type="checkbox" name="nPed" id="iPed" checked><label for="iPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                        <p><label for="iCor">Cor:</label> <input type="color" name="nCor" id="iCor" value="#0000FF"></p>
+                        <p><label for="iQtd">Quantidade:</label><input type="number" name="nQtd" id="iQtf" min="0" max="5" value="0"></p>
+                        <p><label for="iTot">Preço Total: R$</label><input type="text" name="nTot" id="iTot" placeholder="Total a Pagar" readonly></p>
+                    </fieldset>
+
+                    <input type="submit" value="ENVIAR">
+                    <input type="image" name="nEnviar" src="_imagens/botao-enviar.png">
+
                 </form>
             </article>
         </section>
