@@ -1,0 +1,2 @@
+<?php ?> = Quando for necessário escrever algo em php, esta é a tag a ser usada
+echo "exemplo" = Para escrever algo na tela com php, o comando echo é usado
