@@ -1,0 +1,65 @@
+variáveis em js se iniciam por "var"
+typeof variável = Saber qual o tipo de variável
+<!-- a --> = Comentário em html
+/* a */ = Comentário em CSS
+// a = Comentário em js
+
+O comando window.prompt() sempre retorna strings
+parseInt() = Converter variável para inteiro
+parseFloat() = Converter variável para float
+Number() = Converter variável para um tipo numero, int ou float dependendo do caso
+String() = Converter variável para string
+a.toString() = Converter a variável a para string
+a.length = Tamanho da string
+a.toUpperCase() = String em letras maiusculas
+a.toLowerCase() = String em letras minusculas
+a.toFixed(2) = Mostrar a variável com duas casas decimais
+a.replace('a', 'b') = Mudar o que for a na string para b
+a.toLocaleString('pt-BR', {style:'currency',currency:'BRL'}) = Quando for necessário mostrar o dinheiro brasileiro
+document.write() = Escrever na tela
+document.writeln() = Escrever uma linha na tela
+
+IMPORTANTE: Template String
+`` = Abre e fecha crases é a forma de se escrever strings como no python. exemplo:
+`O nome é ${nome}` = Aqui será mostrado "O nome é " e o que estiver dentro da variável nome
+
+
+Operadores:
+Operadores aritméticos:
++ = Adição
+- = Subtração
+* = Multiplicação
+/ = Divisão
+% = Resto
+** = Potênciação
+
+Operadores de incremento:
+++ = Adicionar um
+-- = Subtrair um
+
+Operadores relacionais:
+> = Maior que
+< = Menor que
+>= = Maior ou igual a
+<= = Menor ou igual a
+== = Igual a
+!= = Diferente de
+
+Operadores de identidade:
+=== = Valores são identicos tanto em valor quanto em tipo
+!== - Verificar se os tipos são diferentes
+
+Operadores Lógicos:
+! = Não é
+&& = E
+|| = Ou
+
+Ordem de precedência dos operadores:
+Operadores aritméticos são resolvidos primeiro respeitando a sua própria precedência
+Operadores relacionais em seguida, sendo que entre si eles não possuem ordem de precedência, o que estiver na frente será resolvido primeiro
+Operadores lógicos por ultimo, que possuem a sua própria ordem de precedência
+
+Operador ternário:
+? = Se, ou seja, caso o teste for verdadeiro, acontecerá o que estiver depois da interrogação
+: = Senão, ou seja, caso o teste for falso, acontecerá o que estiver depois dos dois pontos
+
