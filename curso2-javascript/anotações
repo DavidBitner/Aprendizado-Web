@@ -24,7 +24,7 @@ IMPORTANTE: Template String
 `O nome é ${nome}` = Aqui será mostrado "O nome é " e o que estiver dentro da variável nome
 
 
-Operadores:
+OPERADORES:
 Operadores aritméticos:
 + = Adição
 - = Subtração
@@ -63,3 +63,70 @@ Operador ternário:
 ? = Se, ou seja, caso o teste for verdadeiro, acontecerá o que estiver depois da interrogação
 : = Senão, ou seja, caso o teste for falso, acontecerá o que estiver depois dos dois pontos
 
+
+ARVORE DOM:
+É a maneira que o JS vai interagir com a página que está sendo criada. Exemplo:
+window = Um componente Dom
+location = Um filho de Window onde fica armazenado o endereço do site
+history = Um filho de window onde ficam armazenados os dados de navegação, como por onde o usuário passou
+document = Um filho de window onde fica o corpo da página
+html = Um filho de document onde fica o código html da página
+head = Um filho de html onde ficam as informações de titulo e tipo da página
+body = Um filho de html onde ficam as informações da página, como titulos, parágrafos e divs
+
+É através dessa árvore que se referência algo no JS. Exemplo:
+window.document.html.body()
+
+E ainda dentro do Dom, existem formas de selecionar os conteúdos da página para se fazer alterações. Exemplo:
+Selecionar por Marca:
+getElementsByTagName()
+
+Selecionar por ID:
+getElementById()
+
+Selecionar por Nome:
+getElementsByName()
+
+Selecionar por Classe:
+getElementsByClassName()
+
+Selecionar por Seletor:
+querySelector()
+querySelectorAll()
+
+<p>Alo<p/>
+<p>Bb<p/>
+var p1 = window.document.getElementsByTagName('p')[0]
+= Atribuir a variável p1 o que estiver dentro da primeira (ou zero) tag p do documento, nesse caso "Bb"
+
+
+FUNÇÕES:
+Servem para determinar o que um bloco de código irá executar depois que algo especifico acontece. Exemplo:
+function ação(parametro){
+    bloco
+    de
+    código
+}
+= Nome da função é "ação", essa função receberá um parâmetro e executará o bloco de código
+
+
+EVENTOS DOM:
+mouseenter = Quando o ponteiro do mouse entra no elemento
+mousemove = Quando o ponteiro do mouse se movimenta pelo elemento
+mousedown = Quando o botão do mouse é apertado dentro do elemento
+mouseup = Quando o botão do mouse é solto dentro do elemento
+click = Quando o botão do mouse é apertado e soltado no elemento
+mouseout = Quando o ponteiro do mouse sai do elemento
+
+Exemplo de evento com função:
+<div id="doidera" onclick="clicar()">
+    Bloco de texto
+</div>
+function clicar() {
+    var d = window.document.getElementById('doidera')
+    d.innerText = 'Clicou'
+}
+
+IMPORTANTE:
+a.addEventListener('click', clicar)
+= Também existe a possibilidade de não poluir o html com a função onclick e usar o próprio JS para isso
