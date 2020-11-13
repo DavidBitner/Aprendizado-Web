@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>DOM</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font: Normal 18pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Estudos de Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <div name="p2">
+        <p>Aprendendo a usar o Dom em JS</p>
+    </div>
+    <div id="msg">Clique em mim</div>
+    <p class="p3">Doidera</p>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        var p2 = window.document.getElementsByName('p2')[0]
+        var p3 = window.document.getElementsByClassName('p3')[0]
+        var h = window.document.querySelector('h1')
+        p1.style.color = 'blue'
+        d.style.color = 'red'
+        p2.style.color = 'green'
+        p3.style.color = 'purple'
+        h.style.color = 'brown'
+    </script>
+</body>
+
+</html>
