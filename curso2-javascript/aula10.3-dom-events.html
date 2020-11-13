@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Eventos Dom</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+        h1 {
+            font: normal 30pt Arial;
+        }
+        input {
+            height: 50px;
+            font: normal 20pt Arial;
+            margin-bottom: 10px;
+        }
+        div#resultado {
+            font: normal 20pt Arial;
+            color: red;
+            margin-top: 20px;
+        }
+        div#somar {
+            background-color: teal;
+            height: 100px;
+            width: 200px;
+            font: normal 15pt Arial;
+            line-height: 100px;
+            text-align: center;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="n1" id="n1"><br>
+    <input type="number" name="n2" id="n2"><br>
+    <input type="button" value="SOMAR" id="somar">
+    <div id="resultado">
+        RESULTADO
+    </div>
+    <script>
+        var res = document.getElementById('somar')
+        var resultado = document.getElementById('resultado')
+        res.addEventListener('click', somar)
+
+        function somar() {
+            var input1 = document.getElementById('n1')
+            var input2 = document.getElementById('n2')
+            var n1 = Number(input1.value)
+            var n2 = Number(input2.value)
+            var resposta = n1 + n2
+            resultado.innerText = resposta
+            resultado.style.color = 'white'
+            resultado.style.fontSize = '30pt'
+            resultado.style.marginLeft = '150px'
+        }
+    </script>
+</body>
+
+</html>
