@@ -127,6 +127,48 @@ function clicar() {
     d.innerText = 'Clicou'
 }
 
+
+CONDIÇÕES:
+IF:
+if (condição) {
+    bloco de código
+}
+
+ELSE:
+if (condição) {
+    bloco de código
+} ELSE {
+    bloco de código 2
+}
+
+ELSE IF:
+if (condição) {
+    bloco de código
+} ELSE IF {
+    bloco de código 2
+} ELSE {
+    bloco de código 3
+}
+
+SWITCH CASE:
+switch (condição) {
+    case 1:
+        bloco de código
+        break
+    case 2:
+        bloco de código 2
+        break
+    default:
+        bloco de código caso os outros casos não sejam pertinentes
+        break
+}
+Obs: O break é indispensável nas condições switch case
+
+
 IMPORTANTE:
 a.addEventListener('click', clicar)
 = Também existe a possibilidade de não poluir o html com a função onclick e usar o próprio JS para isso
+
+
+NodeJS:
+console.log('texto') = Printar na tela do NodeJS
