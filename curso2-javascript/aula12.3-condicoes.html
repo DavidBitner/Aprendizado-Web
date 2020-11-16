@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Condições</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 15pt;
+        }
+        input {
+            font: normal 15pt Arial;
+            background-color: red;
+            border-color: red;
+            color: white;
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Condições</h1>
+    <input type="button" value="CLICK" id="botao">
+    <p id="resposta"></p>
+    <script>
+        var botao = document.querySelector('input#botao')
+        botao.addEventListener('click', funcao)
+        function funcao() {
+            var agora = new Date()
+            var horario = agora.getHours()
+            var res = document.querySelector('p#resposta')
+            var horario_agora = document.querySelector('span#horario-agora')
+            res.innerHTML = `<p>${agora}</p>`
+            if (horario >= 1 && horario <= 12) {
+                res.innerHTML += 'Bom Dia!'
+                res.style.color = 'yellow'
+            } else if (horario >= 13 & horario <= 18) {
+                res.innerHTML += 'Boa Tarde!'
+                res.style.color = 'brown'
+            } else {
+                res.innerHTML += 'Boa Noite!'
+                res.style.color = 'Blue'
+            }
+        }
+    </script>
+</body>
+
+</html>

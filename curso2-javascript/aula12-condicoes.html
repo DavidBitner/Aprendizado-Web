@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Condições</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Condições</h1>
+    <input type="number" name="idade" id="idade">
+    <input type="button" value="CLICK" id="botao">
+    <p id="resposta">RESPOSTA</p>
+    <script>
+        var botao = document.querySelector('input#botao')
+        botao.addEventListener('click', voto)
+        var res = document.querySelector('p#resposta')
+        function voto() {
+            var idade = document.querySelector('input#idade').value
+            if (idade < 18 || idade >= 65) {
+                if (idade >= 16 || idade >= 65) {
+                    res.innerHTML = 'Voto facultativo'
+                } else {
+                    res.innerHTML = 'Não vota'
+                }
+            } else {
+                res.innerHTML = 'Voto obrigatório'
+            }
+        }
+    </script>
+</body>
+
+</html>
