@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Condições</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Condições</h1>
+    <h2>Em qual velocidade se encontra?</h2>
+    <input type="number" name="numero1" id="numero1">
+    <input type="button" value="CLICK" id="botao">
+    <p id="resposta">RESPOSTA</p>
+    <script>
+        var botao = document.getElementById('botao')
+        botao.addEventListener('click', radar)
+        var res = document.getElementById('resposta')
+        function radar() {
+            var numero1 = document.getElementById('numero1')
+            var n1 = Number(numero1.value)
+            if (n1 > 60) {
+                res.innerText = 'Você ultrapassou o limite de velocidade'
+            } else {
+                res.innerText = 'Você está dentro do limite de velocidade'
+            }
+        }
+    </script>
+</body>
+
+</html>

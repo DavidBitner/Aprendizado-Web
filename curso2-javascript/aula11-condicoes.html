@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Condições</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 20pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Condições</h1>
+    <input type="number" name="numero1" id="numero1">
+    <input type="number" name="numero2" id="numero2">
+    <input type="button" value="CLICK" id="botao">
+    <p id="resposta">RESPOSTA</p>
+    <script>
+        var botao = document.getElementById('botao')
+        botao.addEventListener('click', somar)
+        var res = document.getElementById('resposta')
+        function somar() {
+            var numero1 = document.getElementById('numero1')
+            var numero2 = document.getElementById('numero2')
+            var n1 = Number(numero1.value)
+            var n2 = Number(numero2.value)
+            var resposta = n1 + n2
+            if (resposta > 10) {
+                res.innerText = 'A soma entre os dois numeros é maior que 10'
+            } else {
+                res.innerText = 'A soma entre os dois numeros é menor que 10'
+            }
+        }
+    </script>
+</body>
+
+</html>

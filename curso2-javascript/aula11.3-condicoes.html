@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Condições</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Condições</h1>
+    <h2>Em qual país você nasceu?</h2>
+    <input type="pais" name="pais" id="pais">
+    <input type="button" value="CLICK" id="botao">
+    <p id="resposta">RESPOSTA</p>
+    <script>
+        var pais = document.querySelector('input#pais').value
+        var btn = document.querySelector('input#botao')
+        btn.addEventListener('click', nacionalidade)
+        function nacionalidade() {
+            var resposta = document.querySelector('p#resposta')
+            if (pais == 'Brasil') {
+                resposta.innerHTML = 'Você é Brasileiro'
+            } else {
+                resposta.innerHTML = 'Você é estrangeiro'
+            }
+        }
+    </script>
+</body>
+
+</html>
