@@ -8,27 +8,27 @@
         body {
             background-color: black;
             color: white;
-            font-size: 20pt;
+            font-size: 15pt;
         }
     </style>
 </head>
 
 <body>
     <h1>Titulo</h1>
-    <input type="number" name="numero1" id="numero1">
-    <input type="number" name="numero2" id="numero2">
+    <input type="number" name="numero" id="numero">
     <input type="button" value="CLICK" id="botao">
     <p id="resposta">RESPOSTA</p>
     <script>
-        var botao = document.getElementById('botao')
-        botao.addEventListener('click', somar)
-        var res = document.getElementById('resposta')
-        function somar() {
-            var numero1 = document.getElementById('numero1')
-            var numero2 = document.getElementById('numero2')
-            var n1 = Number(numero1.value)
-            var n2 = Number(numero2.value)
-            var resposta = n1 + n2
+        var botao = document.querySelector('input#botao')
+        botao.addEventListener('click', funcao)
+        function funcao() {
+            var numero = document.querySelector('input#numero').value
+            var res = document.querySelector('p#resposta')
+            if (condition) {
+                
+            } else {
+                
+            }
         }
     </script>
 </body>
