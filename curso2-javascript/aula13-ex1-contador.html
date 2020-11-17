@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Contador</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 15pt;
+        }
+
+        header {
+            margin: 30px 0px;
+            font: bold 15pt Arial;
+            text-align: center;
+        }
+
+        section {
+            margin: auto;
+            width: 400px;
+            height: 300px;
+            border-radius: 2px;
+            border-color: rgba(255, 255, 255, 1);
+            text-align: left;
+            background-color: white;
+            color: black;
+            padding: 5px 10px 5px 10px;
+            font: normal 12pt Arial;
+            box-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+        }
+
+        footer {
+            margin: 10px;
+            text-align: center;
+            font: bold 12pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <section>
+        <p>
+            Inicio:
+            <input type="number" name="inicio" id="inicio">
+        </p>
+        <p>
+            Fim:
+            <input type="number" name="fim" id="fim">
+        </p>
+        <p>
+            Passo:
+            <input type="number" name="passo" id="passo">
+        </p>
+        <input type="button" value="CLICK" id="botao">
+        <p id="resposta">
+            Preparando a contagem...
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; David Bitner</p>
+    </footer>
+
+    <script>
+        var botao = document.querySelector('input#botao')
+        botao.addEventListener('click', funcao)
+        function funcao() {
+            let inicio = document.querySelector('input#inicio')
+            let fim = document.querySelector('input#fim')
+            let passo = document.querySelector('input#passo')
+            var res = document.querySelector('p#resposta')
+            res.innerHTML = 'Contando...<br>'
+            if (inicio.length == 0 || fim.length == 0 || passo.length == 0 || passo <= 0) {
+                window.alert('Digite um numero nos três campos')
+            } else {
+                let i = Number(inicio.value)
+                let f = Number(fim.value)
+                let p = Number(passo.value)
+                for (i; i <= f; i += p) {
+                    if (i < fim) {
+                        res.innerHTML += `${i} >>>`
+                    } else {
+                        res.innerHTML += i
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
