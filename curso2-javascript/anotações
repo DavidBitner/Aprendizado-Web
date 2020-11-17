@@ -164,10 +164,34 @@ switch (condição) {
 }
 Obs: O break é indispensável nas condições switch case
 
+WHILE:
+while (i < 6) {
+    bloco de código
+    i++
+}
+
+DO WHILE:
+do {
+    bloco de código
+    i++
+} while (i < 6)
+
+FOR:
+for (var i = 1;i <= 10;i++) {
+    bloco de código
+}
+
 
 IMPORTANTE:
 a.addEventListener('click', clicar)
 = Também existe a possibilidade de não poluir o html com a função onclick e usar o próprio JS para isso
+
+
+IMPORTANTE:
+Diferenças entre var, const e let:
+VAR =
+CONST =
+LET =
 
 
 NodeJS:
