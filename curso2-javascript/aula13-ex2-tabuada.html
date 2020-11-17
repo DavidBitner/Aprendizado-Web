@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Tabuada</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 15pt;
+        }
+
+        header {
+            margin: 30px 0px;
+            font: bold 15pt Arial;
+            text-align: center;
+        }
+
+        section {
+            margin: auto;
+            width: 400px;
+            height: 300px;
+            border-radius: 2px;
+            border-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            background-color: white;
+            color: black;
+            padding-top: 5px;
+            font: normal 12pt Arial;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+        }
+
+        footer {
+            margin: 10px;
+            text-align: center;
+            font: bold 12pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <p>
+            Numero:
+            <input type="number" name="numero" id="numero">
+            <input type="button" value="Gerar Tabuada" id="botao">
+        </p>
+
+        <select name="Tabuada" id="resposta" size="10"></select>
+    </section>
+
+    <footer>
+        <p>&copy; David Bitner</p>
+    </footer>
+
+    <script>
+        var botao = document.querySelector('input#botao')
+        botao.addEventListener('click', funcao)
+        function funcao() {
+            var numero = document.querySelector('input#numero').value
+            var res = document.querySelector('select#resposta')
+            if (numero.length == 0) {
+                window.alert('Digite um numero')
+            } else {
+                res.innerHTML = ''
+                for (i = 1; i <= 10; i++) {
+                    let item = document.createElement('option')
+                    item.text = `${numero} X ${i} = ${i * numero}`
+                    item.value = `tab${i}`
+                    res.appendChild(item)
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
