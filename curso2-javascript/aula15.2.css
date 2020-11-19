@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 15pt;
+}
+
+header {
+    margin: 30px 0px;
+    font: bold 15pt Arial;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    width: 500px;
+    height: auto;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font: normal 12pt Arial;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+section #lista {
+    width: 200px;
+}
+
+div#resposta p {
+    margin: 0px;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+    font: bold 12pt Arial;
+}
