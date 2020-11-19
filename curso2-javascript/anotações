@@ -18,6 +18,7 @@ a.replace('a', 'b') = Mudar o que for a na string para b
 a.toLocaleString('pt-BR', {style:'currency',currency:'BRL'}) = Quando for necessário mostrar o dinheiro brasileiro
 document.write() = Escrever na tela
 document.writeln() = Escrever uma linha na tela
+a.focus() = Colocar o foco em um certo elemento, por exemplo um campo de texto para não precisar de clicar no mesmo
 
 IMPORTANTE: Template String
 `` = Abre e fecha crases é a forma de se escrever strings como no python. exemplo:
@@ -182,6 +183,24 @@ for (var i = 1;i <= 10;i++) {
 }
 
 
+ARRAYS:
+let a = [1, 2, 3] = Declaração de uma lista
+a[3] = 6 = Declarar valor em uma posição do array
+a.push(7) = Acrescentar o valor 7 a próxima posição do array
+a.length = Tamanho do array
+a.sort() = Organizar o array em ordem crescente
+a.indexOf(7) = Mostrar a posição que o valor 7 se encontra dentro do array
+a.indexOf(3) = Caso o numero três não exista dentro do array, a função retornará "-1"
+
+for(let i = 0; i < a.length; i++){
+    bloco de código
+} = Percorrer o array através de um for
+
+for(let i in a){
+    bloco de código
+} = Forma simplificada de ser percorrer um array em JS
+
+
 IMPORTANTE:
 a.addEventListener('click', clicar)
 = Também existe a possibilidade de não poluir o html com a função onclick e usar o próprio JS para isso
@@ -189,9 +208,9 @@ a.addEventListener('click', clicar)
 
 IMPORTANTE:
 Diferenças entre var, const e let:
-VAR =
+VAR = Variáveis declaradas com VAR serão mudadas caso redeclaradas dentro de uma função. As variáveis mudaram depois da função
 CONST =
-LET =
+LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro de uma função.
 
 
 NodeJS:
