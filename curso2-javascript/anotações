@@ -201,6 +201,10 @@ for(let i in a){
 } = Forma simplificada de ser percorrer um array em JS
 
 
+OBJETOS:
+let a = {nome:'Carlos', idade:'18', peso:'49'}
+
+
 IMPORTANTE:
 a.addEventListener('click', clicar)
 = Também existe a possibilidade de não poluir o html com a função onclick e usar o próprio JS para isso
@@ -209,7 +213,7 @@ a.addEventListener('click', clicar)
 IMPORTANTE:
 Diferenças entre var, const e let:
 VAR = Variáveis declaradas com VAR serão mudadas caso redeclaradas dentro de uma função. As variáveis mudaram depois da função
-CONST =
+CONST = Variáveis declaradas com CONST não podem ser mudadas, a partir do momento que foram declaradas, não podem ser reatribuidas
 LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro de uma função.
 
 
