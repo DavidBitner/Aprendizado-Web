@@ -37,10 +37,33 @@ Processo de marketing{
                 }
             }
             Produtos, serviços e experiências{
-                Produto é qualquer coisa capaz de satisfazer uma necessidade/desejo e normalmente está relacionado com a posse fisica de algo.
-                Produto é basicamente algo que você compra.
+                O foco em se tratando desse tema, deve ser sempre a experiência. Com esse foco é possível ter uma melhor retenção, uma maior reutilização e criar uma relação com o cliente que vai ter o seu produto/serviço as vezes ligado a ele até de forma emocional.
+                Focando na experência é possível criar o desejo e atender a necessidade do cliente.
+                Frase de humanas: As pessoas esquecerão o que você disse, também esquecerão o que você fez. Mas elas nunca esquecerão como você as fez sentir.
+                Produto{
+                    Produto é qualquer coisa capaz de satisfazer uma necessidade/desejo e normalmente está relacionado com a posse fisica de algo.
+                    Produto é basicamente algo que você compra.
+                }
+                Serviço{
+                    Serviço não está relacionado com posse de algo.
+                    O publico irá se aproveitar dos seus beneficios, mas não é algo de posse pessoal de quem está contratando.
+                    Como exemplos podem ser citados, viagens, hotelaria, transporte.
+                }
+                Experência{
+                    Experência é algo que se relaciona diretamente com sentimentos gerados por produtos e serviços.
+                }
             }
-            Valor e satisfação
+            Valor e satisfação{
+                Os clientes criam expectativas com relação ao valor e a satisfação de várias ofertas e fazem sua escolha de acordo com essas expectativas.
+                Valor{
+                    É a percepção do cliente em relação ao produto.
+                    É importante que o marketing construa o valor do produto para que o cliente enxergue o produto como o objeto de desejo que irá suprir a sua necessidade.
+                }
+                Satisfação{
+                    Satisfação é a medida de como produtos e serviços prestados por uma empresa atendem as expectativas do cliente. Ou ainda, satisfação é definida como o numero de clientes, ou porcentagem de clientes, que reportaram que a experência com uma empresa excedeu as expectativas.
+                    Satisfação faz com que clientes comprem novamente e comentem com outras pessoas sobre o serviço/produto que foi adquirido por elas.
+                }
+            }
             Trocas e relacionamentos
             Mercados
         }
@@ -50,3 +73,8 @@ Processo de marketing{
     }
     Capturar Valor
 }
+
+
+Miopia de marketing:
+Erro de prestar mais atenção aos produtos especificos que uma empresa oferece do que aos beneficios e a experiência.
+Quando uma empresa ou alguém vê o seu produto como a coisa mais valiosa do mundo, e não enxerga oportunidades para captalizar a longo prazo em outros produtos parecidos que possam gerar mais beneficios e experiencias positivas para o publico.
