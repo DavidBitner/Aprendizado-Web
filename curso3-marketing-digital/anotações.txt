@@ -1,0 +1,52 @@
+Achei interessante ter uma base de marketing antes de me aprofundar em web pra poder entender alguns conceitos de design que serão presente em CTA e em layouts quando eu for desenvolver os sites em si
+
+
+Marketing é um processo social pelo qual se cria valor e se contrói relacionamentos baseados em trocas
+
+
+Processo de marketing{
+    Criar valor{
+        Entender necessidades{
+            A base do processo de marketing para começar qualquer coisa é identificar necessidades em aberto dentro do publico alvo, identificadas essas necessidades, deve-se tentar criar um produto que vá satisfazer essas necessidades e analizar se esse produto pode ser adquirido pelo publico-alvo.
+            Necessidades, desejos e demandas{
+                O marketing não cria necessidades, as necessidades já existem. O marketing atua criando objetos de desejo. Ou seja, uma necessidade existe, e o marketing é responsável por mostrar para a pessoa o objeto de desejo que irá cuidar da sua necessidade. Levando em conta a demanda, com a necessidade surgem desejos, e pensando nesses desejos deve-se entender se existe demanda suficiente para comercializar e divulgar esse desejo para determinado publico álvo.
+                Necessidades{
+                    As necessidades são aquelas exigências humanas básicas.
+                    Segundo a pirâmide de Maslow, as necessidades podem ser divididas em 5 partes, partindo da base da pirâmide, até o topo:
+                    Fisiológicas{
+                        Respiração, alimento, agua, sexo, descanso
+                    }
+                    Segurança{
+                        Fisica, profissional, moral, financeira
+                    }
+                    Sociais{
+                        Amizade, familia, intimidade
+                    }
+                    Autoestima{
+                        Confiança, êxito, respeito
+                    }
+                    Auto-realização{
+                        Moralidade, criatividade
+                    }
+                }
+                Desejos{
+                    Os desejos, se referem a necessidades dirigidas a produtos que sejam capazes de satisfazê-las. O marketing vai se focar nos desejos, para atender as necessidades. 
+                }
+                Demanda{
+                    A demanda define se vai existir mercado para o produto. Só funciona se o público-alvo tiver condições de adquirir o produto.
+                }
+            }
+            Produtos, serviços e experiências{
+                Produto é qualquer coisa capaz de satisfazer uma necessidade/desejo e normalmente está relacionado com a posse fisica de algo.
+                Produto é basicamente algo que você compra.
+            }
+            Valor e satisfação
+            Trocas e relacionamentos
+            Mercados
+        }
+        Elaborar Estratégia
+        Programa de Marketing
+        Construir Relacionamento
+    }
+    Capturar Valor
+}
