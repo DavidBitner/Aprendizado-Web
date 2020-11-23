@@ -64,11 +64,136 @@ Processo de marketing{
                     Satisfação faz com que clientes comprem novamente e comentem com outras pessoas sobre o serviço/produto que foi adquirido por elas.
                 }
             }
-            Trocas e relacionamentos
-            Mercados
+            Trocas e relacionamentos{
+                O objetivo do marketing em relação a trocas e relacionamentos é mais do que simplesmente atrair novos clientes; é rete-los e expandir os negócios.
+                Troca{
+                    O Marketing ocorre quando as pessoas querem satisfazer suas necessidades e seus desejos por meio da troca. Ou seja, o Marketing funciona dentro de trocas, quando uma pessoa precisa de algo e a forma que ela escolheu pra conseguir esse "algo" é através da troca.
+                }
+                Relacionamentos{
+                    Marketing consiste em ações que levem a construção e manutenção de relacionamentos de troca com seu publico-alvo.
+                    Através dos relacionamentos com o público-alvo, a empresa é capaz de vender mais e a longo prazo. Construindo um bom relacionamento com o cliente, esse cliente irá ver naquela empresa uma boa fonte para satisfazer seus desejos, e além de confiar na empresa para continuar comprando, irá indicar pra outros comprarem na mesma empresa.
+                }
+            }
+            Mercados{
+                Um mercado é o conjunto de compradores reais e potenciais de um produto.
+                Todos os compradores de um mercado compartilham de um mesmo conjunto de desejos e necessidades que podem ser satisfeitos pelo seu produto.
+                Existem mercados por toda a parte, o importante é focar em um, e não tentar focar em todos.
+            }
         }
-        Elaborar Estratégia
-        Programa de Marketing
+        Elaborar Estratégia{
+            A estratégia de marketing é o planejamento de como chegar ao cliente, criando o valor esperado e construindo fidelidade.
+            Basicamente a estratégia determina como os recursos serão alocados para atingir o mercado definido, considerando todas as suas caracteristicas e assim chegar ao objetivo.
+            Passos na elaboração da estratégia{
+                Principais objetivos
+                Mercado-alvo
+                Proposição de valor
+                Recursos necessários
+            }
+            A estratégia sempre se inicia analisando os ambientes{
+                Macro{
+                    Tudo que pode afetar o negócio, a empresa ou seus serviços mas que a empresa não tem controle ou a decisão da empresa não vai afetar em nada.
+                }
+                Micro{
+                    Tudo que é possível ser alterado pela empresa e por suas decisões.
+                }
+                Ambiente interno{
+                    Tudo que é possível ser alterado dentro da empresa para mudar a empresa em si.
+                }
+            }
+            Matriz SWOT{
+                É uma tecnica de planejamento de estratégia usada para ajudar uma pessoa ou organização a identificar forças, fraquezas, oportunidades e ameaças relacionadas a competição de mercado ou planejamento de projeto.
+                Importante: Quando fizer uma Matriz SWOT sua, fazer também a do concorrente, e usar as fraquezas do concorrente para fazer delas as suas forças.
+                Strenghts{
+                    As suas forças, os seus pontos fortes, o que se tem de mais poderoso no produto e ao redor dele.
+                    O que faz bem?
+                    O que tem de bom?
+                    Quais são as caracteristicas unicas e diferenciais?
+                }
+                Weaknesses{
+                    As suas fraquezas, quais os pontos fracos do produto.
+                    No que pode melhorar?
+                    Em que pontos seus concorrentes são melhores?
+                }
+                Opportunities{
+                    As oportunidades identificadas, normalmente ao analisar os ambientes se identifica as oportunidades.
+                    Quais são as oportunidades macro?
+                    Quais são as oportunidades micro?
+                    Quais são as fraquezas dos seus concorrentes?
+                }
+                Threats{
+                    As ameaças, tudo que pode prejudicar a sobrevida e a longevidade do seu produto ou serviço.
+                    Quais são as ameaças macro?
+                    Quais são as ameaças micro?
+                    Que recursos seus concorrentes possuem e você não?
+                }
+            }
+            UVP{
+                Proposta Única de Valor, ou proposição de valor; uma unica frase que vá convencer seu cliente a adquirir seu produto ou serviço e não o da concorrência.
+                Responder as seguintes perguntas antes de criar uma UVP{
+                    Em qual mercado vai competir?
+                    Quais são os atributos que definem o produto?
+                    Qual será a percepção do público?
+                    Quais são os concorrentes?
+                    Quais são as possibilidades de posicionamento?
+                }
+                Exemplos de UVP{
+                    BMW: A melhor máquina de dirigir.
+                    Spotify: Te mostrar a musica certa para cada humor e cada momento.
+                    Facebook: Ajuda a se conectar e compartilhar o que quiser com quem é importante em sua vida.
+                    YouTube: Oferece um local para as pessoas se conectarem, se informarem e inspirarem outras ao redor do mundo.
+                    Uber: A maneira mais inteligente de andar por ai. Um toque e um carro vai até você.
+                    PayPal: Alternativa mais eficiente para pagamentos, criando uma experiencia online mais rápida, simples e segura.
+                    Apple: Pense diferente.
+                }
+            }
+        }
+        Programa de Marketing{
+            O Programa coloca a estratégia em prática para que a entrega de valor seja exatamente aquela que foi planejada.
+            O Programa é implantado através do que se é chamado de Mix de Marketing ou Composto de Marketing.
+            Os 4 P's{
+                Product{
+                    O produto se refere a um item que satisfaça o desejo ou a necessidade do cliente.
+                    O produto é tudo aquilo que se disponibiliza para o publico-alvo.
+                    Produtos podem ser tangiveis (coisas) ou intangiveis (serviços, ideias ou experências).
+                    Na criação do produto deve-se pensar em algumas coisas{
+                        Como, quando e onde o produto será utilizado?
+                        Quais serão os desejos e necessidades atendidos pelo produto?
+                        Como esse produto se diferencia dos produtos semelhantes a ele?
+                    }
+                }
+                Price{
+                    Preço se refere a quanto o cliente vai pagar pelo produto. Ou, o que deve ser capturado em troca desse produto?
+                    Preço também pode se referir ao sacrificio que os clientes estão preparados para fazer para adquirir o produto.
+                    Preço é a unica variável que tem implicações na margem de lucro.
+                    Perguntas a se responder em relação a preço{
+                        Quanto o produto custa para existir?
+                        Quanto o produto custará para o consumidor?
+                        Qual é a relação e reação do cliente em relação ao preço?
+                        Será preciso criar preços diferenciados para segmentos? Existiram diferentes produtos com diferentes preços para diferentes mercados?
+                    }
+                }
+                Place{
+                    Melhor definido como "Colocação no Mercado"
+                    Praça se refere a providenciar acesso ao consumirdor.
+                    Considera-se providenciar conveniencia para um cliente.
+                    Perguntas a se responder em relação a placement{
+                        Onde o publico costuma procurar o produto?
+                        Como ter acesso aos canais de distribuição?
+                    }
+                }
+                Promotion{
+                    Promoção se refere as comunicações do marketing.
+                    São as formas de promover marcas.
+                    Pode incluir elementos como propaganda, relações publicas, marketing direto e promoção de vendas.
+                    Perguntas a se responder em relação a promoção{
+                        Como atingir o publico-alvo do produto?
+                        Qual a melhor abordagem para promover o produto?
+                        Qual o melhor periodo para a promoção do produto?
+                        Como os concorrentes promovem o produto?
+                    }
+                }
+            }
+        }
         Construir Relacionamento
     }
     Capturar Valor
