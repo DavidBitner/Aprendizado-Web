@@ -1,205 +1,286 @@
-Achei interessante ter uma base de marketing antes de me aprofundar em web pra poder entender alguns conceitos de design que serão presente em CTA e em layouts quando eu for desenvolver os sites em si
+Achei interessante ter uma base de marketing antes de me aprofundar em web pra poder entender alguns conceitos de design que serão presentes em CTA e em layouts quando eu for desenvolver os sites em si
 
 
-Marketing é um processo social pelo qual se cria valor e se contrói relacionamentos baseados em trocas
+Marketing é um processo social pelo qual se cria valor e se constrói relacionamentos baseados em trocas
 
 
-Processo de marketing{
-    Criar valor{
-        Entender necessidades{
-            A base do processo de marketing para começar qualquer coisa é identificar necessidades em aberto dentro do publico alvo, identificadas essas necessidades, deve-se tentar criar um produto que vá satisfazer essas necessidades e analizar se esse produto pode ser adquirido pelo publico-alvo.
-            Necessidades, desejos e demandas{
-                O marketing não cria necessidades, as necessidades já existem. O marketing atua criando objetos de desejo. Ou seja, uma necessidade existe, e o marketing é responsável por mostrar para a pessoa o objeto de desejo que irá cuidar da sua necessidade. Levando em conta a demanda, com a necessidade surgem desejos, e pensando nesses desejos deve-se entender se existe demanda suficiente para comercializar e divulgar esse desejo para determinado publico álvo.
-                Necessidades{
+Processo de marketing {
+    Criar valor {
+        Entender necessidades {
+            A base do processo de marketing para começar qualquer coisa é identificar necessidades em aberto dentro do público alvo, identificadas essas necessidades, deve-se tentar criar um produto que vá satisfazer essas necessidades e analisar se esse produto pode ser adquirido pelo público-alvo.
+            Necessidades, desejos e demandas {
+                O marketing não cria necessidades, as necessidades já existem. O marketing atua criando objetos de desejo. Ou seja, uma necessidade existe, e o marketing é responsável por mostrar para a pessoa o objeto de desejo que irá cuidar da sua necessidade. Levando em conta a demanda, com a necessidade surgem desejos, e pensando nesses desejos deve-se entender se existe demanda suficiente para comercializar e divulgar esse desejo para determinado público alvo.
+                Necessidades {
                     As necessidades são aquelas exigências humanas básicas.
                     Segundo a pirâmide de Maslow, as necessidades podem ser divididas em 5 partes, partindo da base da pirâmide, até o topo:
-                    Fisiológicas{
-                        Respiração, alimento, agua, sexo, descanso
+                    Fisiológicas {
+                        Respiração, alimento, água, sexo, descanso
                     }
-                    Segurança{
-                        Fisica, profissional, moral, financeira
+                    Segurança {
+                        Física, profissional, moral, financeira
                     }
-                    Sociais{
-                        Amizade, familia, intimidade
+                    Sociais {
+                        Amizade, família, intimidade
                     }
-                    Autoestima{
+                    Autoestima {
                         Confiança, êxito, respeito
                     }
-                    Auto-realização{
+                    Autorrealização {
                         Moralidade, criatividade
                     }
                 }
-                Desejos{
+                Desejos {
                     Os desejos, se referem a necessidades dirigidas a produtos que sejam capazes de satisfazê-las. O marketing vai se focar nos desejos, para atender as necessidades. 
                 }
-                Demanda{
+                Demanda {
                     A demanda define se vai existir mercado para o produto. Só funciona se o público-alvo tiver condições de adquirir o produto.
                 }
             }
-            Produtos, serviços e experiências{
+            Produtos, serviços e experiências {
                 O foco em se tratando desse tema, deve ser sempre a experiência. Com esse foco é possível ter uma melhor retenção, uma maior reutilização e criar uma relação com o cliente que vai ter o seu produto/serviço as vezes ligado a ele até de forma emocional.
-                Focando na experência é possível criar o desejo e atender a necessidade do cliente.
+                Focando na experiência é possível criar o desejo e atender a necessidade do cliente.
                 Frase de humanas: As pessoas esquecerão o que você disse, também esquecerão o que você fez. Mas elas nunca esquecerão como você as fez sentir.
-                Produto{
-                    Produto é qualquer coisa capaz de satisfazer uma necessidade/desejo e normalmente está relacionado com a posse fisica de algo.
+                Produto {
+                    Produto é qualquer coisa capaz de satisfazer uma necessidade/desejo e normalmente está relacionado com a posse física de algo.
                     Produto é basicamente algo que você compra.
                 }
-                Serviço{
+                Serviço {
                     Serviço não está relacionado com posse de algo.
-                    O publico irá se aproveitar dos seus beneficios, mas não é algo de posse pessoal de quem está contratando.
+                    O público irá se aproveitar dos seus benefícios, mas não é algo de posse pessoal de quem está contratando.
                     Como exemplos podem ser citados, viagens, hotelaria, transporte.
                 }
-                Experência{
-                    Experência é algo que se relaciona diretamente com sentimentos gerados por produtos e serviços.
+                Experiência {
+                    experiência é algo que se relaciona diretamente com sentimentos gerados por produtos e serviços.
                 }
             }
-            Valor e satisfação{
+            Valor e satisfação {
                 Os clientes criam expectativas com relação ao valor e a satisfação de várias ofertas e fazem sua escolha de acordo com essas expectativas.
-                Valor{
+                Valor {
                     É a percepção do cliente em relação ao produto.
                     É importante que o marketing construa o valor do produto para que o cliente enxergue o produto como o objeto de desejo que irá suprir a sua necessidade.
                 }
-                Satisfação{
-                    Satisfação é a medida de como produtos e serviços prestados por uma empresa atendem as expectativas do cliente. Ou ainda, satisfação é definida como o numero de clientes, ou porcentagem de clientes, que reportaram que a experência com uma empresa excedeu as expectativas.
+                Satisfação {
+                    Satisfação é a medida de como produtos e serviços prestados por uma empresa atendem as expectativas do cliente. Ou ainda, satisfação é definida como o número de clientes, ou porcentagem de clientes, que reportaram que a experiência com uma empresa excedeu as expectativas.
                     Satisfação faz com que clientes comprem novamente e comentem com outras pessoas sobre o serviço/produto que foi adquirido por elas.
                 }
             }
-            Trocas e relacionamentos{
-                O objetivo do marketing em relação a trocas e relacionamentos é mais do que simplesmente atrair novos clientes; é rete-los e expandir os negócios.
-                Troca{
+            Trocas e relacionamentos {
+                O objetivo do marketing em relação a trocas e relacionamentos é mais do que simplesmente atrair novos clientes; é retê-los e expandir os negócios.
+                Troca {
                     O Marketing ocorre quando as pessoas querem satisfazer suas necessidades e seus desejos por meio da troca. Ou seja, o Marketing funciona dentro de trocas, quando uma pessoa precisa de algo e a forma que ela escolheu pra conseguir esse "algo" é através da troca.
                 }
-                Relacionamentos{
-                    Marketing consiste em ações que levem a construção e manutenção de relacionamentos de troca com seu publico-alvo.
+                Relacionamentos {
+                    Marketing consiste em ações que levem a construção e manutenção de relacionamentos de troca com seu público-alvo.
                     Através dos relacionamentos com o público-alvo, a empresa é capaz de vender mais e a longo prazo. Construindo um bom relacionamento com o cliente, esse cliente irá ver naquela empresa uma boa fonte para satisfazer seus desejos, e além de confiar na empresa para continuar comprando, irá indicar pra outros comprarem na mesma empresa.
                 }
             }
-            Mercados{
+            Mercados {
                 Um mercado é o conjunto de compradores reais e potenciais de um produto.
                 Todos os compradores de um mercado compartilham de um mesmo conjunto de desejos e necessidades que podem ser satisfeitos pelo seu produto.
                 Existem mercados por toda a parte, o importante é focar em um, e não tentar focar em todos.
             }
         }
-        Elaborar Estratégia{
+        Elaborar Estratégia {
             A estratégia de marketing é o planejamento de como chegar ao cliente, criando o valor esperado e construindo fidelidade.
-            Basicamente a estratégia determina como os recursos serão alocados para atingir o mercado definido, considerando todas as suas caracteristicas e assim chegar ao objetivo.
-            Passos na elaboração da estratégia{
+            Basicamente a estratégia determina como os recursos serão alocados para atingir o mercado definido, considerando todas as suas características e assim chegar ao objetivo.
+            Passos na elaboração da estratégia {
                 Principais objetivos
                 Mercado-alvo
                 Proposição de valor
                 Recursos necessários
             }
-            A estratégia sempre se inicia analisando os ambientes{
-                Macro{
-                    Tudo que pode afetar o negócio, a empresa ou seus serviços mas que a empresa não tem controle ou a decisão da empresa não vai afetar em nada.
+            A estratégia sempre se inicia analisando os ambientes {
+                Macro {
+                    Tudo que pode afetar o negócio, a empresa ou seus serviços, mas que a empresa não tem controle ou a decisão da empresa não vai afetar em nada.
                 }
-                Micro{
+                Micro {
                     Tudo que é possível ser alterado pela empresa e por suas decisões.
                 }
-                Ambiente interno{
+                Ambiente interno {
                     Tudo que é possível ser alterado dentro da empresa para mudar a empresa em si.
                 }
             }
-            Matriz SWOT{
-                É uma tecnica de planejamento de estratégia usada para ajudar uma pessoa ou organização a identificar forças, fraquezas, oportunidades e ameaças relacionadas a competição de mercado ou planejamento de projeto.
+            Matriz SWOT {
+                É uma técnica de planejamento de estratégia usada para ajudar uma pessoa ou organização a identificar forças, fraquezas, oportunidades e ameaças relacionadas a competição de mercado ou planejamento de projeto.
                 Importante: Quando fizer uma Matriz SWOT sua, fazer também a do concorrente, e usar as fraquezas do concorrente para fazer delas as suas forças.
-                Strenghts{
+                Strenghts {
                     As suas forças, os seus pontos fortes, o que se tem de mais poderoso no produto e ao redor dele.
                     O que faz bem?
                     O que tem de bom?
-                    Quais são as caracteristicas unicas e diferenciais?
+                    Quais são as características únicas e diferenciais?
                 }
-                Weaknesses{
+                Weaknesses {
                     As suas fraquezas, quais os pontos fracos do produto.
                     No que pode melhorar?
                     Em que pontos seus concorrentes são melhores?
                 }
-                Opportunities{
+                Opportunities {
                     As oportunidades identificadas, normalmente ao analisar os ambientes se identifica as oportunidades.
                     Quais são as oportunidades macro?
                     Quais são as oportunidades micro?
                     Quais são as fraquezas dos seus concorrentes?
                 }
-                Threats{
+                Threats {
                     As ameaças, tudo que pode prejudicar a sobrevida e a longevidade do seu produto ou serviço.
                     Quais são as ameaças macro?
                     Quais são as ameaças micro?
                     Que recursos seus concorrentes possuem e você não?
                 }
             }
-            UVP{
-                Proposta Única de Valor, ou proposição de valor; uma unica frase que vá convencer seu cliente a adquirir seu produto ou serviço e não o da concorrência.
-                Responder as seguintes perguntas antes de criar uma UVP{
+            UVP {
+                Proposta Única de Valor, ou proposição de valor; uma única frase que vá convencer seu cliente a adquirir seu produto ou serviço e não o da concorrência.
+                Responder as seguintes perguntas antes de criar uma UVP {
                     Em qual mercado vai competir?
                     Quais são os atributos que definem o produto?
                     Qual será a percepção do público?
                     Quais são os concorrentes?
                     Quais são as possibilidades de posicionamento?
                 }
-                Exemplos de UVP{
+                Exemplos de UVP {
                     BMW: A melhor máquina de dirigir.
-                    Spotify: Te mostrar a musica certa para cada humor e cada momento.
+                    Spotify: Te mostrar a música certa para cada humor e cada momento.
                     Facebook: Ajuda a se conectar e compartilhar o que quiser com quem é importante em sua vida.
                     YouTube: Oferece um local para as pessoas se conectarem, se informarem e inspirarem outras ao redor do mundo.
-                    Uber: A maneira mais inteligente de andar por ai. Um toque e um carro vai até você.
+                    Uber: A maneira mais inteligente de andar por aí. Um toque e um carro vão até você.
                     PayPal: Alternativa mais eficiente para pagamentos, criando uma experiencia online mais rápida, simples e segura.
                     Apple: Pense diferente.
                 }
             }
         }
-        Programa de Marketing{
+        Programa de Marketing {
             O Programa coloca a estratégia em prática para que a entrega de valor seja exatamente aquela que foi planejada.
             O Programa é implantado através do que se é chamado de Mix de Marketing ou Composto de Marketing.
-            Os 4 P's{
-                Product{
+            Os 4 P’s {
+                Product {
                     O produto se refere a um item que satisfaça o desejo ou a necessidade do cliente.
-                    O produto é tudo aquilo que se disponibiliza para o publico-alvo.
-                    Produtos podem ser tangiveis (coisas) ou intangiveis (serviços, ideias ou experências).
-                    Na criação do produto deve-se pensar em algumas coisas{
+                    O produto é tudo aquilo que se disponibiliza para o público-alvo.
+                    Produtos podem ser tangíveis (coisas) ou intangíveis (serviços, ideias ou experencias).
+                    Na criação do produto deve-se pensar em algumas coisas {
                         Como, quando e onde o produto será utilizado?
                         Quais serão os desejos e necessidades atendidos pelo produto?
                         Como esse produto se diferencia dos produtos semelhantes a ele?
                     }
                 }
-                Price{
+                Price {
                     Preço se refere a quanto o cliente vai pagar pelo produto. Ou, o que deve ser capturado em troca desse produto?
-                    Preço também pode se referir ao sacrificio que os clientes estão preparados para fazer para adquirir o produto.
-                    Preço é a unica variável que tem implicações na margem de lucro.
-                    Perguntas a se responder em relação a preço{
+                    Preço também pode se referir ao sacrifício que os clientes estão preparados para fazer para adquirir o produto.
+                    Preço é a única variável que tem implicações na margem de lucro.
+                    Perguntas a se responder em relação a preço {
                         Quanto o produto custa para existir?
                         Quanto o produto custará para o consumidor?
                         Qual é a relação e reação do cliente em relação ao preço?
                         Será preciso criar preços diferenciados para segmentos? Existiram diferentes produtos com diferentes preços para diferentes mercados?
                     }
                 }
-                Place{
+                Place {
                     Melhor definido como "Colocação no Mercado"
-                    Praça se refere a providenciar acesso ao consumirdor.
-                    Considera-se providenciar conveniencia para um cliente.
-                    Perguntas a se responder em relação a placement{
-                        Onde o publico costuma procurar o produto?
+                    Praça se refere a providenciar acesso ao consumidor.
+                    Considera-se providenciar conveniência para um cliente.
+                    Perguntas a se responder em relação a placement {
+                        Onde o público costuma procurar o produto?
                         Como ter acesso aos canais de distribuição?
                     }
                 }
-                Promotion{
+                Promotion {
                     Promoção se refere as comunicações do marketing.
                     São as formas de promover marcas.
-                    Pode incluir elementos como propaganda, relações publicas, marketing direto e promoção de vendas.
-                    Perguntas a se responder em relação a promoção{
-                        Como atingir o publico-alvo do produto?
+                    Pode incluir elementos como propaganda, relações públicas, marketing direto e promoção de vendas.
+                    Perguntas a se responder em relação a promoção {
+                        Como atingir o público-alvo do produto?
                         Qual a melhor abordagem para promover o produto?
-                        Qual o melhor periodo para a promoção do produto?
+                        Qual o melhor período para a promoção do produto?
                         Como os concorrentes promovem o produto?
                     }
                 }
             }
         }
-        Construir Relacionamento
+        Construir Relacionamento {
+            É possível capturar valor sem se preocupar com relacionamento. Porém é importante construir e gerenciar relacionamentos duradouros e lucrativos.
+            Construção de relacionamento {
+                Fornecer uma boa experiência {
+                    Fazer o cliente feliz em usar/comprar o seu produto/serviço.
+                }
+                Conhecer bem o cliente {
+                    Saber as necessidades do cliente e focar as campanhas de marketing no que o cliente se preocupa mais.
+                }
+                Segmentação é importante {
+                    Entender os "sub-publicos" e saber fazer o marketing certo para as pessoas certas. Tendo em mente que idade, gênero e outras características vão moldar a maneira de se vender o produto/serviço.
+                }
+                Emoções vendem bem {
+                    Vender a emoção, sensação ou sentimento que o produto/serviço vai proporcionar para o cliente é mais importante do que vender o produto em si.
+                }
+                Seu público faz parte da criação {
+                    Independente do seu relacionamento com o cliente, é importante saber que o cliente pode e vai criar conteúdo sobre a sua marca/produto.
+                }
+                Incentivar o retorno {
+                    Ter formas de incentivar o cliente a voltar a adquirir o produto é extremamente importante para o sucesso de uma marca.
+                }
+                Monitorar os resultados {
+                    Ter como monitorar os resultados de uma campanha é imprescindível, não se pode fazer uma ação de marketing sem ter como saber se essa campanha foi um sucesso ou não.
+                }
+            }
+        }
     }
     Capturar Valor
 }
 
 
+Marketing Digital {
+    Diferenças marketing digital para marketing tradicional {
+        Métrica {
+            A grande diferença do Marketing tradicional para o digital é a métrica, ou a capacidade de medir uma ação para saber o quão efetiva ela foi.
+        }
+        Ajustes rápidos {
+            Outra diferença positiva em relação aos dois é a capacidade de ajuste. Ajustar um banner ou uma mensagem que está sendo passada para o público e não está sendo efetiva é simples no marketing digital, já nas mídias tradicionais não.
+        }
+        Segmentação {
+            A capacidade de direcionar a propaganda para o público certo é uma vantagem grande em relação ao marketing tradicional. A liberdade também de criar diferentes propagandas para diferentes públicos é também indispensável.
+        }
+        Alcance {
+            Também existe a liberdade de mostrar para qualquer público em qualquer lugar do mundo o produto/serviço.
+        }
+        Interação {
+            Ter um relacionamento próximo e constante com o cliente. Conseguir conversar e entender de forma direta o que o cliente deseja ou espera do produto/serviço. Com o marketing clássico existia apenas o ato de falar, com o marketing digital você fala e ouve.
+        }
+        Custo {
+            Até hoje ainda é muito caro fazer propaganda nas mídias tradicionais, dentro do marketing digital esse custo é muito mais baixo.
+        }
+    }
+    Meios do marketing digital {
+        Site {
+            Ter o próprio site é extremamente importante para ter um certo controle sobre a visão do cliente em relação a empresa. Ter um canal de atendimento fácil e um lugar onde o cliente possa consultar quaisquer informações sobre a marca/empresa é imprescindível.
+        }
+        Blog {
+            Ter um pequeno blog talvez seja uma boa opção para criação de certos conteúdos de interesse do cliente.
+        }
+        Ferramentas visuais {
+            Infográficos, imagens ilustrativas e vídeos são uma boa forma de se comunicar com o público.
+        }
+        Mail Marketing {
+            É uma ferramenta interessante para uma propaganda segmentada, direcionando ao cliente o que ele deseja ver.
+        }
+        Redes sociais {
+            Desde ter a própria página nas redes até as campanhas de publicidade dentro destas é uma forma muito efetiva de se obter resultados.
+        }
+        Mídias pagas {
+            Ferramentas de ads para alavancar os produtos e remarketing é também uma boa forma de gerar alcance e captura de valor dentro do marketing digital.
+        }
+    }
+    Marketing de conteúdo
+    Marketing de Busca
+    Redes de Ads
+    CRM
+    Analytics
+    Mobile Marketing
+}
+
+
 Miopia de marketing:
-Erro de prestar mais atenção aos produtos especificos que uma empresa oferece do que aos beneficios e a experiência.
-Quando uma empresa ou alguém vê o seu produto como a coisa mais valiosa do mundo, e não enxerga oportunidades para captalizar a longo prazo em outros produtos parecidos que possam gerar mais beneficios e experiencias positivas para o publico.
+Erro de prestar mais atenção aos produtos específicos que uma empresa oferece do que aos benefícios e a experiência.
+Quando uma empresa ou alguém vê o seu produto como a coisa mais valiosa do mundo, e não enxerga oportunidades para capitalizar a longo prazo em outros produtos parecidos que possam gerar mais benefícios e experiencias positivas para o público.
+
+Customer Equity:
+É o valor capturado ao longo do tempo de todos os clientes da empresa.
+
+CRM:
+Costumer Relationship Management
