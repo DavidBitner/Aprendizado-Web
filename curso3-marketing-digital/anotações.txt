@@ -251,7 +251,7 @@ Marketing Digital {
             Ter o próprio site é extremamente importante para ter um certo controle sobre a visão do cliente em relação a empresa. Ter um canal de atendimento fácil e um lugar onde o cliente possa consultar quaisquer informações sobre a marca/empresa é imprescindível.
         }
         Blog {
-            Ter um pequeno blog talvez seja uma boa opção para criação de certos conteúdos de interesse do cliente.
+            Ter um pequeno blog talvez seja uma boa opção para criação de certos conteúdos de interesse do cliente. Um blog teria a função de mostrar coisas mais pontuais, o dia-a-dia do negócio, uma mudança em um produto, política ou postura da empresa.
         }
         Ferramentas visuais {
             Infográficos, imagens ilustrativas e vídeos são uma boa forma de se comunicar com o público.
@@ -266,7 +266,121 @@ Marketing Digital {
             Ferramentas de ads para alavancar os produtos e remarketing é também uma boa forma de gerar alcance e captura de valor dentro do marketing digital.
         }
     }
-    Marketing de conteúdo
+    Marketing de conteúdo {
+        O Marketing de conteúdo se resume a seres humanos sendo úteis para outros seres humanos.
+        Marketing de conteúdo trata-se de conteúdo envolvente, compartilhável e, acima de tudo, focado em ajudar.
+        Tem como foco fazer com que os clientes descubram que o produto/serviço sendo vendido é aquele que vai resolver os problemas deles.
+        Inbound Marketing {
+            Inbound Marketing é uma tecnica para chamar a atenção de clientes para produtos e serviços via marketing de conteúdo, social media marketing, SEO e branding.
+            Conquistar novos clientes, gerar mais vendar e criar maior autoridade com o público-alvo.
+            Fazem parte do Inbound Marketing o Website, o Mobile, o Blog, os Videos, as imagens, os inforgráficos, os ebooks e as Redes Sociais.
+        }
+        Vantagens {
+            Visibilidade
+            Nível de interação
+            Redução do valor para aquisição de novos clientes
+            Ganho de confiança do cliente
+            Melhoria de experiência pós venda
+        }
+        Persona {
+            Persona é a representação fictícia do cliente ideal de um negócio. Ela é baseada em dados reais sobre comportamento e características demográficas dos clientes, assim como suas histórias pessoais, motivaçoes, objetivos, desafios e preocupações.
+            Quando criando persona para o negócio, o ideal é criar multiplas personas, a ideal, a ocasional, aquela que pode se tornar a persona ideal, entre outras.
+            Persona vs Publico-alvo {
+                Público-alvo é um grupo de pessoas que possuem características específicas em comum e que são justamente as pessoas que se pretende atingir com o marketing e o produto.
+                Persona é mais especifico, reune um numero muito maior de caracteristicas e detalhes; dentro do conceito de persona se obtém informações como comportamento, objetivos, problemas e hábitos.
+                Exemplo público-alvo {
+                    Homem/Mulher
+                    15-32 anos
+                    Nível médio/superior
+                    Região Sudeste/Sul
+                    Renda R$500 - R$3000
+                }
+                Exemplo Persona {
+                    Johnson James Smithson
+                    19 anos
+                    Paulistano
+                    Solteiro
+                    Mora com os Paulistano
+                    Graduado em TI
+                    Paga R$400 de faculdade
+                    Tem 25 amigos com o mesmo perfil
+                    Quer virar desenvolvedor front-end
+                    Gosta de games
+                    Usa muita rede social
+                    Ouve música/podcast
+                    Prefere aprender vendo videos
+                    Assiste pelo computador
+                    Dificuldades em programação
+                    Compra produtos pelo preço
+                    Tem medo de não conseguir pagar a faculdade
+                }
+            }
+            Porque criar uma persona {
+                Ajuda a determinar o tipo de conteúdo que será produzido.
+                Qual será o estilo e a linguagem que serão usados no marketing.
+                Quais assuntos abordar.
+                Quais os formatos que o público mais gosta.
+                Como o público busca o conteúdo.
+            }
+            Exemplo de perguntas para questionário para definição de persona {
+                Trabalho {
+                    Qual o seu cargo?
+                    Qual é a sua principal atividade na empresa?
+                    Qual a sua faixa de renda média?
+                    Como medir sua performance, como medir se o seu trabalho está indo bem ou mal?
+                    Qual a sua rotina, o que você faz no dia-a-dia da sua empresa?
+                    Quais são as suas habilidades mais necessárias, o que é mais importante de se estudar para se manter no seu cargo?
+                    Que ferramentas você mais usa?
+                }
+                Empresa {
+                    Qual é o segmento principal, onde você trabalha?
+                    Qual é o tamanho da empresa, quantas pessoas trabalham nela, essa empresa é nacional ou internacional?
+                    Onde você quer chegar dentro da empresa, onde você está hoje, onde você quer chegar, qual cargo você almeja?
+                }
+                Objetivos {
+                    Quais são suas principais responsabilidades, familia, emprego?
+                    Quais são seus principais objetivos?
+                    Para você, o que é ser bem sucedido?
+                    O que você tem feito para atingir seus objetivos?
+                }
+                Desafios {
+                    Quais são os maiores desafios no seu trabalho?
+                    Quais são os maiores problemas que você encontra para atingir seus objetivos?
+                    Como você costuma lidar com essas barreiras?
+                }
+                Informação {
+                    Como você aprende novas habilidades, qual o formato que você mais se sente confortável em aprender?
+                    Quais são as principais publicações que você consome, tipos de sites, de redes sociais, revistas, livros?
+                    Quais são seus formatos preferidos de conteúdo, ler, ouvir, video?
+                    Quais são as redes sociais que você faz parte?
+                    Qual a frequência de uso dessas redes sociais?
+                }
+                Pessoal {
+                    idade, nacionalidade, familia, estado civil, filhos, etc.
+                    Conte sua história de vida resumida, nasceu, cresceu, viveu.
+                    Descreva seu histórico educacional, onde estudou, porque escolheu essa graduação, porque você se especializou nisso, é isso que você desejava estar fazendo, era isso que você esperava da sua carreira.
+                    Conte sua tragetória profissional, trabalhou com o que, experiência.
+                }
+                Hábitos {
+                    Onde você mais faz compra?
+                    Com que frequência compra online?
+                    Quais são os principais fatores que definem sua compra, preço, local, qualidade?
+                    Faz pesquisas antes de comprar, como, com quem, amigos, google?
+                    Costuma confiar em sites/lojas menos conhecidas?
+                    O que te faria confiar em uma loja que você não conhecia antes?
+                }
+            }
+            Dicas para construção de persona {
+                Evitar perguntas desnecessárias.
+                Criar quantas personas quiser, mas não exagerar.
+                Nunca dizer "eu acho que" na hora da criação de persona.
+            }
+        }
+        Em conclusão:
+        Clientes não se preocupam com a marca, o seu produto ou serviço.
+        Clientes se preocupam com eles mesmo, seus desejos e necessidades.
+        Marketing de Conteúdo cria informações interessantes e fazem clientes realmente prestarem atenção na marca.
+    }
     Marketing de Busca
     Redes de Ads
     CRM
