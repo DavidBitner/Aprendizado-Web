@@ -271,9 +271,9 @@ Marketing Digital {
         Marketing de conteúdo trata-se de conteúdo envolvente, compartilhável e, acima de tudo, focado em ajudar.
         Tem como foco fazer com que os clientes descubram que o produto/serviço sendo vendido é aquele que vai resolver os problemas deles.
         Inbound Marketing {
-            Inbound Marketing é uma tecnica para chamar a atenção de clientes para produtos e serviços via marketing de conteúdo, social media marketing, SEO e branding.
+            Inbound Marketing é uma técnica para chamar a atenção de clientes para produtos e serviços via marketing de conteúdo, social media marketing, SEO e branding.
             Conquistar novos clientes, gerar mais vendar e criar maior autoridade com o público-alvo.
-            Fazem parte do Inbound Marketing o Website, o Mobile, o Blog, os Videos, as imagens, os inforgráficos, os ebooks e as Redes Sociais.
+            Fazem parte do Inbound Marketing o Website, o Mobile, o Blog, os Vídeos, as imagens, os infográficos, os ebooks e as Redes Sociais.
         }
         Vantagens {
             Visibilidade
@@ -283,11 +283,11 @@ Marketing Digital {
             Melhoria de experiência pós venda
         }
         Persona {
-            Persona é a representação fictícia do cliente ideal de um negócio. Ela é baseada em dados reais sobre comportamento e características demográficas dos clientes, assim como suas histórias pessoais, motivaçoes, objetivos, desafios e preocupações.
-            Quando criando persona para o negócio, o ideal é criar multiplas personas, a ideal, a ocasional, aquela que pode se tornar a persona ideal, entre outras.
-            Persona vs Publico-alvo {
+            Persona é a representação fictícia do cliente ideal de um negócio. Ela é baseada em dados reais sobre comportamento e características demográficas dos clientes, assim como suas histórias pessoais, motivações, objetivos, desafios e preocupações.
+            Quando criando persona para o negócio, o ideal é criar múltiplas personas, a ideal, a ocasional, aquela que pode se tornar a persona ideal, entre outras.
+            Persona vs Público-alvo {
                 Público-alvo é um grupo de pessoas que possuem características específicas em comum e que são justamente as pessoas que se pretende atingir com o marketing e o produto.
-                Persona é mais especifico, reune um numero muito maior de caracteristicas e detalhes; dentro do conceito de persona se obtém informações como comportamento, objetivos, problemas e hábitos.
+                Persona é mais especifico, reúne um número muito maior de características e detalhes; dentro do conceito de persona se obtém informações como comportamento, objetivos, problemas e hábitos.
                 Exemplo público-alvo {
                     Homem/Mulher
                     15-32 anos
@@ -304,11 +304,11 @@ Marketing Digital {
                     Graduado em TI
                     Paga R$400 de faculdade
                     Tem 25 amigos com o mesmo perfil
-                    Quer virar desenvolvedor front-end
+                    Quer virar desenvolvedor front-end.
                     Gosta de games
                     Usa muita rede social
                     Ouve música/podcast
-                    Prefere aprender vendo videos
+                    Prefere aprender vendo vídeos
                     Assiste pelo computador
                     Dificuldades em programação
                     Compra produtos pelo preço
@@ -338,7 +338,7 @@ Marketing Digital {
                     Onde você quer chegar dentro da empresa, onde você está hoje, onde você quer chegar, qual cargo você almeja?
                 }
                 Objetivos {
-                    Quais são suas principais responsabilidades, familia, emprego?
+                    Quais são suas principais responsabilidades, família, emprego?
                     Quais são seus principais objetivos?
                     Para você, o que é ser bem sucedido?
                     O que você tem feito para atingir seus objetivos?
@@ -351,21 +351,21 @@ Marketing Digital {
                 Informação {
                     Como você aprende novas habilidades, qual o formato que você mais se sente confortável em aprender?
                     Quais são as principais publicações que você consome, tipos de sites, de redes sociais, revistas, livros?
-                    Quais são seus formatos preferidos de conteúdo, ler, ouvir, video?
+                    Quais são seus formatos preferidos de conteúdo, ler, ouvir, vídeo?
                     Quais são as redes sociais que você faz parte?
                     Qual a frequência de uso dessas redes sociais?
                 }
                 Pessoal {
-                    idade, nacionalidade, familia, estado civil, filhos, etc.
+                    idade, nacionalidade, família, estado civil, filhos, etc.
                     Conte sua história de vida resumida, nasceu, cresceu, viveu.
                     Descreva seu histórico educacional, onde estudou, porque escolheu essa graduação, porque você se especializou nisso, é isso que você desejava estar fazendo, era isso que você esperava da sua carreira.
-                    Conte sua tragetória profissional, trabalhou com o que, experiência.
+                    Conte sua trajetória profissional, trabalhou com o que, experiência.
                 }
                 Hábitos {
                     Onde você mais faz compra?
                     Com que frequência compra online?
                     Quais são os principais fatores que definem sua compra, preço, local, qualidade?
-                    Faz pesquisas antes de comprar, como, com quem, amigos, google?
+                    Faz pesquisas antes de comprar, como, com quem, amigos, Google?
                     Costuma confiar em sites/lojas menos conhecidas?
                     O que te faria confiar em uma loja que você não conhecia antes?
                 }
@@ -377,8 +377,8 @@ Marketing Digital {
             }
         }
         Em conclusão:
-        Clientes não se preocupam com a marca, o seu produto ou serviço.
-        Clientes se preocupam com eles mesmo, seus desejos e necessidades.
+        Clientes não se preocupam com a marca, o produto ou serviço da empresa.
+        Clientes se preocupam com eles mesmos, seus desejos e necessidades.
         Marketing de Conteúdo cria informações interessantes e fazem clientes realmente prestarem atenção na marca.
     }
     Marketing de Busca
@@ -386,6 +386,37 @@ Marketing Digital {
     CRM
     Analytics
     Mobile Marketing
+}
+
+
+Glossário {
+    Leads {
+        Leads são pessoas que demonstraram interesse em adquirir o produto ou serviço da empresa, por meio do preenchimento de formulários online com seus dados de contato. O lead, portanto, é um potencial cliente.
+    }
+    Homepage {
+        A página principal do site.
+    }
+    Landing Page {
+        Landing Pages são páginas criadas com o objetivo de direcionar o trafego do site. É basicamente uma página que não é a homepage e serve para mostrar um serviço ou dar algumas informações mais especificas que o usuário procurou.
+    }
+    Squeeze Page {
+        É um pequeno pedaço da página que tem como objetivo capturar informações do usuário, normalmente em troca de algo.
+    }
+    Above the fold {
+        É basicamente a primeira informação a ser mostrada para o usuário quando ele entra no site. Normalmente composto do banner principal e menu.
+    }
+    Under the fold {
+        Tudo que está abaixo do above the fold.
+    }
+    Call to action (CTA) {
+        Chamada para ação. As CTA são as interações do usuário com as páginas, ou ainda, é quando o site oferece ao usuário uma ação, seja ir para outra página, ou comprar algo.
+    }
+    Entry Popup {
+        É quando o usuário entra em uma página e existe um popup sobrepondo a página e oferecendo algo ou com alguma informação.
+    }
+    Exit Popup {
+        É quando o usuário está saindo de uma página e um popup surge oferecendo algo ou com uma mensagem especifica. (opinião pessoal sobre exit popup: Nada em se tratando de acesso a uma página é pior que isso, é irritante, desnecessário, e na maioria das vezes atrapalha quem está apenas trocando de aba para fazer algo aleatório, não use).
+    }
 }
 
 
