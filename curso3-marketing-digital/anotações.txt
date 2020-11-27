@@ -270,6 +270,10 @@ Marketing Digital {
         O Marketing de conteúdo se resume a seres humanos sendo úteis para outros seres humanos.
         Marketing de conteúdo trata-se de conteúdo envolvente, compartilhável e, acima de tudo, focado em ajudar.
         Tem como foco fazer com que os clientes descubram que o produto/serviço sendo vendido é aquele que vai resolver os problemas deles.
+        IMPORTANTE:
+        Clientes não se preocupam com a marca, o produto ou serviço da empresa.
+        Clientes se preocupam com eles mesmos, seus desejos e necessidades.
+        Marketing de Conteúdo cria informações interessantes e fazem clientes realmente prestarem atenção na marca.
         Inbound Marketing {
             Inbound Marketing é uma técnica para chamar a atenção de clientes para produtos e serviços via marketing de conteúdo, social media marketing, SEO e branding.
             Conquistar novos clientes, gerar mais vendar e criar maior autoridade com o público-alvo.
@@ -375,17 +379,61 @@ Marketing Digital {
                 Criar quantas personas quiser, mas não exagerar.
                 Nunca dizer "eu acho que" na hora da criação de persona.
             }
+            Dicas para marketing de conteúdo {
+                Objetivo bem definido {
+                    O objetivo na hora da campanha de marketing deve estar muito bem definido, saber o que se espera da campanha, porque ela está sendo feita, qual a meta a se atingir com essa campanha, etc.
+                }
+                Estratégia {
+                    Com base na persona e nos outros fatores determinantes do negócio, é imprescindível que haja uma estratégia bem formulada e bem pensada.
+                }
+                Ter um site {
+                    É importante ter um site para capturar leads e direcionar o público que vê a marca/empresa em outras mídias. Além disso ter um lugar central para falar o que quiser da forma que quiser é extremamente importante para que uma marca funcione. Também é importante ter em mente a indexação, é importante ter uma forma direta do cliente procurar informações no Google e ter um site que vá dar essas informações.
+                }
+                Conteúdo interessante {
+                    Quando estiver lidando com marketing de conteúdo, é importante que o conteúdo seja relevante para o público-alvo/persona.
+                }
+                Adaptação de conteúdo {
+                    É necessário adaptar o conteúdo a mídia que está sendo usada. O conteúdo que estiver no Facebook não é, na maioria das vezes, um conteúdo que será relevante dentro do Twitter.
+                }
+                Indexação {
+                    Sempre criar o conteúdo pensando na indexação, pensando em como melhorar o posicionamento do conteúdo dentro de buscadores. SEM e SEO.
+                }
+                Divulgar para o nicho {
+                    Vale mais uma pequena campanha focada no público-alvo do que uma grande campanha sem foco.
+                }
+                Acompanhamento de métricas {
+                    Acompanhar todas as estatísticas/analytics para saber o que é bem recebido, quais são os melhores dias/horários para divulgação de algo, entender com base nos dados o que é melhor e pior de se fazer.
+                }
+                Automação de marketing {
+                    Ter formas de acompanhar o comportamento do cliente dentro do site, e elaborar estratégias de marketing que trabalharão para efetivar a compra. Exemplos: Quanto tempo o cliente passa olhando um produto, se o cliente se cadastrou, se ele teve interesse de comprar, mas acabou não efetivando a compra.
+                }
+                Prepare-se para atingir o objetivo {
+                    Ter tudo pronto para efetivar a venda em si. Não adianta ter toda a estratégia elaborada e bem efetivada e não ter a plataforma que vai capturar o valor mal feita ou não preparada para tal.
+                }
+            }
         }
-        Em conclusão:
-        Clientes não se preocupam com a marca, o produto ou serviço da empresa.
-        Clientes se preocupam com eles mesmos, seus desejos e necessidades.
-        Marketing de Conteúdo cria informações interessantes e fazem clientes realmente prestarem atenção na marca.
     }
-    Marketing de Busca
-    Redes de Ads
-    CRM
-    Analytics
-    Mobile Marketing
+    Marketing de Busca {
+        Search Marketing é o processo de adquirir trafego ou clientes através de mecanismos de pesquisa como o Google. Search Marketing normalmente envolve duas disciplinas, o SEO ou Search Engine Optimization, e o SEM ou Search Engine Marketing.
+        SEO {
+            SEO é o processo de melhoria da qualidade e quantidade de tráfego em um site por mecanismos de busca. SEO mira em tráfego não pago, conhecido também como tráfego natural ou tráfego orgânico. Tráfego orgânico pode ser originado de diferentes tipos de mecanismos de buscas, incluindo buscas de imagens, de vídeo, buscas acadêmicas e de notícias.
+        }
+        SEM {
+            SEM é uma forma paga de Internet Marketing que envolve a promoção de sites através de um incremento na visibilidade desse site dentro de mecanismos de busca. SEM pode incluir também SEO, que ajusta ou reescreve o conteúdo e a arquitetura do site com o objetivo de subir no ranking de resultados de um mecanismo de busca.
+        }
+    }
+    Ads {
+        Ads são anúncios feitos em plataformas online.
+    }
+    CRM {
+        Customer relationship management (CRM), é o processo de administrar as interações com clientes atuais e do passado. É uma das muitas formas que permitem que uma empresa administre e analise as suas próprias interações com os clientes do passado e os atuais. Usa de data analysis sobre o histórico de clientes para melhorar as relações da empresa com clientes, especificamente focando na retenção de clientes e buscando um aumento nas vendas.
+    }
+    Analytics {
+        Analytics é a análise computacional sistemática de dados ou estatísticas. É usado para o descobrimento, interpretação e comunicação de importante padrões de dados. Também serve para a realização de decisões críticas e efetivas. Pode ser valiosa em áreas ricas com informações; analytics se baseia simultaneamente na aplicação de estatísticas, programação e na pesquisa de operações para quantificar performance.
+    }
+    Mobile Marketing {
+        Mobile Marketing é uma forma de online marketing focada em chegar a uma audiência especifica dentro de seus smartphones e afins. Mobile Marketing é basicamente toda a atividade de marketing feita com o objetivo de conseguir clientes que estão usando seus aparelhos móveis pessoais. 
+    }
 }
 
 
@@ -426,6 +474,3 @@ Quando uma empresa ou alguém vê o seu produto como a coisa mais valiosa do mun
 
 Customer Equity:
 É o valor capturado ao longo do tempo de todos os clientes da empresa.
-
-CRM:
-Costumer Relationship Management
