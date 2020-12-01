@@ -1,0 +1,15 @@
+A personalização bootstrap vai ser feita em sua grande maioria através de classes.
+
+
+HTML block e inline:
+Elementos Block:
+Um elemento de nível block sempre começa em uma nova linha e consome todo o comprimento disponível.
+
+Elementos inline:
+Um elemento inline não começa em uma nova linha, e consome apenas o comprimento necessário.
+
+
+Sobre float:
+Quando a classe float for usada para um ou mais elementos, deve-se sempre dar clear no elemento que vier em seguida (em bootstrap através da classe clearfix), senão problemas acontecerão.
+
+
