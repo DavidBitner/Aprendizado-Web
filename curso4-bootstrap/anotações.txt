@@ -13,3 +13,4 @@ Sobre float:
 Quando a classe float for usada para um ou mais elementos, deve-se sempre dar clear no elemento que vier em seguida (em bootstrap através da classe clearfix), senão problemas acontecerão.
 
 
+A classe container serve para centralizar e deixar tudo responsivo.
