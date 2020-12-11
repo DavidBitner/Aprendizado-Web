@@ -379,37 +379,37 @@ Marketing Digital {
                 Criar quantas personas quiser, mas não exagerar.
                 Nunca dizer "eu acho que" na hora da criação de persona.
             }
-            Dicas para marketing de conteúdo {
-                Objetivo bem definido {
-                    O objetivo na hora da campanha de marketing deve estar muito bem definido, saber o que se espera da campanha, porque ela está sendo feita, qual a meta a se atingir com essa campanha, etc.
-                }
-                Estratégia {
-                    Com base na persona e nos outros fatores determinantes do negócio, é imprescindível que haja uma estratégia bem formulada e bem pensada.
-                }
-                Ter um site {
-                    É importante ter um site para capturar leads e direcionar o público que vê a marca/empresa em outras mídias. Além disso ter um lugar central para falar o que quiser da forma que quiser é extremamente importante para que uma marca funcione. Também é importante ter em mente a indexação, é importante ter uma forma direta do cliente procurar informações no Google e ter um site que vá dar essas informações.
-                }
-                Conteúdo interessante {
-                    Quando estiver lidando com marketing de conteúdo, é importante que o conteúdo seja relevante para o público-alvo/persona.
-                }
-                Adaptação de conteúdo {
-                    É necessário adaptar o conteúdo a mídia que está sendo usada. O conteúdo que estiver no Facebook não é, na maioria das vezes, um conteúdo que será relevante dentro do Twitter.
-                }
-                Indexação {
-                    Sempre criar o conteúdo pensando na indexação, pensando em como melhorar o posicionamento do conteúdo dentro de buscadores. SEM e SEO.
-                }
-                Divulgar para o nicho {
-                    Vale mais uma pequena campanha focada no público-alvo do que uma grande campanha sem foco.
-                }
-                Acompanhamento de métricas {
-                    Acompanhar todas as estatísticas/analytics para saber o que é bem recebido, quais são os melhores dias/horários para divulgação de algo, entender com base nos dados o que é melhor e pior de se fazer.
-                }
-                Automação de marketing {
-                    Ter formas de acompanhar o comportamento do cliente dentro do site, e elaborar estratégias de marketing que trabalharão para efetivar a compra. Exemplos: Quanto tempo o cliente passa olhando um produto, se o cliente se cadastrou, se ele teve interesse de comprar, mas acabou não efetivando a compra.
-                }
-                Prepare-se para atingir o objetivo {
-                    Ter tudo pronto para efetivar a venda em si. Não adianta ter toda a estratégia elaborada e bem efetivada e não ter a plataforma que vai capturar o valor mal feita ou não preparada para tal.
-                }
+        }
+        Dicas para marketing de conteúdo {
+            Objetivo bem definido {
+                O objetivo na hora da campanha de marketing deve estar muito bem definido, saber o que se espera da campanha, porque ela está sendo feita, qual a meta a se atingir com essa campanha, etc.
+            }
+            Estratégia {
+                Com base na persona e nos outros fatores determinantes do negócio, é imprescindível que haja uma estratégia bem formulada e bem pensada.
+            }
+            Ter um site {
+                É importante ter um site para capturar leads e direcionar o público que vê a marca/empresa em outras mídias. Além disso ter um lugar central para falar o que quiser da forma que quiser é extremamente importante para que uma marca funcione. Também é importante ter em mente a indexação, é importante ter uma forma direta do cliente procurar informações no Google e ter um site que vá dar essas informações.
+            }
+            Conteúdo interessante {
+                Quando estiver lidando com marketing de conteúdo, é importante que o conteúdo seja relevante para o público-alvo/persona.
+            }
+            Adaptação de conteúdo {
+                É necessário adaptar o conteúdo a mídia que está sendo usada. O conteúdo que estiver no Facebook não é, na maioria das vezes, um conteúdo que será relevante dentro do Twitter.
+            }
+            Indexação {
+                Sempre criar o conteúdo pensando na indexação, pensando em como melhorar o posicionamento do conteúdo dentro de buscadores. SEM e SEO.
+            }
+            Divulgar para o nicho {
+                Vale mais uma pequena campanha focada no público-alvo do que uma grande campanha sem foco.
+            }
+            Acompanhamento de métricas {
+                Acompanhar todas as estatísticas/analytics para saber o que é bem recebido, quais são os melhores dias/horários para divulgação de algo, entender com base nos dados o que é melhor e pior de se fazer.
+            }
+            Automação de marketing {
+                Ter formas de acompanhar o comportamento do cliente dentro do site, e elaborar estratégias de marketing que trabalharão para efetivar a compra. Exemplos: Quanto tempo o cliente passa olhando um produto, se o cliente se cadastrou, se ele teve interesse de comprar, mas acabou não efetivando a compra.
+            }
+            Prepare-se para atingir o objetivo {
+                Ter tudo pronto para efetivar a venda em si. Não adianta ter toda a estratégia elaborada e bem efetivada e não ter a plataforma que vai capturar o valor mal feita ou não preparada para tal.
             }
         }
     }
