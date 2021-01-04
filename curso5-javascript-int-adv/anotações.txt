@@ -1,0 +1,222 @@
+variáveis em js se iniciam por "var"
+typeof variável = Saber qual o tipo de variável
+<!-- a --> = Comentário em html
+/* a */ = Comentário em CSS
+// a = Comentário em js
+
+O comando window.prompt() sempre retorna strings
+parseInt() = Converter variável para inteiro
+parseFloat() = Converter variável para float
+Number() = Converter variável para um tipo numero, int ou float dependendo do caso
+String() = Converter variável para string
+a.toString() = Converter a variável a para string
+a.length = Tamanho da string
+a.toUpperCase() = String em letras maiusculas
+a.toLowerCase() = String em letras minusculas
+a.toFixed(2) = Mostrar a variável com duas casas decimais
+a.replace('a', 'b') = Mudar o que for a na string para b
+a.toLocaleString('pt-BR', {style:'currency',currency:'BRL'}) = Quando for necessário mostrar o dinheiro brasileiro
+document.write() = Escrever na tela
+document.writeln() = Escrever uma linha na tela
+a.focus() = Colocar o foco em um certo elemento, por exemplo um campo de texto para não precisar de clicar no mesmo
+
+IMPORTANTE: Template String
+`` = Abre e fecha crases é a forma de se escrever strings como no python. exemplo:
+`O nome é ${nome}` = Aqui será mostrado "O nome é " e o que estiver dentro da variável nome
+
+
+OPERADORES:
+Operadores aritméticos:
++ = Adição
+- = Subtração
+* = Multiplicação
+/ = Divisão
+% = Resto
+** = Potênciação
+
+Operadores de incremento:
+++ = Adicionar um
+-- = Subtrair um
+
+Operadores relacionais:
+> = Maior que
+< = Menor que
+>= = Maior ou igual a
+<= = Menor ou igual a
+== = Igual a
+!= = Diferente de
+
+Operadores de identidade:
+=== = Valores são identicos tanto em valor quanto em tipo
+!== - Verificar se os tipos são diferentes
+
+Operadores Lógicos:
+! = Não é
+&& = E
+|| = Ou
+
+Ordem de precedência dos operadores:
+Operadores aritméticos são resolvidos primeiro respeitando a sua própria precedência
+Operadores relacionais em seguida, sendo que entre si eles não possuem ordem de precedência, o que estiver na frente será resolvido primeiro
+Operadores lógicos por ultimo, que possuem a sua própria ordem de precedência
+
+Operador ternário:
+? = Se, ou seja, caso o teste for verdadeiro, acontecerá o que estiver depois da interrogação
+: = Senão, ou seja, caso o teste for falso, acontecerá o que estiver depois dos dois pontos
+
+
+ARVORE DOM:
+É a maneira que o JS vai interagir com a página que está sendo criada. Exemplo:
+window = Um componente Dom
+location = Um filho de Window onde fica armazenado o endereço do site
+history = Um filho de window onde ficam armazenados os dados de navegação, como por onde o usuário passou
+document = Um filho de window onde fica o corpo da página
+html = Um filho de document onde fica o código html da página
+head = Um filho de html onde ficam as informações de titulo e tipo da página
+body = Um filho de html onde ficam as informações da página, como titulos, parágrafos e divs
+
+É através dessa árvore que se referência algo no JS. Exemplo:
+window.document.html.body()
+
+E ainda dentro do Dom, existem formas de selecionar os conteúdos da página para se fazer alterações. Exemplo:
+Selecionar por Marca:
+getElementsByTagName()
+
+Selecionar por ID:
+getElementById()
+
+Selecionar por Nome:
+getElementsByName()
+
+Selecionar por Classe:
+getElementsByClassName()
+
+Selecionar por Seletor:
+querySelector()
+querySelectorAll()
+
+<p>Alo<p/>
+<p>Bb<p/>
+var p1 = window.document.getElementsByTagName('p')[0]
+= Atribuir a variável p1 o que estiver dentro da primeira (ou zero) tag p do documento, nesse caso "Bb"
+
+
+FUNÇÕES:
+Servem para determinar o que um bloco de código irá executar depois que algo especifico acontece. Exemplo:
+function ação(parametro){
+    bloco
+    de
+    código
+}
+= Nome da função é "ação", essa função receberá um parâmetro e executará o bloco de código
+
+
+EVENTOS DOM:
+mouseenter = Quando o ponteiro do mouse entra no elemento
+mousemove = Quando o ponteiro do mouse se movimenta pelo elemento
+mousedown = Quando o botão do mouse é apertado dentro do elemento
+mouseup = Quando o botão do mouse é solto dentro do elemento
+click = Quando o botão do mouse é apertado e soltado no elemento
+mouseout = Quando o ponteiro do mouse sai do elemento
+
+Exemplo de evento com função:
+<div id="doidera" onclick="clicar()">
+    Bloco de texto
+</div>
+function clicar() {
+    var d = window.document.getElementById('doidera')
+    d.innerText = 'Clicou'
+}
+
+
+CONDIÇÕES:
+IF:
+if (condição) {
+    bloco de código
+}
+
+ELSE:
+if (condição) {
+    bloco de código
+} ELSE {
+    bloco de código 2
+}
+
+ELSE IF:
+if (condição) {
+    bloco de código
+} ELSE IF {
+    bloco de código 2
+} ELSE {
+    bloco de código 3
+}
+
+SWITCH CASE:
+switch (condição) {
+    case 1:
+        bloco de código
+        break
+    case 2:
+        bloco de código 2
+        break
+    default:
+        bloco de código caso os outros casos não sejam pertinentes
+        break
+}
+Obs: O break é indispensável nas condições switch case
+
+WHILE:
+while (i < 6) {
+    bloco de código
+    i++
+}
+
+DO WHILE:
+do {
+    bloco de código
+    i++
+} while (i < 6)
+
+FOR:
+for (var i = 1;i <= 10;i++) {
+    bloco de código
+}
+
+
+ARRAYS:
+let a = [1, 2, 3] = Declaração de uma lista
+a[3] = 6 = Declarar valor em uma posição do array
+a.push(7) = Acrescentar o valor 7 a próxima posição do array
+a.length = Tamanho do array
+a.sort() = Organizar o array em ordem crescente
+a.indexOf(7) = Mostrar a posição que o valor 7 se encontra dentro do array
+a.indexOf(3) = Caso o numero três não exista dentro do array, a função retornará "-1"
+
+for(let i = 0; i < a.length; i++){
+    bloco de código
+} = Percorrer o array através de um for
+
+for(let i in a){
+    bloco de código
+} = Forma simplificada de ser percorrer um array em JS
+
+
+OBJETOS:
+let a = {nome:'Carlos', idade:'18', peso:'49'}
+
+
+IMPORTANTE:
+a.addEventListener('click', clicar)
+= Também existe a possibilidade de não poluir o html com a função onclick e usar o próprio JS para isso
+
+
+IMPORTANTE:
+Diferenças entre var, const e let:
+VAR = Variáveis declaradas com VAR serão mudadas caso redeclaradas dentro de uma função. As variáveis mudaram depois da função
+CONST = Variáveis declaradas com CONST não podem ser mudadas, a partir do momento que foram declaradas, não podem ser reatribuidas
+LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro de uma função.
+
+
+Console JS:
+console.log('texto') = Printar na tela do console
+alert("texto") = Alerta no Browser
