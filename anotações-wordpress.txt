@@ -4,3 +4,4 @@ Configurações de Banco de dados
 Instalação do Wordpress na pasta do site
 Instalação do tema
 Instalação de plugins
+Arrumar configurações do site
