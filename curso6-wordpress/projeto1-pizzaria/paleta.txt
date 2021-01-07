@@ -1,0 +1,6 @@
+principal: #CF874A
+  principal-clara: #fcc16c
+secudnaria: #EAD19E
+dark: #2F1F16
+light: #D3C036
+random: #781507
