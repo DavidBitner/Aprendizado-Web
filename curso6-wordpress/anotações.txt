@@ -1,0 +1,19 @@
+Passos para site em wordpress:
+Configurações FTP
+Configurações de Banco de dados
+Instalação do Wordpress na pasta do site == Download Wordpress > Extract Archives to website page
+Instalação do tema == Appearence > Themes
+Instalação de plugins == Pluggins > Installed Plugins
+Arrumar configurações do site == Settings
+Adicionar Páginas do site == Pages > Add New
+Criar Menu == Apearence > Menus
+Configurar Identidade do site == Appearence > Customize > Header > Site Identity
+Configurar Cores == Appearence > Customize > Global > Colors
+Configurar Tipografia == Appearence > Customize > Global > Typography
+Configurar Menu Principal == Appearence > Customize > Header > Primary Menu
+Configurar Cabeçalho Principal == Appearence > Customize > Header > Primary Header
+Configurar cabeçalho Transparente == Appearence > Customize > Header > Transparent Header
+Configurar Breadcrub == Appearence > Customize > Breadcrumb
+Configurar Rodapé == Appearence > Customize > Footer
+Configurar Container == Appearence > Customize > Global > Container
+Configurar Página inicial == Appearence > Customize > Homepage Settings
