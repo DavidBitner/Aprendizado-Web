@@ -17,3 +17,7 @@ Configurar Breadcrub == Appearence > Customize > Breadcrumb
 Configurar Rodapé == Appearence > Customize > Footer
 Configurar Container == Appearence > Customize > Global > Container
 Configurar Página inicial == Appearence > Customize > Homepage Settings
+Editar e criar páginas == Pages > All Pages
+Dividir o conteúdo da página por sessões
+Fazer configurações da sessão == Layout, Spacing, Background, Border
+Adicionar itens a sessão == Criar e configurar info box, formulário, carrossel etc...

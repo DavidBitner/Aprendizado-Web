@@ -4,3 +4,7 @@ secudnaria: #EAD19E
 dark: #2F1F16
 light: #D3C036
 random: #781507
+
+
+Titulos: Yellowtail
+Conteúdo: Poppins
