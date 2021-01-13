@@ -23,6 +23,8 @@ Fazer configurações da sessão == Layout, Spacing, Background, Border
 Adicionar itens a sessão == Criar e configurar info box, formulário, carrossel etc...
 Fazer as alterações necessárias no Microthemer
 Criar rodapé
+Criar Formulários == Criar os formulários do site através do plugin escolhido
+
 
 
 Importante Microthemer:
@@ -33,3 +35,12 @@ Renomeia componente com classe especial CSS
 Renomeia componente em si
 Escolhe pasta que o seletor vai ficar
 Configura o necessário
+
+
+Ainda sobre Microthemer:
+Microthemer tem o modo rascunho como opção, para não mudar a versão final do website antes de fazer todas as alterações desejadas.
+
+Dentro das preferências do Microthemer existe a opção de importar CSS, para importar algo pronto como um botão flutuante.
+
+Pelo Microthemer é possível fazer alterações finas de responsabilidade.
+
