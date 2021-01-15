@@ -25,8 +25,7 @@ Fazer as alterações necessárias no Microthemer
 Criar rodapé
 Criar Formulários == Criar os formulários do site através do plugin escolhido
 Criar posts se necessário == Caso exista uma página de notícias ou eventos, os posts são a melhor forma de se organizar este tipo de conteúdo
-
-
+Fazer a responsabilidade de todo o site == Mudar as configurações das páginas onde for necessário para tornar o site responsivo
 
 
 Importante Microthemer:
@@ -46,9 +45,11 @@ Dentro das preferências do Microthemer existe a opção de importar CSS, para i
 
 Pelo Microthemer é possível fazer alterações finas de responsabilidade.
 
+
 Sobre posts:
 Categorias servem para determinar o assunto de um post
 As tags servem para complementar as categorias
+
 
 Sobre gravatar:
 br.gravatar.com é o website onde se pode criar os gravatares para o wordpress
