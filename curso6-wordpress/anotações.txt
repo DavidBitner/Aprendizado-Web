@@ -1,3 +1,4 @@
+MÓDULO 1
 Passos para site em wordpress:
 Configurações FTP
 Configurações de Banco de dados
@@ -26,6 +27,15 @@ Criar rodapé
 Criar Formulários == Criar os formulários do site através do plugin escolhido
 Criar posts se necessário == Caso exista uma página de notícias ou eventos, os posts são a melhor forma de se organizar este tipo de conteúdo
 Fazer a responsabilidade de todo o site == Mudar as configurações das páginas onde for necessário para tornar o site responsivo
+Usar o plugin EWWW para redimensionar imagens == Ver se tem alguma imagem no site que está com tamanho desproporcional e consertar
+WP super cache == Habilitar WP super cache
+Ativar super cache == Settings > WP super cache > Caching on
+Configuração avançada wp super cache == Compress pages so they’re served more quickly to visitors. (Recommended)
+Configuração avançada wp super cache == Cache HTTP headers with page content.
+Configuração avançada wp super cache == 304 Browser caching. Improves site performance by checking if the page has changed since the browser last requested it. (Recommended)
+Configuração avançada wp super cache == Extra homepage checks. (Very occasionally stops homepage caching) (Recommended)
+Configuração avançada wp super cache == Habilitar preload caso site tenha poucas páginas
+Configuração avançada wp super cache == 
 
 
 Importante Microthemer:
@@ -54,3 +64,10 @@ As tags servem para complementar as categorias
 Sobre gravatar:
 br.gravatar.com é o website onde se pode criar os gravatares para o wordpress
 
+
+MÓDULO 2
+Deixar o website mais rápido:
+Pagespeed insights == Ferramenta do Google que analisa o quão rápido um site está
+EWWW Image Optimizer == Plugin para redimensionar imagens no site.
+Mudar opção Resize Detection no EWWW == Mostrar imagens que precisam ser redimensionadas no site.
+WP Super Cache == Serve para cuidar do cache da página
