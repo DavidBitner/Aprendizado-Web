@@ -36,7 +36,7 @@ Configuração avançada w3 total cache == Habilitar Object Cache
 Configuração avançada w3 total cache == Habilitar Fragment Cache Method
 Plugin: Duplicator == Fazer migração do site no computador para um servidor
 Plugin: Companion Auto Update == Habilitar plugin para atualizações automáticas do site
-
+Plugin: Cerber Security, Anti-spam & Malware Scan == Habilitar plugin de segurança e configurar o necessário
 
 
 Importante Microthemer:
@@ -74,3 +74,4 @@ Mudar opção Resize Detection no EWWW == Mostrar imagens que precisam ser redim
 W3 total cache == Serve para cuidar do cache da página
 Duplicator == Serve para pegar a versão local do website e exportar para o servidor online
 Companion Auto Update == Plugin de atualização automatica
+Cerber Security, Anti-spam & Malware Scan == Plugin de segurança
