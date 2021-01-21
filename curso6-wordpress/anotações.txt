@@ -37,6 +37,10 @@ Configuração avançada w3 total cache == Habilitar Fragment Cache Method
 Plugin: Duplicator == Fazer migração do site no computador para um servidor
 Plugin: Companion Auto Update == Habilitar plugin para atualizações automáticas do site
 Plugin: Cerber Security, Anti-spam & Malware Scan == Habilitar plugin de segurança e configurar o necessário
+Plugin: WP Telegram (auto post and notifications) == Habilitar (se necessário) o plugin de interação com o Telegram e configurar o necessário
+Plugin: Updraft Plus == Habilitar e configurar plugin de backup
+Configuração avançada Updraft Plus == Excluir pasta de cache do backup
+Plugin: Loco Translate == Habilitar (se necessário) plugin de multiidiomas no site
 
 
 Importante Microthemer:
@@ -75,3 +79,6 @@ W3 total cache == Serve para cuidar do cache da página
 Duplicator == Serve para pegar a versão local do website e exportar para o servidor online
 Companion Auto Update == Plugin de atualização automatica
 Cerber Security, Anti-spam & Malware Scan == Plugin de segurança
+WP Telegram (auto post and notifications) == Plugin de notificações no Telegram
+Updraft Plus == Plugin de backup
+Loco Translate == Plugin de tradução de idiomas
