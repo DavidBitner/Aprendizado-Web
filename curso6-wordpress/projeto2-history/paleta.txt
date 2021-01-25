@@ -1,0 +1,9 @@
+Name: History
+
+Primary: #725752
+Secondary: #bfada3
+Dark: #171312
+Light: #F6F4F3
+
+Titles: Cinzel
+Paragraphs: Libre Franklin
