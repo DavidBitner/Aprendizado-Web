@@ -1,0 +1,26 @@
+title: History
+
+menu: History | Articles | Donate
+
+main-news: 3 articles. One main Article in one column + 2 articles on the second column
+
+feed: rest of articles
+
+newsletter: Subscribe to our newsletter to be notified every time a new article goes live
+
+footer:
+Column 1:
+Title: About Us
+Content: Mauris mattis cursus ex, a laoreet magna maximus et. Etiam vitae feugiat ipsum, euismod egestas orci. Pellentesque ullamcorper elit ac convallis lobortis. Aliquam vulputate at arcu ultricies dignissim. Proin molestie, ante ac vehicula interdum, massa turpis euismod elit, ac cursus sem ipsum ac nunc. Donec tincidunt augue risus, non ultrices mauris bibendum a. Sed consequat justo at aliquet laoreet. Phasellus urna leo, eleifend et interdum sed, tristique nec mauris. 
+
+Column 2:
+Title: Social Media
+Content: Instagram, Facebook, Twitter, Reddit
+
+Column 3: 
+Title: Donate
+Content: Button Donate, Vivamus sit amet eros pellentesque, fermentum velit suscipit, congue elit. Etiam feugiat justo placerat, interdum arcu convallis, pharetra libero. 
+
+Column 4: 
+Title: 
+Content:
