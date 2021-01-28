@@ -1,7 +1,7 @@
 MÓDULO 1
 Passos para site em wordpress:
 Configurações FTP
-Configurações de Banco de dados
+Configurações de Banco de dados == A lingua do banco deve ser latin2_general_ci. Quando criar um banco no localhost o usuário será root com a senha vazia.
 Instalação do Wordpress na pasta do site == Download Wordpress > Extract Archives to website page
 Instalação do tema == Appearence > Themes
 Instalação de plugins == Pluggins > Installed Plugins
@@ -14,7 +14,7 @@ Configurar Tipografia == Appearence > Customize > Global > Typography
 Configurar Menu Principal == Appearence > Customize > Header > Primary Menu
 Configurar Cabeçalho Principal == Appearence > Customize > Header > Primary Header
 Configurar cabeçalho Transparente == Appearence > Customize > Header > Transparent Header
-Configurar Breadcrub == Appearence > Customize > Breadcrumb
+Configurar Breadcrumb == Appearence > Customize > Breadcrumb
 Configurar Rodapé == Appearence > Customize > Footer
 Configurar Container == Appearence > Customize > Global > Container
 Configurar Página inicial == Appearence > Customize > Homepage Settings

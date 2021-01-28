@@ -21,6 +21,10 @@ Column 3:
 Title: Donate
 Content: Button Donate, Vivamus sit amet eros pellentesque, fermentum velit suscipit, congue elit. Etiam feugiat justo placerat, interdum arcu convallis, pharetra libero. 
 
-Column 4: 
-Title: 
-Content:
+
+
+Categories:
+Analisys
+Study
+Research
+History
