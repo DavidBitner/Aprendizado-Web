@@ -43,6 +43,18 @@ Configuração avançada Updraft Plus == Excluir pasta de cache do backup
 Plugin: Loco Translate == Habilitar (se necessário) plugin de multiidiomas no site
 
 
+Plugins iniciais:
+Astra Widgets
+Ultimate Addons for Gutenberg
+Starter Templates
+Companion Auto Update
+Classic Editor
+EWWW Image Optimizer
+Microthemer
+WPForms
+WPS Hide Login
+
+
 Importante Microthemer:
 Criar classe especial para o componenete a ser mudado
 Target
@@ -82,3 +94,13 @@ Cerber Security, Anti-spam & Malware Scan == Plugin de segurança
 WP Telegram (auto post and notifications) == Plugin de notificações no Telegram
 Updraft Plus == Plugin de backup
 Loco Translate == Plugin de tradução de idiomas
+
+
+MÓDULO 3 WOOCOMMERCE
+Configurar banco de dados
+Instalar wordpress
+Colocar https
+Instalar plugins
+Instalar WooCommerce
+Instalar Plugins Claudio Sanches == Brazil Woocommerce, PagSeguro e Correios
+Escolher starter template
