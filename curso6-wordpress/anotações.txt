@@ -104,3 +104,27 @@ Instalar plugins
 Instalar WooCommerce
 Instalar Plugins Claudio Sanches == Brazil Woocommerce, PagSeguro e Correios
 Escolher starter template
+Configurar WooCommerce == Geral
+Configurar WooCommerce == Produtos > Geral
+Configurar WooCommerce == Produtos > Inventário
+Configurar WooCommerce == Produtos > Produtos baixáveis
+Configurar WooCommerce == Contas e privacidade
+Configurar WooCommerce == Integração > Correios
+Configurar WooCommerce == Avançado
+Configurar WooCommerce == Entrega > Áreas de entrega > Adicionar métodos de entrega > PAC, SEDEX, Frete grátis etc...
+Configurar WooCommerce == Editar métodos de entrega
+Configurar WooCommerce == Deixar métodos de entregar organizados do mais especifico até o mais genérico
+
+
+
+O que é Manter estoque (minutos)?
+Tempo de reserva de um produto no estoque até a confirmação da compra
+
+O que é tabela do histórico de rastreamento?
+É a configuração que vai calcular baseado no seu login dos correios o valor do frete para o cliente
+
+O que são Ponto de extremidade das páginas de finalização de pedido?
+É a parte de endereço das páginas
+
+O que são os serviços adicionais nas configurações de método de entrega?
+São coisas extras que serão atribuidas em valor ao frete do cliente
