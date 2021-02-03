@@ -114,7 +114,10 @@ Configurar WooCommerce == Avançado
 Configurar WooCommerce == Entrega > Áreas de entrega > Adicionar métodos de entrega > PAC, SEDEX, Frete grátis etc...
 Configurar WooCommerce == Editar métodos de entrega
 Configurar WooCommerce == Deixar métodos de entregar organizados do mais especifico até o mais genérico
-
+Configurar WooCommerce == Entrega > Classes de entrega > Adicionar classes especiais de entrega
+Configurar WooCommerce == Entrega > Opções de entrega
+Configurar Campos do checkout == WooCommerce > Campos do Checkout
+Configurar WooCommerce == Pagamentos
 
 
 O que é Manter estoque (minutos)?
@@ -128,3 +131,12 @@ O que são Ponto de extremidade das páginas de finalização de pedido?
 
 O que são os serviços adicionais nas configurações de método de entrega?
 São coisas extras que serão atribuidas em valor ao frete do cliente
+
+O que significam os métodos de integração do PagSeguro?
+Redirecionamento: O cliente será redirecionado para uma página do pagseguro para finalizar a compra
+Lightbox: O cliente finalizará a compra em um popup do pagseguro
+Checkout Transparente: O cliente finalizará a compra dentro do próprio site
+
+O que é PagSeguro sandbox?
+É a ferramenta do PagSeguro para simular vendas
+
