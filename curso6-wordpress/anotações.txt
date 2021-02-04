@@ -118,6 +118,10 @@ Configurar WooCommerce == Entrega > Classes de entrega > Adicionar classes espec
 Configurar WooCommerce == Entrega > Opções de entrega
 Configurar Campos do checkout == WooCommerce > Campos do Checkout
 Configurar WooCommerce == Pagamentos
+Configurar WooCommerce == Emails
+Instalar Kadence WooCommerce Email Designer == Plugin de personalização de email
+Configurar Kadence == WooCommerce > Email customizer
+Configurar Aparência == Aparência > Personalizar
 
 
 O que é Manter estoque (minutos)?
@@ -139,4 +143,7 @@ Checkout Transparente: O cliente finalizará a compra dentro do próprio site
 
 O que é PagSeguro sandbox?
 É a ferramenta do PagSeguro para simular vendas
+
+Documentação de variáveis de email do Woocommerce:
+https://docs.woocommerce.com/document/automated-follow-up-emails-docs/email-variables-and-merge-tags/
 
