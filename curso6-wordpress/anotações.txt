@@ -122,6 +122,16 @@ Configurar WooCommerce == Emails
 Instalar Kadence WooCommerce Email Designer == Plugin de personalização de email
 Configurar Kadence == WooCommerce > Email customizer
 Configurar Aparência == Aparência > Personalizar
+Instalar (se necessário) Perfect Brands for WooCommerce == Plugin de marcas
+Criar página de marcas == Páginas > Adicionar nova > Página de marcas
+Configurar WooCommerce == Marcas
+Configurar marcas == Produtos > Marcas
+Adicionar parte de marcas na home page == [pwb-carousel items="6" items_to_show="3" items_to_scroll="3" image_size="thumbnail" autoplay="true" arrows="true" hide_empty="true"]
+Instalar Variation Swatches for WooCommerce == Plugin de Emran Ahmed que serve para colocar melhores parâmetros na página do produto
+Instalar Additional Variation Images Gallery for WooCommerce == Plugin que permite cadastrar mais de uma imagem por cor do produto
+Configurar Variation Swatches == Configurar plugin de extras de produtos
+Configurar Additional Variation == Configurar plugin de imagens extras dos produtos
+Adicionar atributos dos produtos (cor, tamanho, etc) == Produtos > Atributos > Adicionar Atributo > Configurar Atributo > Adicionar atributos
 
 
 O que é Manter estoque (minutos)?
