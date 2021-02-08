@@ -132,6 +132,10 @@ Instalar Additional Variation Images Gallery for WooCommerce == Plugin que permi
 Configurar Variation Swatches == Configurar plugin de extras de produtos
 Configurar Additional Variation == Configurar plugin de imagens extras dos produtos
 Adicionar atributos dos produtos (cor, tamanho, etc) == Produtos > Atributos > Adicionar Atributo > Configurar Atributo > Adicionar atributos
+Configurar Taxonomia == Produtos > Marcas > Exemplo: Nike, Adidas
+Configurar Taxonomia == Produtos > Categorias > Exemplo: Tênis, Camisa
+Configurar Taxonomia == Produtos > Tags > Exemplo: Basquete, Hip hop, Disney
+Cadastrar produtos == Produtos > Adicionar novo > IMPORTANTE: Olhar como o SEO dos produtos que serão cadastrados na loja é feito pelos concorrentes
 
 
 O que é Manter estoque (minutos)?
@@ -156,4 +160,3 @@ O que é PagSeguro sandbox?
 
 Documentação de variáveis de email do Woocommerce:
 https://docs.woocommerce.com/document/automated-follow-up-emails-docs/email-variables-and-merge-tags/
-
