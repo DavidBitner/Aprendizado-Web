@@ -136,6 +136,8 @@ Configurar Taxonomia == Produtos > Marcas > Exemplo: Nike, Adidas
 Configurar Taxonomia == Produtos > Categorias > Exemplo: Tênis, Camisa
 Configurar Taxonomia == Produtos > Tags > Exemplo: Basquete, Hip hop, Disney
 Cadastrar produtos == Produtos > Adicionar novo > IMPORTANTE: Olhar como o SEO dos produtos que serão cadastrados na loja é feito pelos concorrentes
+Cadastrar produtos == Produtos > Adicionar novo > Caso um produto variável seja cadastrado, não esquecer de marcar a opção "Usado para variações"
+
 
 
 O que é Manter estoque (minutos)?
@@ -160,3 +162,6 @@ O que é PagSeguro sandbox?
 
 Documentação de variáveis de email do Woocommerce:
 https://docs.woocommerce.com/document/automated-follow-up-emails-docs/email-variables-and-merge-tags/
+
+Quando estiver cadastrando produtos, é recomendável que na ordem do menu sejam colocados produtos de 10 em 10,
+isso porque se for necessário no futuro colocar um outro produto na ordem de menu, não será necessário alterar um numero grande de produtos
