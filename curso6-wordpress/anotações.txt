@@ -43,6 +43,7 @@ Configuração avançada Updraft Plus == Excluir pasta de cache do backup
 Plugin: Loco Translate == Habilitar (se necessário) plugin de multiidiomas no site
 
 
+
 Plugins iniciais:
 Astra Widgets
 Ultimate Addons for Gutenberg
@@ -55,6 +56,7 @@ WPForms
 WPS Hide Login
 
 
+
 Importante Microthemer:
 Criar classe especial para o componenete a ser mudado
 Target
@@ -63,7 +65,6 @@ Renomeia componente com classe especial CSS
 Renomeia componente em si
 Escolhe pasta que o seletor vai ficar
 Configura o necessário
-
 
 Ainda sobre Microthemer:
 Microthemer tem o modo rascunho como opção, para não mudar a versão final do website antes de fazer todas as alterações desejadas.
@@ -77,9 +78,9 @@ Sobre posts:
 Categorias servem para determinar o assunto de um post
 As tags servem para complementar as categorias
 
-
 Sobre gravatar:
 br.gravatar.com é o website onde se pode criar os gravatares para o wordpress
+
 
 
 MÓDULO 2
@@ -94,6 +95,7 @@ Cerber Security, Anti-spam & Malware Scan == Plugin de segurança
 WP Telegram (auto post and notifications) == Plugin de notificações no Telegram
 Updraft Plus == Plugin de backup
 Loco Translate == Plugin de tradução de idiomas
+
 
 
 MÓDULO 3 WOOCOMMERCE
@@ -137,6 +139,9 @@ Configurar Taxonomia == Produtos > Categorias > Exemplo: Tênis, Camisa
 Configurar Taxonomia == Produtos > Tags > Exemplo: Basquete, Hip hop, Disney
 Cadastrar produtos == Produtos > Adicionar novo > IMPORTANTE: Olhar como o SEO dos produtos que serão cadastrados na loja é feito pelos concorrentes
 Cadastrar produtos == Produtos > Adicionar novo > Caso um produto variável seja cadastrado, não esquecer de marcar a opção "Usado para variações"
+Cadastrar (se necessário) grupos de produtos == Produtos > Adicionar novo > Quando cadastrar grupos de produtos, é recomendado que o kit tenha apenas produtos simples, para facilitar a usabilidade para o usuário
+Cadastrar cupons de desconto > Marketing > Cupons > Adicionar cupom
+
 
 
 
@@ -165,3 +170,28 @@ https://docs.woocommerce.com/document/automated-follow-up-emails-docs/email-vari
 
 Quando estiver cadastrando produtos, é recomendável que na ordem do menu sejam colocados produtos de 10 em 10,
 isso porque se for necessário no futuro colocar um outro produto na ordem de menu, não será necessário alterar um numero grande de produtos
+
+
+
+Status dos pedidos:
+
+Pagamento Pendente:
+Aqui o mais importante é saber que o pagamento não foi iniciado, porém o pedido foi recebido com sucesso. Ou seja: a loja está ciente da sua encomenda, mas o pagamento ainda não foi efetuado.
+
+Processando:
+Nesta etapa a parte do cliente já está feita e agora é com a loja. Isto quer dizer que o pagamento foi aprovado e o pedido está sendo finalizado. É neste momento que o produto é processado, faturado e encaminhado para expedição.
+
+Concluído:
+Pedido finalizado e concluído. Não requer nenhuma ação adicional.
+
+Aguardando:
+Quando este status aparece quer dizer que o pagamento está sendo aguardado. Ou seja: o pedido foi recebido, porém, o pagamento está na espera, ainda não foi feito. Um aspecto interessante é que quando isso acontece o produto já fica reservado no estoque para o cliente até a realização do pagamento.
+
+Falhado:
+Neste caso, o pagamento não foi efetuado ou foi recusado. Vale ressaltar que muitas vezes este status pode não aparecer de imediato e sim, como pendente esperando ser verificado.
+
+Cancelado:
+O pedido foi cancelado ou pelo cliente ou pelo administrador da loja. Quando isso acontece não há necessidade de qualquer ação adicional.
+
+Reembolsado:
+Significa que o reembolso foi feito pelo administrador.
