@@ -141,7 +141,10 @@ Cadastrar produtos == Produtos > Adicionar novo > IMPORTANTE: Olhar como o SEO d
 Cadastrar produtos == Produtos > Adicionar novo > Caso um produto variável seja cadastrado, não esquecer de marcar a opção "Usado para variações"
 Cadastrar (se necessário) grupos de produtos == Produtos > Adicionar novo > Quando cadastrar grupos de produtos, é recomendado que o kit tenha apenas produtos simples, para facilitar a usabilidade para o usuário
 Cadastrar cupons de desconto > Marketing > Cupons > Adicionar cupom
-
+Criar/configurar Menu == Aparência > Menus
+Configurar botão de carrinho de compras == Aparência > Personalizar > Cabeçalho > Menu Principal > Ultimo item do menu > Woocommerce
+Criar campo de pesquisa == Páginas > Todas as páginas > Home > Editar > Criar sessão > Adicionar bloco WP search
+Criar/configurar Banner principal == Páginas > Todas as páginas > Home > Editar
 
 
 
@@ -171,6 +174,15 @@ https://docs.woocommerce.com/document/automated-follow-up-emails-docs/email-vari
 Quando estiver cadastrando produtos, é recomendável que na ordem do menu sejam colocados produtos de 10 em 10,
 isso porque se for necessário no futuro colocar um outro produto na ordem de menu, não será necessário alterar um numero grande de produtos
 
+Código PHP para o campo de busca do site procurar apenas por produtos na loja virtual:
+// Filtrar buscas somente por produtos
+add_filter( 'pre_get_posts', 'custom_search' );
+function custom_search( $query ) {
+    if ( $query->is_search and !is_admin() ) {
+        $query->set( 'post_type', array( 'product' ) );
+    }
+    return $query;
+}
 
 
 Status dos pedidos:
