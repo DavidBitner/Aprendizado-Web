@@ -54,6 +54,7 @@ EWWW Image Optimizer
 Microthemer
 WPForms
 WPS Hide Login
+Gutentor (caso seja necessário o uso de mais blocos no Gutemberg)
 
 
 
@@ -148,6 +149,7 @@ Criar/configurar Banner principal == Páginas > Todas as páginas > Home > Edita
 
 
 
+
 O que é Manter estoque (minutos)?
 Tempo de reserva de um produto no estoque até a confirmação da compra
 
@@ -183,6 +185,10 @@ function custom_search( $query ) {
     }
     return $query;
 }
+
+Sobre Gutentor:
+Quando for adicionar slides pelo plugin, adicionar imagem e fazer configurações do tamanho da imagem dentro do bloco, não usar a função de background do próprio slider do Gutentor. Lembrar de usar os slides como se fossem uma sessão.
+
 
 
 Status dos pedidos:
