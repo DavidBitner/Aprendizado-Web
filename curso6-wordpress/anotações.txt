@@ -144,8 +144,10 @@ Cadastrar (se necessário) grupos de produtos == Produtos > Adicionar novo > Qua
 Cadastrar cupons de desconto > Marketing > Cupons > Adicionar cupom
 Criar/configurar Menu == Aparência > Menus
 Configurar botão de carrinho de compras == Aparência > Personalizar > Cabeçalho > Menu Principal > Ultimo item do menu > Woocommerce
-Criar campo de pesquisa == Páginas > Todas as páginas > Home > Editar > Criar sessão > Adicionar bloco WP search
-Criar/configurar Banner principal == Páginas > Todas as páginas > Home > Editar
+Personalizar homepage campo de pesquisa == Páginas > Todas as páginas > Home > Editar > Criar sessão > Adicionar bloco WP search
+Personalizar homepage configurar Banner principal == Páginas > Todas as páginas > Home > Editar
+Personalizar homepage (se necessário) parte de destaques de categorias == Páginas > Todas as páginas > Home > Editar > Adicionar categorias personalizadas (ver comentários abaixo para saber as formas de adicionar as categorias personalizadas)
+Personalizar homepage parte de produtos == Páginas > Todas as páginas > Home > Editar (ver comentários abaixo para saber as formas de adicionar os produtos a página inicial)
 
 
 
@@ -188,6 +190,24 @@ function custom_search( $query ) {
 
 Sobre Gutentor:
 Quando for adicionar slides pelo plugin, adicionar imagem e fazer configurações do tamanho da imagem dentro do bloco, não usar a função de background do próprio slider do Gutentor. Lembrar de usar os slides como se fossem uma sessão.
+
+Página de short codes do WooCommerce:
+https://docs.woocommerce.com/document/woocommerce-shortcodes/
+
+
+
+Categorias personalizadas:
+Primeira forma == Atravéz de shortcode e adicionar o shortcode 
+Segunda forma == Adicionar colunas personalizadas e adicionar bloco "Caregorias destaque" em cada uma das colunas 
+Terceira forma == Criar infoboxes em colunas e atribuir ao botão da infobox o link para a página da categoria
+
+
+
+Lista de produtos:
+Primeira forma == Através de shortcodes
+Segunda forma == Blocos do WooCommerce
+Terceira forma == Templates do WooCommerce (template library > woocommerce)
+Quarta forma == Bloco post type carroussel (serve para caso se queira mostrar os produtos na página inicial filtrando pela taxonomia desejada)
 
 
 
