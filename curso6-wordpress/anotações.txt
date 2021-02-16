@@ -148,7 +148,8 @@ Personalizar homepage campo de pesquisa == Páginas > Todas as páginas > Home >
 Personalizar homepage configurar Banner principal == Páginas > Todas as páginas > Home > Editar
 Personalizar homepage (se necessário) parte de destaques de categorias == Páginas > Todas as páginas > Home > Editar > Adicionar categorias personalizadas (ver comentários abaixo para saber as formas de adicionar as categorias personalizadas)
 Personalizar homepage parte de produtos == Páginas > Todas as páginas > Home > Editar (ver comentários abaixo para saber as formas de adicionar os produtos a página inicial)
-
+Adicionar menus de rodapé == Caso seja necessário o uso de mapa de loja, dados e institucional no rodapé. Criar um menu para cada uma dessas opções
+Configurar rodapé do site == Aparência > Personalizar > Rodapé
 
 
 
@@ -194,6 +195,7 @@ Quando for adicionar slides pelo plugin, adicionar imagem e fazer configuraçõe
 Página de short codes do WooCommerce:
 https://docs.woocommerce.com/document/woocommerce-shortcodes/
 
+Quando criando o rodapé, usar uma tag href na parte de copyright para linkar a página do criador do site
 
 
 Categorias personalizadas:
