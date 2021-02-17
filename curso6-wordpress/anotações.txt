@@ -55,6 +55,9 @@ Microthemer
 WPForms
 WPS Hide Login
 Gutentor (caso seja necessário o uso de mais blocos no Gutemberg)
+Site Kit by Google (plugin de SEO)
+Rank Math/Yoast/AllinOne (plugin de SEO)
+
 
 
 
@@ -87,11 +90,8 @@ br.gravatar.com é o website onde se pode criar os gravatares para o wordpress
 MÓDULO 2
 Deixar o website mais rápido:
 Pagespeed insights == Ferramenta do Google que analisa o quão rápido um site está
-EWWW Image Optimizer == Plugin para redimensionar imagens no site.
-Mudar opção Resize Detection no EWWW == Mostrar imagens que precisam ser redimensionadas no site.
 W3 total cache == Serve para cuidar do cache da página
 Duplicator == Serve para pegar a versão local do website e exportar para o servidor online
-Companion Auto Update == Plugin de atualização automatica
 Cerber Security, Anti-spam & Malware Scan == Plugin de segurança
 WP Telegram (auto post and notifications) == Plugin de notificações no Telegram
 Updraft Plus == Plugin de backup
@@ -150,7 +150,7 @@ Personalizar homepage (se necessário) parte de destaques de categorias == Pági
 Personalizar homepage parte de produtos == Páginas > Todas as páginas > Home > Editar (ver comentários abaixo para saber as formas de adicionar os produtos a página inicial)
 Adicionar menus de rodapé == Caso seja necessário o uso de mapa de loja, dados e institucional no rodapé. Criar um menu para cada uma dessas opções
 Configurar rodapé do site == Aparência > Personalizar > Rodapé
-
+Criar/Configurar página da lista de desejos
 
 
 O que é Manter estoque (minutos)?
