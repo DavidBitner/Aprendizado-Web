@@ -150,7 +150,14 @@ Personalizar homepage (se necessário) parte de destaques de categorias == Pági
 Personalizar homepage parte de produtos == Páginas > Todas as páginas > Home > Editar (ver comentários abaixo para saber as formas de adicionar os produtos a página inicial)
 Adicionar menus de rodapé == Caso seja necessário o uso de mapa de loja, dados e institucional no rodapé. Criar um menu para cada uma dessas opções
 Configurar rodapé do site == Aparência > Personalizar > Rodapé
-Criar/Configurar página da lista de desejos
+Instalar Yith WooCommerce Wishlist == Plugin de lista de desejos
+Configurar Yith WooCommerce Wishlist == Yith > Lista de Desejos
+Fazer toda a responsividade do site == Ir em todas as páginas e ajustar o necessário parar usuários mobile
+Criar páginas internas == Criar página de FAQ, página de Sobre nós, página de Politica de privacidade e etc
+Mudar configuração de politica de privacidade == Personalizar > WooCommerce > Finalizar Compra > Mudar "Página 'Politica de privacidade'" e "Página 'Termos e condições'"
+Corrigir links de menus == Mudar botões e links pelo site que estejam sem o direcionamento corrego para as páginas internas
+
+
 
 
 O que é Manter estoque (minutos)?
