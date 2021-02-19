@@ -142,6 +142,7 @@ Cadastrar produtos == Produtos > Adicionar novo > IMPORTANTE: Olhar como o SEO d
 Cadastrar produtos == Produtos > Adicionar novo > Caso um produto variável seja cadastrado, não esquecer de marcar a opção "Usado para variações"
 Cadastrar (se necessário) grupos de produtos == Produtos > Adicionar novo > Quando cadastrar grupos de produtos, é recomendado que o kit tenha apenas produtos simples, para facilitar a usabilidade para o usuário
 Cadastrar cupons de desconto > Marketing > Cupons > Adicionar cupom
+Instalar (se necessário) User Menus - Nav Menu Visibility = Plugin que possibilita mostrar ou esconder opções do menu dependendo de certas condições
 Criar/configurar Menu == Aparência > Menus
 Configurar botão de carrinho de compras == Aparência > Personalizar > Cabeçalho > Menu Principal > Ultimo item do menu > Woocommerce
 Personalizar homepage campo de pesquisa == Páginas > Todas as páginas > Home > Editar > Criar sessão > Adicionar bloco WP search
