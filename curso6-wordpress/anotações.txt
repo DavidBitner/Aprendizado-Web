@@ -156,8 +156,13 @@ Fazer toda a responsividade do site == Ir em todas as páginas e ajustar o neces
 Criar páginas internas == Criar página de FAQ, página de Sobre nós, página de Politica de privacidade e etc
 Mudar configuração de politica de privacidade == Personalizar > WooCommerce > Finalizar Compra > Mudar "Página 'Politica de privacidade'" e "Página 'Termos e condições'"
 Corrigir links de menus == Mudar botões e links pelo site que estejam sem o direcionamento corrego para as páginas internas
-
-
+Instalar (se necessário) Conditional Blocks - Control any Gutenberg Block = Plugin para definir no editor de blocos onde o bloco será visualizado
+Colocar shortcode do botão sair no editor de temas == Aparência > Editor de temas > Funções do tema
+Copiar links da página "Minha conta" e shorcodes que serão usados == Minha conta, pedidos, endereços, sair, etc...
+Personalizar página "Minha conta" == Páginas > Todas as páginas > Editar
+Personalizar página "Minha conta" == Adicionar sessão e colunas para as opções
+Personalizar página "Minha conta" == Adicionar infoboxes com descrição em negrito e call to action "complete box"
+Personalizar página "Minha conta" == Fazer os ajustes finos da página no Microthemer
 
 
 O que é Manter estoque (minutos)?
@@ -195,6 +200,19 @@ function custom_search( $query ) {
     }
     return $query;
 }
+
+Código PHP para sair da minha conta do site:
+// Minha conta - Nome do usuário
+function my_user_name() {
+  $current_user = wp_get_current_user();
+  return trim( 'Bem-vindo ' . $current_user->user_firstname . ' ' . $current_user->user_lastname );
+}
+add_shortcode( 'my-user-name', 'my_user_name' );
+// URL Logout
+function my_url_logout() {
+  return wp_logout_url();
+}
+add_shortcode( 'my-url-logout', 'my_url_logout' );
 
 Sobre Gutentor:
 Quando for adicionar slides pelo plugin, adicionar imagem e fazer configurações do tamanho da imagem dentro do bloco, não usar a função de background do próprio slider do Gutentor. Lembrar de usar os slides como se fossem uma sessão.
