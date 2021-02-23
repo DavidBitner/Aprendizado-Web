@@ -59,6 +59,7 @@ Ordem de precedência dos operadores:
 Operadores aritméticos são resolvidos primeiro respeitando a sua própria precedência
 Operadores relacionais em seguida, sendo que entre si eles não possuem ordem de precedência, o que estiver na frente será resolvido primeiro
 Operadores lógicos por ultimo, que possuem a sua própria ordem de precedência
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 Operador ternário:
 ? = Se, ou seja, caso o teste for verdadeiro, acontecerá o que estiver depois da interrogação
