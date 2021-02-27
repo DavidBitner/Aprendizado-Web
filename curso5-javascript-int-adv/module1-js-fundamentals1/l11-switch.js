@@ -33,7 +33,7 @@ switch (day) {
  * hindi: 'Number 4'
  * arabic: '5th most spoken language'
  * for all other simply log 'Great language too :D'
- */
+*/
 
 console.log('Atividade')
 
