@@ -221,3 +221,7 @@ LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro
 Console JS:
 console.log('texto') = Printar na tela do console
 alert("texto") = Alerta no Browser
+
+
+'use strict':
+Usado no começo do código para criar um código mais seguro e apontar erros no console que normalmente não apareceriam
