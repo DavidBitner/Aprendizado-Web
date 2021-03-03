@@ -19,6 +19,7 @@
  * To calculate average of 3 values, add them all together and divide by 3
  * To check if number A is at least double number B, check for A >= 2 * B. Apply this to the team's average scores
 */
+console.log('Atividade 1')
 
 function calc_average(score1, score2, score3) {
   return (score1 + score2 + score3) / 3
@@ -61,6 +62,8 @@ console.log(check_winner(dolphins_average, koalas_average))
  * 
  * Hint: Remember that an array needs a value in each position, and that value can actually be the returned value of a function! So you can just call a function as array values (so don't store the tip values in separate variables first, but right in the new array)
 */
+console.log('\nAtividade 2')
+
 function calc_tip(bill) {
   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20
 }
@@ -71,3 +74,45 @@ const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 console.log(bills)
 console.log(tips)
 console.log(total)
+
+/**
+ * Atividade 3
+ *
+ * Let's go back to Mark and John comparing their BMIs! This time, let's use objects to implement the calculations! Remember: BMI = mass / height ** 2 = mass / (height * height)(mass in kg and height in meter)
+ *
+ * Your tasks:
+ * 1.For each of them, create an object with properties for their full name, mass, and height (Mark Miller and John Smith)
+ * 2.Create a 'calcBMI'method on each object to calculate the BMI (the same method on both objects). Store the BMI value to a property, and also return it from the method
+ * 3.Log to the console who has the higher BMI, together with the full name and the respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
+ *
+ * Test data:Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+*/
+console.log(`\nAtividade 3`)
+
+const mark = {
+  name: 'Mark Miller',
+  height: 1.69,
+  mass: 78,
+
+  calc_bmi: function () {
+    this.bmi = this.mass / this.height ** 2
+    return this.bmi
+  }
+}
+
+const john = {
+  name: 'John Smith',
+  height: 1.95,
+  mass: 92,
+
+  calc_bmi: function () {
+    this.bmi = this.mass / this.height ** 2
+    return this.bmi
+  }
+}
+
+if (mark.bmi > john.bmi) {
+  console.log(`${mark.name}'s BMI (${mark.calc_bmi()}) is higher than ${john.name}'s (${johnm.calc_bmi()})!`)
+} else {
+  console.log(`${john.name}'s BMI (${john.calc_bmi()}) is higher than ${mark.name}'s (${mark.calc_bmi()})!`)
+}
