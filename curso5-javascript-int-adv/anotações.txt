@@ -225,3 +225,7 @@ alert("texto") = Alerta no Browser
 
 'use strict':
 Usado no começo do código para criar um código mais seguro e apontar erros no console que normalmente não apareceriam
+
+
+this.variable:
+Dentro de uma função, a palavra "this" serve para apontar para a função que o valor que será usado está dentro do objeto ao qual a função pertence
