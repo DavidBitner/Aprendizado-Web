@@ -220,6 +220,7 @@ LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro
 
 Console JS:
 console.log('texto') = Printar na tela do console
+process.stdout.write('texto') = Printar na tela do console sem pular linha
 alert("texto") = Alerta no Browser
 
 
