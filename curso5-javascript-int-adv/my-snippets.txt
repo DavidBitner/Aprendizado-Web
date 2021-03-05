@@ -1,0 +1,62 @@
+{
+  "Print to console": {
+  	"scope": "javascript,typescript",
+  	"prefix": "con",
+  	"body": [
+  		"console.log(`$1`)",
+  	],
+  	"description": "Log output to console"
+  },
+
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for (let ${1:i} = 0; ${1:i} < ${2:array}.length; ${1:i}++) {",
+      "\t$3",
+      "}"
+    ]
+	},
+
+  "Else if": {
+    "prefix": "elseif",
+    "body": [
+      "if (${1:condition}) {",
+      "\t$2",
+      "} else if (${3:condition}) {",
+      "\t$4",
+      "} else {",
+      "\t$5",
+      "}"
+    ]
+  },
+
+  "Const": {
+    "prefix": "const",
+    "body": [
+      "const ${1:variable} = `$2`"
+    ]
+  },
+
+  "Let": {
+    "prefix": "let",
+    "body": [
+      "let ${1:variable} = `$2`"
+    ]
+  },
+
+  "Array": {
+    "prefix": "array",
+    "body": [
+      "const ${1:variable} = [$2]"
+    ]
+  },
+
+  "Dictionary": {
+    "prefix": "dictionary",
+    "body": [
+      "const ${1:dic name} = {",
+      "\t${2:key}: `${3:}`",
+      "}"
+    ]
+  }
+}
