@@ -19,6 +19,8 @@ a.toLocaleString('pt-BR', {style:'currency',currency:'BRL'}) = Quando for necess
 document.write() = Escrever na tela
 document.writeln() = Escrever uma linha na tela
 a.focus() = Colocar o foco em um certo elemento, por exemplo um campo de texto para não precisar de clicar no mesmo
+Math.trunc(variável) = Transformar um numero em numero inteiro
+Math.random() = Numero aleatório entre 0 e 1
 
 IMPORTANTE: Template String
 `` = Abre e fecha crases é a forma de se escrever strings como no python. exemplo:
