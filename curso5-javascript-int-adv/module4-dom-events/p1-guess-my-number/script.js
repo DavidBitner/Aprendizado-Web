@@ -22,28 +22,17 @@ document.querySelector(`.check`).addEventListener("click", function () {
     document.querySelector(`.number`).style.width = "30rem";
     document.querySelector(`.number`).textContent = correct_number;
 
-    // When the guess is too high
-  } else if (guess > correct_number) {
+    // When the guess is wrong
+  } else if (guess != correct_number) {
     if (score > 1) {
-      document.querySelector(`.message`).textContent = "Too High!";
+      // When the guess is too high or too low
+      document.querySelector(`.message`).textContent =
+        guess > correct_number ? "Too High!" : "Too Low!";
       score--;
 
       // When the player loses
     } else {
       document.querySelector(`.message`).textContent = "You Lost!";
-      score = 0;
-      document.querySelector(`body`).style.backgroundColor = "red";
-    }
-
-    // When the guess is too low
-  } else {
-    if (score > 1) {
-      document.querySelector(`.message`).textContent = "Too Low!";
-      score--;
-
-      // When the player loses
-    } else {
-      document.querySelector(`.message`).textContent = "You Lost!!";
       score = 0;
       document.querySelector(`body`).style.backgroundColor = "red";
     }
