@@ -115,12 +115,15 @@ function ação(parametro){
 
 
 EVENTOS DOM:
+click = Quando o botão do mouse é apertado e soltado no elemento
 mouseenter = Quando o ponteiro do mouse entra no elemento
 mousemove = Quando o ponteiro do mouse se movimenta pelo elemento
 mousedown = Quando o botão do mouse é apertado dentro do elemento
 mouseup = Quando o botão do mouse é solto dentro do elemento
-click = Quando o botão do mouse é apertado e soltado no elemento
 mouseout = Quando o ponteiro do mouse sai do elemento
+keyup = Quando uma tecla do teclado é solta
+keydown = Quando uma tecla é pressionada
+keypress = Quando uma tecla é mantida pressionada
 
 Exemplo de evento com função:
 <div id="doidera" onclick="clicar()">
@@ -130,6 +133,13 @@ function clicar() {
     var d = window.document.getElementById('doidera')
     d.innerText = 'Clicou'
 }
+
+Exemplo de evento com tecla enter:
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    close_modal();
+  }
+});
 
 
 CONDIÇÕES:
