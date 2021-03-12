@@ -1,0 +1,55 @@
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+}
+
+h2 {
+  color: #c7365f;
+}
+
+#p1 {
+  background-color: #ff85d3;
+}
+
+#p2 {
+  background-color: #ff63c6;
+}
+
+#box {
+  background-color: #c7365f;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.player {
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+}
+
+.space {
+  height: 5%;
+}
+
+.btns {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  color: #444;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+}
+
+.dice {
+  height: 7rem;
+  width: 7rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
