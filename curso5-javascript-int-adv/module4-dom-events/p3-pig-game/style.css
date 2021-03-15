@@ -10,11 +10,11 @@ h2 {
   color: #c7365f;
 }
 
-#p1 {
+.active {
   background-color: #ff85d3;
 }
 
-#p2 {
+.inactive {
   background-color: #ff63c6;
 }
 
@@ -48,7 +48,7 @@ h2 {
   border: none;
 }
 
-.dice {
+#dice {
   height: 7rem;
   width: 7rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);

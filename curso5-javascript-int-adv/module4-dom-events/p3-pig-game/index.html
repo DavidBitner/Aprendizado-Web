@@ -20,31 +20,31 @@
   <!-- START HERE -->
   <div class="container">
     <div class="row mt-5">
-      <div class="player col-6 text-center p-5" id="p1">
+      <div class="player col-6 text-center p-5 active" id="p1">
         <h1 class="mt-5">PLAYER 1</h1>
-        <h2 class="points display-2 font-weight-bold mb-5">6</h2>
+        <h2 class="points display-2 font-weight-bold mb-5" id="p1-total">6</h2>
         <div class="space"></div>
         <div id="box" class="my-5 text-center mx-auto align-items-center d-flex flex-column text-light">
           <h3 class="item-hl mt-3">CURRENT</h3>
-          <h3 class="item-hl mb-3 display-4 font-weight-bold">0</h3>
+          <h3 class="item-hl mb-3 display-4 font-weight-bold" id="p1-score">0</h3>
         </div>
       </div>
 
-      <div class="player col-6 text-center p-5" id="p2">
+      <div class="player col-6 text-center p-5 inactive" id="p2">
         <h1 class="mt-5">PLAYER 2</h1>
-        <h2 class="points display-2 font-weight-bold mb-5">7</h2>
+        <h2 class="points display-2 font-weight-bold mb-5" id="p2-total">7</h2>
         <div class="space"></div>
         <div id="box" class="my-5 text-center mx-auto align-items-center d-flex flex-column text-light">
           <h3 class="item-hl mt-3">CURRENT</h3>
-          <h3 class="item-hl mb-3 display-4 font-weight-bold">0</h3>
+          <h3 class="item-hl mb-3 display-4 font-weight-bold" id="p2-score">0</h3>
         </div>
       </div>
 
       <div class="btns d-flex flex-column">
-        <button class="btn btn-light m-5 item-hl">NEW GAME</button>
-        <img class="dice align-self-center my-5" src="img/dice-1.png" alt="">
-        <button class="btn btn-light mt-5 mx-5 item-hl">ROLL DICE</button>
-        <button class="btn btn-light mb-5 mx-5 mt-2 item-hl">HOLD</button>
+        <button class="btn btn-light m-5 item-hl" id="new">NEW GAME</button>
+        <img class="align-self-center my-5" id="dice" src="img/hidden.png" alt="">
+        <button class="btn btn-light mt-5 mx-5 item-hl" id="roll">ROLL DICE</button>
+        <button class="btn btn-light mb-5 mx-5 mt-2 item-hl" id="hold">HOLD</button>
       </div>
     </div>
   </div>
@@ -57,6 +57,7 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/66fe1b441d.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 
   <!-- Meu JS -->
   <script>
