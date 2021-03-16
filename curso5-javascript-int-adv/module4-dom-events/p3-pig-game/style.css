@@ -11,11 +11,11 @@ h2 {
 }
 
 .active {
-  background-color: #ff85d3;
+  background-color: #ff63c6;
 }
 
 .inactive {
-  background-color: #ff63c6;
+  background-color: #ff85d3;
 }
 
 #box {
