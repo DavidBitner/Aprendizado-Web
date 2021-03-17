@@ -18,6 +18,10 @@ h2 {
   background-color: #ff85d3;
 }
 
+.win {
+  background-color: green;
+}
+
 #box {
   background-color: #c7365f;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);

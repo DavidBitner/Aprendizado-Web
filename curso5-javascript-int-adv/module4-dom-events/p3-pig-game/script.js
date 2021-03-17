@@ -25,17 +25,10 @@ p2_total.textContent = 0;
 
 // Função inverter jogadores
 function inverter_jogadores(jogador) {
-  if (jogador == 1) {
-    p1.classList.add("inactive");
-    p1.classList.remove("active");
-    p2.classList.add("active");
-    p2.classList.remove("inactive");
-  } else {
-    p1.classList.add("active");
-    p1.classList.remove("inactive");
-    p2.classList.add("inactive");
-    p2.classList.remove("active");
-  }
+  p1.classList.toggle("inactive");
+  p1.classList.toggle("active");
+  p2.classList.toggle("inactive");
+  p2.classList.toggle("active");
 }
 
 // Funções dos botões
@@ -46,6 +39,15 @@ btn_new_game.addEventListener("click", function () {
   p2_total.textContent = 0;
   score = 0;
   dice.src = "img/hidden.png";
+  p1.classList.add("active");
+  p1.classList.remove("inactive");
+  p2.classList.add("inactive");
+  p2.classList.remove("active");
+  active_player = 1;
+  p1.classList.remove("win");
+  p2.classList.remove("win");
+  btn_hold.disabled = false;
+  btn_roll.disabled = false;
 });
 
 btn_roll.addEventListener("click", function () {
@@ -111,11 +113,21 @@ btn_hold.addEventListener("click", function () {
     p1_score.textContent = 0;
     active_player = 2;
     inverter_jogadores(1);
+    if (Number(p1_total.textContent >= 100)) {
+      p1.classList.toggle("win");
+      btn_hold.disabled = true;
+      btn_roll.disabled = true;
+    }
   } else if (active_player == 2) {
     p2_total.textContent = Number(p2_total.textContent) + score;
     score = 0;
     p2_score.textContent = 0;
     active_player = 1;
     inverter_jogadores(2);
+    if (Number(p2_total.textContent >= 100)) {
+      p2.classList.toggle("win");
+      btn_hold.disabled = true;
+      btn_roll.disabled = true;
+    }
   }
 });
