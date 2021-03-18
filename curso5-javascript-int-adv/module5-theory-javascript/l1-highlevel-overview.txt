@@ -1,0 +1,34 @@
+Javascript is a high-level, prototype-based object-oriented, multi-paradigm, interpreted or just-in-time compiled, dynamic, single-threaded, garbage-collected programming language with first-class functions and a non-blocking event loop concurrency model.
+
+High Level:
+Uma linguagem low level é uma linguagem que necessita que os desenvolvedores administrem os recursos técnicos da maquina manualmente, como memória e processador. Um exemplo de linguagem low level é C.
+Uma linguagem high level é uma linguagem que administra os recursos automaticamente, tornando a linguagem mais simples de ser aprendida, porém podendo deixar os programas mais lentos se não usadas corretamente.
+
+Garbage-collected:
+O Javascript tem dentro dele uma forma de automaticamente limpar a memória do computador para que a mesma não fique cheia de coisas inuteis ou que possam diminuir a velocidade do sistema.
+
+Interpreted or just-in-time compiled:
+Significa que o código é executado enquanto o usuário está usando o mesmo.
+
+Multi-paradigm:
+Um paradigma é um approach ou mindset de construção de código, o qual direciona o estilo e tecnica do seu código e maneira de codificar.
+Paradigmas podem ser classificados como imperativo ou declarativo.
+JS é o caso de uma linguagem que permite multiplos paradigmas.
+
+Prototype-based object-oriented:
+Basicamente existem protótipos de como o código deve ser escrito, e quando algo prototipado é usado no código este "algo" herda as funções atribuidas ao protótipo.
+
+First-class functions:
+Em uma linguagem com first-class functions, funções são simplesmente tratadas como variáveis. É possível criar funções dentro de funções, executar funções dentro de funções e até retornar funções por funções.
+
+Dynamic:
+Significa que o código é escrito de maneira dinâmica, ou seja, não é necessário atribuir tipos as variáveis, como Int, String e etc, pois o Javascript faz isso automaticamente.
+
+Single-threaded/Non-blocking event loop:
+Concurrency model: Como o JavaScript lida com multiplas tarefas acontecendo ao mesmo tempo.
+::: Pra que isso serve?
+JavaScript executa apenas uma thread, ou seja, só pode fazer uma coisa de cada vez.
+::: Como funciona quando é necessário executar uma tarefa longa?
+O JavaScript necessita de um comportamente de não-bloqueio.
+::: Como o JavaScript consegue esse comportamente?
+Usando algo chamado "event loop": Isso faz com que tarefas longas sejam executadas no "background", e as coloca de volta a main thread depois da tarefa ser finalizada.
