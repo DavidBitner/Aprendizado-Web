@@ -1,0 +1,19 @@
+git config --global user.name David
+git config --global user.email DavidEmail
+
+git add -A == Adicionar todos os arquivos ao git
+git status == Mostrar quais arquivos estão prontos para o push e quais não
+git commit -m "mensagem" == Salvar de fato as alterações e colocar uma mensagem sinalizando as mudanças feitas
+git reset --hard HEAD == Deletar mudanças feitas desde o ultimo commit
+git log == Mostrar todos os commits já feitos (apertando "Q" do teclado)
+git reset --hard idDoCommit == Voltar para versão do Id do commit
+git branch == Lista todos os branchs
+git branch nomeDaNovaBrunch == Criar uma nova branch
+git checkout nomeDaNovaBrunch == Mudar para a brunch "nomeDaNovaBrunch"
+git merge nomeDaNovaBrunch == Fundir as mudanças da nova brunch com a antiga
+git remote add nomeDaBrunchRemota linkDoRepositórioRemoto == Permitir que sejam dados pushs no repositório para o github
+git push nomeDaBrunchRemota nomeDaBrunchLocal == Salvar os arquivos locais no repositório remoto
+
+
+Informações sobre todas as funções do Git
+https://education.github.com/git-cheat-sheet-education.pdf
