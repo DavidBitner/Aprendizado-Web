@@ -1,0 +1,35 @@
+Scoping:
+É como as variáveis do programa são organizadas e acessadas. Scoping faz as perguntas "Onde as variáveis do programa estão?" e "Onde é possível acessar uma certa variável, e onde não é possível?"
+
+Lexical scoping:
+Scoping é controlado pelo posicionamento de funções e blocos dentro do código.
+
+Scope:
+Escopo é o espaço ou ambiente no qual uma certa variável é declarada. Há um escopo global, escopo de função e escopo de bloco.
+
+Escopo de uma variável:
+É a região do código onde uma certa variável pode ser acessada.
+
+Tipos de escopo:
+Global scope:
+Fora de qualquer função ou bloco.
+Variáveis declaradas no escopo global podem ser acessadas em qualquer lugar.
+
+Function scope:
+Variáveis são acessadas apenas dentro da função, nunca fora.
+Também pode ser chamado de escopo local.
+
+Block scope:
+Variáveis podem ser acessadas apenas dentro do bloco.
+ENTRETANTO, essa regra só se aplica a variáveis LET e CONST.
+Funções também são determinadas como escopo de bloco (apenas no modo strict).
+
+Lexical scoping:
+As regras de acesso as variáveis são baseadas na posição dentro do código que as funções e blocos foram escritos.
+
+Scope chain:
+Um escopo tem acesso aos seus parentes, mas não aos seus filhos.
+A cadeia de escopo não tem nenhuma ligação com a ordem em que as funções foram chamadas. Isto não afeta a cadeia de forma alguma.
+
+Variable lookup:
+Quando uma variável não se encontra no escopo atual, a engine vai procurar acima na cadeia de escopos até achar a variável que está procurando.
