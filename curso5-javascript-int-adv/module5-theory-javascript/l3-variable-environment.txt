@@ -1,0 +1,13 @@
+Hoisting: 
+Faz com que alguns tipos de variáveis sejam acessíveis no código antes de serem declaradas, ou seja, antes da execução do código em si, é feito um scan pelo código para encontrar todas as declarações de variáveis, e para cada variável, uma nova propriedade é criada no variable environment object.
+
+Hoited ou não?
+Declaração de funções: É hoisted, ou seja, é armazenado no variable environment. O escopo é o de bloco.
+
+Variáveis VAR: É hoisted. O escopo é o de função.
+
+Variáveis LET e CONST: Não é hoisted, valor inicial.
+
+
+Temporal dead zone:
+É a execução do código até a declaração da variável, ou seja, o código será lido linha por linha, a execução do código feita antes da variável ser declarada é o temporal dead zone daquela variável.
