@@ -1,0 +1,23 @@
+this keyword/variable:
+Variável especial que é criada para todo contexto de execução (toda função). Coleta o valor do dono da função na qual "this" é usada.
+
+this não é estática. Depende de como a função é chamada, e o valor só é atribuido quando a função é de fato chamada.
+
+
+Regras para "this":
+Method:
+this = <objeto que está chamando o método.
+
+Chamada de função simples:
+this = undefined.
+
+Funções arrow:
+this = this da função parente.
+
+Event listener:
+this = Elemento DOM que está conectado a chamada this.
+
+
+O que this não é:
+this não aponta para a função em si.
+this também não aponta para a própria variable environment.
