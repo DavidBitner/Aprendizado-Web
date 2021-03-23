@@ -242,3 +242,7 @@ Usado no começo do código para criar um código mais seguro e apontar erros no
 
 this.variable:
 Dentro de uma função, a palavra "this" serve para apontar para a função que o valor que será usado está dentro do objeto ao qual a função pertence
+
+
+const objeto_copia = Object.assign({}, objeto):
+Quando for necessário fazer uma cópia de um objeto se usa o método assign.
