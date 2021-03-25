@@ -65,5 +65,12 @@
     "body": [
       "${1:document}.querySelector(`$2`)"
     ]
+  },
+
+  "Bracers": {
+    "prefix": "bracer",
+    "body": [
+      "`${1}`"
+    ]
   }
 }
