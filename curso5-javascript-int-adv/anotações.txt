@@ -246,3 +246,10 @@ Dentro de uma função, a palavra "this" serve para apontar para a função que 
 
 const objeto_copia = Object.assign({}, objeto):
 Quando for necessário fazer uma cópia de um objeto se usa o método assign.
+
+
+Spread operator:
+Quando for necessário copiar uma array ou string usar "...nomeDoArray" para copiar o conteúdo. Exemplo:
+const array = [1, 2, 3]
+Para fazer uma cópia:
+const array_copia = [...array]
