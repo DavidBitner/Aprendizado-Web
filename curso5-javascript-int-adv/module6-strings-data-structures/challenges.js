@@ -203,3 +203,89 @@ for (const [min, event] of game_events) {
     console.log(`[SECOND HALF] ${min}: ${event}`);
   }
 }
+
+/**
+ * Atividade 4
+ *
+ * Write a program that receives a list of variable names written in underscore_case and convert them to camelCase.
+ *
+ * THIS TEST DATA (pasted to textarea)
+ * underscore_case
+ * first_name
+ * Some_Variable
+ * calculate_AGE
+ * delayed_departure
+ *
+ * SHOULD PRODUCE THIS OUTPUT (5 separate console.log outputs)
+ * underscoreCase      ✅
+ * firstName           ✅✅
+ * someVariable        ✅✅✅
+ * calculateAge        ✅✅✅✅
+ * delayedDeparture    ✅✅✅✅✅
+ *
+ * HINT 1: Remember which character defines a new line in the textarea 😉
+ * HINT 2: The solution only needs to work for a variable made out of 2 words, like a_b
+ * HINT 3: Start without worrying about the ✅. Tackle that only after you have the variable name conversion working 😉
+ * HINT 4: This challenge is difficult on purpose, so start watching the solution in case you're stuck. Then pause and continue!
+ */
+
+console.log(`\nAtividade 4`);
+
+// 1
+function underscore_case(entry = "", rights) {
+  const [first_word, second_word] = entry.split("_");
+  let str =
+    first_word.toLowerCase() +
+    second_word[0].toUpperCase() +
+    second_word.slice(1).toLowerCase();
+  str = str.padEnd(20, " ");
+  for (let i = 0; i < rights; i++) {
+    str += "✅";
+  }
+  console.log(str);
+  return (rights += 1);
+}
+let rights = 1;
+rights = underscore_case("underscore_case", rights);
+rights = underscore_case("first_name", rights);
+rights = underscore_case("Some_Variable", rights);
+rights = underscore_case("calculate_AGE", rights);
+rights = underscore_case("delayed_departure", rights);
+
+/**
+ * Atividade 5
+ *
+ * Deixar string legivel para o público
+ *
+ * Exemplo:
+ * Emoji Delayed Departure from FAO to TXL (11h25)
+ *                 Arrival from BRU to FAO (11h45)
+ *   Emoji Delayer Arrival from HEL to FAO (12h05)
+ *               Departure from FAO to LIS (12h30)
+ */
+
+console.log(`\nAtividade 5`);
+
+const flights =
+  "_Delayed_Departure;fao93766109;txl2133758440;11:25+_Arrival;bru0943384722;fao93766109;11:45+_Delayed_Arrival;hel7439299980;fao93766109;12:05+_Departure;fao93766109;lis2323639855;12:30";
+
+// 1
+const flights_list = flights.split("+");
+const flights_list2 = [];
+for (const flight of flights_list) {
+  let temp = flight.split(";");
+  flights_list2.push(temp);
+}
+
+for (const info of flights_list2) {
+  info[0] = info[0].replace(/_/g, " ");
+  info[1] = info[1].slice(0, 3).toUpperCase();
+  info[2] = info[2].slice(0, 3).toUpperCase();
+  info[3] = `(${info[3].replace(":", "h")})`;
+  let str = `${info[0]} from ${info[1]} to ${info[2]} ${info[3]}`;
+  if (!info[0].includes('Delayed')) {
+    console.log(str.padStart(50));
+  } else {
+    str = console.log(`Emoji ${str}`.padStart(50));
+  }
+}
