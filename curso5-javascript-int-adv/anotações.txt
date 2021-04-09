@@ -253,3 +253,10 @@ Quando for necessário copiar uma array ou string usar "...nomeDoArray" para cop
 const array = [1, 2, 3]
 Para fazer uma cópia:
 const array_copia = [...array]
+
+
+Inserindo HTML pelo JS:
+A maneira de se inserir dentro de um container uma série de informações, ou simplesmente adicionar coisas a interface HTML, é usando o "insertAdjacentHTML"
+const html = 'código HTML'
+nome_container.insertAdjacentHTML("afterbegin", html);
+nome_container.insertAdjacentHTML("beforeEnd", html);
