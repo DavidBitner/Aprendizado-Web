@@ -57,10 +57,11 @@ const input_loan_amount = document.querySelector(".form-input-loan-amount");
 const input_close_username = document.querySelector(".form-input-user");
 const input_close_pin = document.querySelector(".form-input-pin");
 
+// Função para mostrar movimentações na conta
 function display_movements(movements) {
   // Limpando o container de movimentações antes de inserir as informações nele
   container_movements.innerHTML = "";
-  
+
   movements.forEach(function (mov, i) {
     // Função para apontar se a classe do elemento será depósito ou retirada
     const type = mov > 0 ? "deposit" : "withdrawal";
@@ -79,3 +80,25 @@ function display_movements(movements) {
 }
 
 display_movements(account1.movements);
+
+// Função para mostrar o balanço baseado nas movimentações
+function display_balance(movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  label_balance.textContent = `R$${balance}`;
+}
+
+display_balance(account1.movements);
+
+// Função para criar automaticamente o nome de usuário das contas
+function create_username(accounts) {
+  accounts.forEach(function (acc) {
+    acc.username = acc.owner
+      .toLowerCase()
+      .split(" ")
+      .map((word) => word[0])
+      .join("");
+  });
+}
+create_username(accounts);
+
+console.log(accounts);
