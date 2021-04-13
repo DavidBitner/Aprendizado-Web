@@ -101,4 +101,24 @@ function create_username(accounts) {
 }
 create_username(accounts);
 
-console.log(accounts);
+// Função para mostrar depósitos, retiradas e interesse
+function calc_display_summary(movements) {
+  const ins = movements
+    .filter((mov) => mov > 0)
+    .reduce((acc, mov) => acc + mov, 0);
+  label_sum_in.textContent = `R$${ins}`;
+
+  const outs = movements
+    .filter((mov) => mov < 0)
+    .reduce((acc, mov) => acc + mov, 0);
+  label_sum_out.textContent = `R$${Math.abs(outs)}`;
+
+  const interest = movements
+    .filter((mov) => mov > 0)
+    .map((deposit) => (deposit * 1.2) / 100)
+    .filter((interest) => interest >= 1)
+    .reduce((acc, int) => acc + int, 0);
+  label_sum_interest.textContent = `R$${interest}`;
+}
+
+calc_display_summary(account1.movements);
