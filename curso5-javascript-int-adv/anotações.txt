@@ -260,3 +260,10 @@ A maneira de se inserir dentro de um container uma série de informações, ou s
 const html = 'código HTML'
 nome_container.insertAdjacentHTML("afterbegin", html);
 nome_container.insertAdjacentHTML("beforeEnd", html);
+
+
+Impedindo qua a página recarregue quando um botão de formulário é pressionado:
+btn_login.addEventListener("click", function (e) {
+  // Prevenir que a página recarregue, já que o botão faz parte de um formulário
+  e.preventDefault();
+}
