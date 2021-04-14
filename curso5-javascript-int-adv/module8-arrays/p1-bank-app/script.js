@@ -171,9 +171,7 @@ btn_transfer.addEventListener("click", function (e) {
   );
 
   // Limpar campos de texto de transferência
-  /*
   input_transfer_amount.value = input_transfer_to.value = "";
-  */
 
   // Checkar se a transferência é valida
   if (
@@ -189,4 +187,27 @@ btn_transfer.addEventListener("click", function (e) {
     // Update UI
     update_ui(current_account);
   }
+});
+
+// Fechar conta
+btn_close.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  // Deletar conta
+  if (
+    input_close_username.value === current_account.username &&
+    Number(input_close_pin.value) === current_account.pin
+  ) {
+    const index = accounts.findIndex(
+      (acc) => acc.username === current_account.username
+    );
+
+    accounts.splice(index, 1);
+  }
+
+  // Escondendo UI
+  container_app.style.opacity = 0;
+
+  // Limpar campos de texto de fechamento de conta
+  input_close_username.value = input_close_pin.value = "";
 });
