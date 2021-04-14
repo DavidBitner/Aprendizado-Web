@@ -4,28 +4,28 @@
 const account1 = {
   owner: "David Bitner",
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
-  interestRate: 1.2, // %
+  interest_rate: 1.2, // %
   pin: 1111,
 };
 
 const account2 = {
   owner: "Deborah Silva",
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
-  interestRate: 1.5,
+  interest_rate: 1.5,
   pin: 2222,
 };
 
 const account3 = {
   owner: "John Johnsons",
   movements: [200, -200, 340, -300, -20, 50, 400, -460],
-  interestRate: 0.7,
+  interest_rate: 0.7,
   pin: 3333,
 };
 
 const account4 = {
   owner: "Kraismens Stalanovsky",
   movements: [430, 1000, 700, 50, 90],
-  interestRate: 1,
+  interest_rate: 1,
   pin: 4444,
 };
 
@@ -79,15 +79,11 @@ function display_movements(movements) {
   });
 }
 
-display_movements(account1.movements);
-
 // Função para mostrar o balanço baseado nas movimentações
 function display_balance(movements) {
   const balance = movements.reduce((acc, mov) => acc + mov, 0);
   label_balance.textContent = `R$${balance}`;
 }
-
-display_balance(account1.movements);
 
 // Função para criar automaticamente o nome de usuário das contas
 function create_username(accounts) {
@@ -102,7 +98,8 @@ function create_username(accounts) {
 create_username(accounts);
 
 // Função para mostrar depósitos, retiradas e interesse
-function calc_display_summary(movements) {
+function calc_display_summary(account) {
+  const movements = account.movements;
   const ins = movements
     .filter((mov) => mov > 0)
     .reduce((acc, mov) => acc + mov, 0);
@@ -115,10 +112,42 @@ function calc_display_summary(movements) {
 
   const interest = movements
     .filter((mov) => mov > 0)
-    .map((deposit) => (deposit * 1.2) / 100)
+    .map((deposit) => (deposit * account.interest_rate) / 100)
     .filter((interest) => interest >= 1)
     .reduce((acc, int) => acc + int, 0);
   label_sum_interest.textContent = `R$${interest}`;
 }
 
-calc_display_summary(account1.movements);
+// Eventos
+let current_account;
+
+btn_login.addEventListener("click", function (e) {
+  // Prevenir que a página recarregue, já que o botão faz parte de um formulário
+  e.preventDefault();
+
+  // Definindo usuário logado
+  current_account = accounts.find(
+    (acc) => acc.username === input_login_username.value
+  );
+
+  if (current_account?.pin === Number(input_login_pin.value)) {
+    // Mostrar UI e uma mensagem
+    label_welcome.textContent = `Bem vindo, ${
+      current_account.owner.split(" ")[0]
+    }`;
+    container_app.style.opacity = 100;
+
+    // Mostrar movimentações
+    display_movements(current_account.movements);
+
+    // Mostrar balanço
+    display_balance(current_account.movements);
+
+    // Mostrar summary
+    calc_display_summary(current_account);
+
+    // Limpar campos de texto de login
+    input_login_username.value = input_login_pin.value = "";
+    input_login_pin.blur();
+  }
+});
