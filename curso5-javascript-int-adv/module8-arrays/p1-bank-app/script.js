@@ -80,9 +80,9 @@ function display_movements(movements) {
 }
 
 // Função para mostrar o balanço baseado nas movimentações
-function display_balance(movements) {
-  const balance = movements.reduce((acc, mov) => acc + mov, 0);
-  label_balance.textContent = `R$${balance}`;
+function display_balance(acc) {
+  acc.balance = acc.movements.reduce((acc, mov) => acc + mov, 0);
+  label_balance.textContent = `R$${acc.balance}`;
 }
 
 // Função para criar automaticamente o nome de usuário das contas
@@ -118,9 +118,22 @@ function calc_display_summary(account) {
   label_sum_interest.textContent = `R$${interest}`;
 }
 
+// Função para fazer update da UI
+function update_ui(acc) {
+  // Mostrar movimentações
+  display_movements(acc.movements);
+
+  // Mostrar balanço
+  display_balance(acc);
+
+  // Mostrar summary
+  calc_display_summary(acc);
+}
+
 // Eventos
 let current_account;
 
+// Login
 btn_login.addEventListener("click", function (e) {
   // Prevenir que a página recarregue, já que o botão faz parte de um formulário
   e.preventDefault();
@@ -137,17 +150,43 @@ btn_login.addEventListener("click", function (e) {
     }`;
     container_app.style.opacity = 100;
 
-    // Mostrar movimentações
-    display_movements(current_account.movements);
-
-    // Mostrar balanço
-    display_balance(current_account.movements);
-
-    // Mostrar summary
-    calc_display_summary(current_account);
+    // Mostrar informações
+    update_ui(current_account);
 
     // Limpar campos de texto de login
+    /*
     input_login_username.value = input_login_pin.value = "";
     input_login_pin.blur();
+    */
+  }
+});
+
+// Transferência
+btn_transfer.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const amount = Number(input_transfer_amount.value);
+  const receiver_acc = accounts.find(
+    (acc) => acc.username === input_transfer_to.value
+  );
+
+  // Limpar campos de texto de transferência
+  /*
+  input_transfer_amount.value = input_transfer_to.value = "";
+  */
+
+  // Checkar se a transferência é valida
+  if (
+    amount > 0 &&
+    receiver_acc &&
+    current_account?.balance >= amount &&
+    receiver_acc?.username !== current_account.username
+  ) {
+    // Fazendo a transferência
+    current_account.movements.push(-amount);
+    receiver_acc.movements.push(amount);
+
+    // Update UI
+    update_ui(current_account);
   }
 });
