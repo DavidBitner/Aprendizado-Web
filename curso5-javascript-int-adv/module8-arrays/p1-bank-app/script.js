@@ -58,11 +58,14 @@ const input_close_username = document.querySelector(".form-input-user");
 const input_close_pin = document.querySelector(".form-input-pin");
 
 // Função para mostrar movimentações na conta
-function display_movements(movements) {
+function display_movements(movements, sort = false) {
   // Limpando o container de movimentações antes de inserir as informações nele
   container_movements.innerHTML = "";
 
-  movements.forEach(function (mov, i) {
+  // Reordenando ordem dos movimentos caso o botão de ordenar seja pressionado
+  const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
+
+  movs.forEach(function (mov, i) {
     // Função para apontar se a classe do elemento será depósito ou retirada
     const type = mov > 0 ? "deposit" : "withdrawal";
 
@@ -189,6 +192,25 @@ btn_transfer.addEventListener("click", function (e) {
   }
 });
 
+// Empréstimo
+btn_loan.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const amount = Number(input_loan_amount.value);
+
+  // Checar se o valor do empréstimo é menor do que 10% de qualquer depósito feito na conta
+  if (
+    amount > 0 &&
+    current_account.movements.some((mov) => mov >= amount * 0.1)
+  ) {
+    // Adicionar movimentação
+    current_account.movements.push(amount);
+
+    // Update UI
+    update_ui(current_account);
+  }
+});
+
 // Fechar conta
 btn_close.addEventListener("click", function (e) {
   e.preventDefault();
@@ -210,4 +232,13 @@ btn_close.addEventListener("click", function (e) {
 
   // Limpar campos de texto de fechamento de conta
   input_close_username.value = input_close_pin.value = "";
+});
+
+// Botão de ordenar transações
+let sorted = false;
+btn_sort.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  display_movements(current_account.movements, !sorted);
+  sorted = !sorted;
 });
