@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("p:first-child").css("border", "1px solid red");
+        $("p:last-of-type").css("border", "1px solid blue");
+        $("p:contains('Lorem')").css("border", "1px solid green");
+        // $("p:parent").css("border", "1px solid pink");
+        $("p:nth-child(3)").css("border", "1px solid pink");
+      });
+    </script>
+
+    <style>
+      .text-box {
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <div class="text-box">
+      <p>
+        Lor ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lor ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lor ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+    </div>
+  </body>
+</html>

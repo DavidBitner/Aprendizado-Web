@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#modify").click(function () {
+          $(".text-box").wrap('<div id="box-color">');
+        });
+        $("#replace-all").click(function () {
+          $('<div class="text-box">Container</div>').replaceAll(".text-box");
+        });
+        $("#replace-with").click(function () {
+          $(".text-box").replaceWith(
+            '<div class="text-box">This has been replaced with!</div>'
+          );
+        });
+      });
+    </script>
+
+    <style>
+      .text-box {
+        background-color: cornsilk;
+      }
+      #box-color {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <a href="#" id="modify">Modify</a> |
+    <a href="#" id="replace-all">Replace All</a> |
+    <a href="#" id="replace-with">Replace With</a>
+
+    <div class="text-box">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+    </div>
+  </body>
+</html>

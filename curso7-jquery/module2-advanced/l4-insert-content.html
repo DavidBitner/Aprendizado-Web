@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#append").click(function () {
+          $('p:first').append('I just Appended some text!')
+        })
+        $("#prepend").click(function () {
+          $('p:first').prepend('I just prepended some text!')
+        })
+      });
+    </script>
+
+    <style>
+      .text-box {
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <a href="#" id="append">Append</a>
+    <a href="#" id="prepend">Preppend</a>
+
+    <div class="container">
+      <p>
+        1 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        2 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        3 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#create-text").click(function () {
+          $(".container p:last").text("Replaced and created this text!");
+        });
+
+        $("#create-variable").click(function () {
+          const new_text = $(".container p:first");
+
+          $(".container p:last").html(new_text);
+        });
+      });
+    </script>
+
+    <style>
+      .container {
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <a href="#" id="create">Create</a> |
+    <a href="#" id="create-text">Create Text</a> |
+    <a href="#" id="create-variable">Create Text</a>
+
+    <div class="container">
+      <p>
+        1 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        2 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        3 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+    </div>
+  </body>
+</html>
