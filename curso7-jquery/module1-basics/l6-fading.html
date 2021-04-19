@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#fade-in").on("click", function () {
+          $(".text-box").fadeIn(3000, function () {
+            alert("I'm done fading in!");
+          });
+        });
+        $("#fade-out").on("click", function () {
+          $(".text-box").fadeOut("fast", function () {
+            alert("I'm done fading out!");
+          });
+        });
+      });
+    </script>
+
+    <style>
+      .text-box {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <a href="#" id="fade-in">Fade In</a> |
+    <a href="#" id="fade-out">Fade Out</a>
+
+    <div class="text-box">
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio
+        culpa harum aliquam repudiandae est? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Doloribus, voluptate.
+      </p>
+    </div>
+  </body>
+</html>

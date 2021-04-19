@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $(".text-box").on("click", when_mouse_is_clicked);
+        $(".text-box").on("mouseleave", when_mouse_leaves);
+
+        function when_mouse_is_clicked() {
+          $(".text-box").html("<h1>You clicked me!</h1>");
+        }
+        function when_mouse_leaves() {
+          $(".text-box").html("<h1>You left me!</h1>");
+        }
+      });
+    </script>
+
+    <style>
+      .text-box {
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit
+      inventore nulla illo magnam aliquam voluptatibus maxime in?
+    </div>
+  </body>
+</html>

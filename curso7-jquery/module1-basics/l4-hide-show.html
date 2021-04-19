@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#show").on("click", function () {
+          $(".text-box").show();
+        });
+        $("#hide").on("click", function () {
+          $(".text-box").hide();
+        });
+      });
+    </script>
+
+    <style>
+      .text-box {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <a id="show" href="#">Click to show</a> |
+    <a id="hide" href="#">Click to hide</a>
+
+    <div class="text-box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio
+      culpa harum aliquam repudiandae est?
+    </div>
+  </body>
+</html>

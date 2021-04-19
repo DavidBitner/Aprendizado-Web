@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $('.container p:first').css('border', '3px blue solid')
+        $('.container p:last').css('border', '3px red solid')
+        $('.container p:even').css('background', 'grey')
+        $('.container p:odd').css('background', 'yellow')
+      });
+    </script>
+
+    <style>
+      .container {
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <div class="container">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+    </div>
+  </body>
+</html>

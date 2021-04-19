@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $(".paragraph").hover(hightlight_copy);
+        function hightlight_copy() {
+          $(this).toggleClass("highlight");
+        }
+      });
+    </script>
+
+    <style>
+      .highlight {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+
+    <div class="text-box">
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio
+        culpa harum aliquam repudiandae est?
+      </p>
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab repellat
+        doloremque corrupti. Modi, nisi perspiciatis?
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <script src="js/jquery.js"></script>
+
+    <script>
+      $("document").ready(function () {
+        $("#grow").click(function () {
+          $(".text-box").animate({ width: "500px" }, 2000);
+        });
+        $("#move").click(function () {
+          $(".text-box").animate({ marginLeft: "50px" }, 1000);
+        });
+        $("#bigger").click(function () {
+          $(".text-box").animate({ fontSize: "20px" }, 1000);
+        });
+        $("#many-things").click(function () {
+          $(".text-box").animate(
+            { fontSize: "12px", marginLeft: "10px", width: "300px" },
+            2000
+          );
+        });
+      });
+    </script>
+
+    <style>
+      .text-box {
+        background-color: cornsilk;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jQuery</h1>
+    <a href="#" id="grow">Grow</a> | <a href="#" id="move">Move</a> |
+    <a href="#" id="bigger">Bigger</a> |
+    <a href="#" id="many-things">Many Things</a> |
+
+    <div class="text-box">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        tempora similique, odio sequi obcaecati eveniet eius minus nesciunt nisi
+        magni iusto perspiciatis nulla, totam at dolore, itaque odit ratione
+        maxime?
+      </p>
+    </div>
+  </body>
+</html>
