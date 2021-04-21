@@ -267,3 +267,8 @@ btn_login.addEventListener("click", function (e) {
   // Prevenir que a página recarregue, já que o botão faz parte de um formulário
   e.preventDefault();
 }
+
+Função para numero aleatório estar sempre entre um minimo e um máximo:
+const rand_int = (min, max) =>
+  Math.floor(Math.random() * (max - min) + 1) + min;
+console.log(rand_int(10, 20));
