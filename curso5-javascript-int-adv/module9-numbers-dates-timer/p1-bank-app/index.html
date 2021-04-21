@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+
+  <title>Ekrem</title>
+</head>
+
+<body>
+  <!-- Navegação -->
+  <nav>
+    <p class="welcome">Log in para começar</p>
+    <img src="logo.png" alt="Logo" class="logo" />
+    <form class="login">
+      <input type="text" placeholder="user" class="login-input login-input-user" />
+      <input type="text" placeholder="PIN" maxlength="4" class="login-input login-input-pin" />
+      <button class="login-btn">&rarr;</button>
+    </form>
+  </nav>
+
+  <main class="app">
+    <!-- Balanço -->
+    <div class="balance">
+      <div>
+        <p class="balance-label">Balanço atual</p>
+        <p class="balance-date">
+          Dê <span class="date">05/03/2037</span>
+        </p>
+      </div>
+      <p class="balance-value">0000R$</p>
+    </div>
+
+    <!-- Transações -->
+    <div class="movements">
+      <div class="movements-row">
+        <div class="movements-type movements-type-deposit">2 depósitos</div>
+        <div class="movements-date">3 dias atrás</div>
+        <div class="movements-value">4 000R$</div>
+      </div>
+      <div class="movements-row">
+        <div class="movements-type movements-type-withdrawal">
+          1 retirada
+        </div>
+        <div class="movements-date">24/01/2037</div>
+        <div class="movements-value">-378R$</div>
+      </div>
+    </div>
+
+    <!-- Resumo -->
+    <div class="summary">
+      <p class="summary-label">In</p>
+      <p class="summary-value summary-value-in">0000R$</p>
+      <p class="summary-label">Out</p>
+      <p class="summary-value summary-value-out">0000R$</p>
+      <p class="summary-label">Interest</p>
+      <p class="summary-value summary-value-interest">0000R$</p>
+      <button class="btn-sort">&downarrow; ORDENAR</button>
+    </div>
+
+    <!-- Operação: Transferências -->
+    <div class="operation operation-transfer">
+      <h2>Transferir Dinheiro</h2>
+      <form class="form form-transfer">
+        <input type="text" class="form-input form-input-to" />
+        <input type="number" class="form-input form-input-amount" />
+        <button class="form-btn form-btn-transfer">&rarr;</button>
+        <label class="form-label">Transferir para</label>
+        <label class="form-label">Valor</label>
+      </form>
+    </div>
+
+    <!-- Operação: Empréstimo -->
+    <div class="operation operation-loan">
+      <h2>Solicitar Empréstimo</h2>
+      <form class="form form-loan">
+        <input type="number" class="form-input form-input-loan-amount" />
+        <button class="form-btn form-btn-loan">&rarr;</button>
+        <label class="form-label form-label-loan">Valor</label>
+      </form>
+    </div>
+
+    <!-- Operação: Fechar -->
+    <div class="operation operation-close">
+      <h2>Fechar Conta</h2>
+      <form class="form form-close">
+        <input type="text" class="form-input form-input-user" />
+        <input type="password" maxlength="6" class="form-input form-input-pin" />
+        <button class="form-btn form-btn-close">&rarr;</button>
+        <label class="form-label">Confirmar Usuário</label>
+        <label class="form-label">Confirmar PIN</label>
+      </form>
+    </div>
+
+    <!-- Timer de Logout -->
+    <p class="logout-timer">
+      Você será deslogado em <span class="timer">05:00</span>
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
