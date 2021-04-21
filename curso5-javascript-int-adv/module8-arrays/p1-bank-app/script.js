@@ -157,10 +157,8 @@ btn_login.addEventListener("click", function (e) {
     update_ui(current_account);
 
     // Limpar campos de texto de login
-    /*
     input_login_username.value = input_login_pin.value = "";
     input_login_pin.blur();
-    */
   }
 });
 
