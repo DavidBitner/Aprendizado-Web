@@ -66,24 +66,42 @@ const input_loan_amount = document.querySelector(".form-input-loan-amount");
 const input_close_username = document.querySelector(".form-input-user");
 const input_close_pin = document.querySelector(".form-input-pin");
 
+// Data
+const now = new Date();
+const day = `${now.getDate()}`.padStart(2, 0);
+const month = `${now.getMonth() + 1}`.padStart(2, 0);
+const year = now.getFullYear();
+const hour = `${now.getHours()}`.padStart(2, 0);
+const min = `${now.getMinutes()}`.padStart(2, 0);
+label_date.textContent = `${day}/${month}/${year}, ${hour}:${min}`;
+
 // Funções
 // Função para mostrar movimentações na conta
-function display_movements(movements, sort = false) {
+function display_movements(acc, sort = false) {
   // Limpando o container de movimentações antes de inserir as informações nele
   container_movements.innerHTML = "";
 
   // Reordenando ordem dos movimentos caso o botão de ordenar seja pressionado
-  const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
+  const movs = sort
+    ? acc.movements.slice().sort((a, b) => a - b)
+    : acc.movements;
 
   movs.forEach(function (mov, i) {
     // Função para apontar se a classe do elemento será depósito ou retirada
     const type = mov > 0 ? "deposit" : "withdrawal";
+
+    const date = new Date(acc.movements_dates[i]);
+    const day = `${date.getDate()}`.padStart(2, 0);
+    const month = `${date.getMonth() + 1}`.padStart(2, 0);
+    const year = date.getFullYear();
+    const display_date = `${day}/${month}/${year}`;
 
     const html = `
     <div class="movements-row">
       <div class="movements-type movements-type-${type}">${i + 1} ${
       mov > 0 ? "DEPÓSITO" : "RETIRADA"
     }</div>
+      <div class="movements-date">${display_date}</div>
       <div class="movements-value">R$${mov.toFixed(2)}</div>
     </div>
     `;
@@ -134,7 +152,7 @@ function calc_display_summary(account) {
 // Função para fazer update da UI
 function update_ui(acc) {
   // Mostrar movimentações
-  display_movements(acc.movements);
+  display_movements(acc);
 
   // Mostrar balanço
   display_balance(acc);
@@ -197,6 +215,10 @@ btn_transfer.addEventListener("click", function (e) {
     current_account.movements.push(-amount);
     receiver_acc.movements.push(amount);
 
+    // Adicionar dia da transferência
+    current_account.movements_dates.push(new Date());
+    receiver_acc.movements_dates.push(new Date());
+
     // Update UI
     update_ui(current_account);
   }
@@ -215,6 +237,9 @@ btn_loan.addEventListener("click", function (e) {
   ) {
     // Adicionar movimentação
     current_account.movements.push(amount);
+
+    // Adicionar dia do emprestimo
+    current_account.movements_dates.push(new Date());
 
     // Update UI
     update_ui(current_account);
@@ -249,6 +274,6 @@ let sorted = false;
 btn_sort.addEventListener("click", function (e) {
   e.preventDefault();
 
-  display_movements(current_account.movements, !sorted);
+  display_movements(current_account, !sorted);
   sorted = !sorted;
 });
