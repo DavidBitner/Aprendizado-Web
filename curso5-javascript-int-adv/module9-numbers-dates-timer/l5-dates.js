@@ -7,6 +7,13 @@ console.log(now);
 console.log(new Date("Apr 22 2021 02:26:50"));
 console.log(new Date("December 24, 2018"));
 
+// Quando for necessario converter milisegundos para dias horas e etc, usa-se a seguinte conta
+// milisenconds / (1000 * 60 * 60 * 24)
+// 1000 == miliseconds para segundos
+// 60 == segundos para minutos
+// 60 == minutos para hora
+// 24 == horas para dia
+
 const account1 = {
   owner: "David Bitner",
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
