@@ -14,8 +14,8 @@ const account1 = {
     "2021-04-20T23:36:17.929Z",
     "2021-04-22T02:51:36.790Z",
   ],
-  currency: "EUR",
-  locale: "pt-PT",
+  currency: "BRL",
+  locale: "pt-BR",
 };
 
 const account2 = {
@@ -99,6 +99,14 @@ function format_movement_date(date) {
   }
 }
 
+// Função para determinar moeda e local
+function format_currency(value, locale, currency) {
+  return new Intl.NumberFormat(locale, {
+    style: "currency",
+    currency: currency,
+  }).format(value);
+}
+
 // Função para mostrar movimentações na conta
 function display_movements(acc, sort = false) {
   // Limpando o container de movimentações antes de inserir as informações nele
@@ -117,6 +125,9 @@ function display_movements(acc, sort = false) {
 
     const display_date = format_movement_date(date);
 
+    // Formato da moeda
+    const formatted_mov = format_currency(mov, acc.locale, acc.currency);
+
     // html que será mostrado para o usuário
     const html = `
     <div class="movements-row">
@@ -124,7 +135,7 @@ function display_movements(acc, sort = false) {
       mov > 0 ? "DEPÓSITO" : "RETIRADA"
     }</div>
       <div class="movements-date">${display_date}</div>
-      <div class="movements-value">R$${mov.toFixed(2)}</div>
+      <div class="movements-value">${formatted_mov}</div>
     </div>
     `;
 
@@ -135,7 +146,11 @@ function display_movements(acc, sort = false) {
 // Função para mostrar o balanço baseado nas movimentações
 function display_balance(acc) {
   acc.balance = acc.movements.reduce((acc, mov) => acc + mov, 0);
-  label_balance.textContent = `R$${acc.balance.toFixed(2)}`;
+  label_balance.textContent = format_currency(
+    acc.balance,
+    acc.locale,
+    acc.currency
+  );
 }
 
 // Função para criar automaticamente o nome de usuário das contas
@@ -156,19 +171,31 @@ function calc_display_summary(account) {
   const ins = movements
     .filter((mov) => mov > 0)
     .reduce((acc, mov) => acc + mov, 0);
-  label_sum_in.textContent = `R$${ins.toFixed(2)}`;
+  label_sum_in.textContent = format_currency(
+    ins,
+    account.locale,
+    account.currency
+  );
 
   const outs = movements
     .filter((mov) => mov < 0)
     .reduce((acc, mov) => acc + mov, 0);
-  label_sum_out.textContent = `R$${Math.abs(outs).toFixed(2)}`;
+  label_sum_out.textContent = format_currency(
+    Math.abs(outs),
+    account.locale,
+    account.currency
+  );
 
   const interest = movements
     .filter((mov) => mov > 0)
     .map((deposit) => (deposit * account.interest_rate) / 100)
     .filter((interest) => interest >= 1)
     .reduce((acc, int) => acc + int, 0);
-  label_sum_interest.textContent = `R$${interest.toFixed(2)}`;
+  label_sum_interest.textContent = format_currency(
+    interest,
+    account.locale,
+    account.currency
+  );
 }
 
 // Função para fazer update da UI
@@ -257,15 +284,20 @@ btn_loan.addEventListener("click", function (e) {
     amount > 0 &&
     current_account.movements.some((mov) => mov >= amount * 0.1)
   ) {
-    // Adicionar movimentação
-    current_account.movements.push(amount);
+    setTimeout(function () {
+      // Adicionar movimentação
+      current_account.movements.push(amount);
 
-    // Adicionar dia do emprestimo
-    current_account.movements_dates.push(new Date());
+      // Adicionar dia do emprestimo
+      current_account.movements_dates.push(new Date());
 
-    // Update UI
-    update_ui(current_account);
+      // Update UI
+      update_ui(current_account);
+    }, 5000);
   }
+
+  // Limpar campos de texto de fechamento de conta
+  input_loan_amount.value = "";
 });
 
 // Fechar conta
