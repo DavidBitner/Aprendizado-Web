@@ -211,7 +211,37 @@ function update_ui(acc) {
 }
 
 // Eventos
-let current_account;
+let current_account, timer;
+
+// Função do timer do login
+function start_logout_timer() {
+  function tick() {
+    const min = String(Math.trunc(time / 60)).padStart(2, 0);
+    const sec = String(time % 60).padStart(2, 0);
+
+    // Em cada chamada, printar o tempo restante na UI
+    label_timer.textContent = `${min}:${sec}`;
+
+    // Quando o timer atingir 0, deslogar e parar o timer
+    if (time === 0) {
+      clearInterval(timer);
+      label_welcome.textContent = `Entre para começar`;
+      container_app.style.opacity = 0;
+    }
+
+    // Tirar 1 seg
+    time--;
+  }
+  // Setar o timer para 5 minutos
+  let time = 120;
+
+  // Chamar o timer todo segundo
+  tick();
+  const timer = setInterval(tick, 1000);
+
+  // Retornar timer para poder reseta-lo quando um novo login é efetuado
+  return timer;
+}
 
 // Login
 btn_login.addEventListener("click", function (e) {
@@ -238,6 +268,12 @@ btn_login.addEventListener("click", function (e) {
     input_login_username.value = input_login_pin.value = "";
     input_login_pin.blur();
     */
+
+    // Timer dentro do app
+    if (timer) {
+      clearInterval(timer);
+    }
+    timer = start_logout_timer();
   }
 });
 
@@ -270,6 +306,10 @@ btn_transfer.addEventListener("click", function (e) {
 
     // Update UI
     update_ui(current_account);
+
+    // Resetar timer
+    clearInterval(timer);
+    timer = start_logout_timer();
   }
 });
 
@@ -293,6 +333,10 @@ btn_loan.addEventListener("click", function (e) {
 
       // Update UI
       update_ui(current_account);
+
+      // Resetar timer
+      clearInterval(timer);
+      timer = start_logout_timer();
     }, 5000);
   }
 
