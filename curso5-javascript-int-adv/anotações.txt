@@ -272,3 +272,8 @@ Função para numero aleatório estar sempre entre um minimo e um máximo:
 const rand_int = (min, max) =>
   Math.floor(Math.random() * (max - min) + 1) + min;
 console.log(rand_int(10, 20));
+
+Quando for necessário encerrar um loop sem que mais nada aconteça, se usa uma clausula de defesa como essa:
+if (!variavel) {
+    return
+}
