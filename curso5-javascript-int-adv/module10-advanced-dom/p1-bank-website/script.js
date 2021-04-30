@@ -1,31 +1,136 @@
 "use strict";
 
-///////////////////////////////////////
-// Modal window
-
+// Declaração das variáveis
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btn_close_modal = document.querySelector(".btn-close-modal");
 const btns_open_modal = document.querySelectorAll(".btn-show-modal");
+const tabs = document.querySelectorAll(".operations-tab");
+const tabs_container = document.querySelector(".operations-tab-container");
+const tabs_content = document.querySelectorAll(".operations-content");
+const header = document.querySelector(".header");
+const message = document.createElement("div");
+const btn_scroll_to = document.querySelector(".btn-scroll-to");
+const section_1 = document.querySelector("#section-1");
+const nav = document.querySelector(".nav");
 
-function openModal() {
+///////////////////////////////////////
+// Modal window
+// Função para abrir o modal
+function open_modal(e) {
+  e.preventDefault();
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
-};
+}
 
-function closeModal() {
+// Função para fechar o modal
+function close_modal() {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
 }
 
-for (let i = 0; i < btns_open_modal.length; i++)
-  btns_open_modal[i].addEventListener("click", openModal);
+// Botões que abrem o modal
+btns_open_modal.forEach((btn) => btn.addEventListener("click", open_modal));
 
-btn_close_modal.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
+// Botão que fecha o modal
+btn_close_modal.addEventListener("click", close_modal);
 
+// Sair do modal clicando fora dele
+overlay.addEventListener("click", close_modal);
+
+// Sair do modal com esc
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape" && !modal.classList.contains("hidden")) {
-    closeModal();
+    close_modal();
   }
+});
+
+///////////////////////////////////////
+// Mensagem cookie
+// Criação da mensagem
+message.classList.add("cookie-message");
+message.innerHTML = `<p>Nós usamos cookies para melhorar o serviço</p> <button class="btn btn-close">Accept</button>`;
+message.style.backgroundColor = "lightblue";
+message.style.width = "120%";
+message.style.height = "80px";
+
+// Inserção da mensagem na página
+header.prepend(message);
+
+// Fechar mensagem de cookie
+document.querySelector(".btn-close").addEventListener("click", function () {
+  message.remove();
+});
+
+///////////////////////////////////////
+// Smooth Scrolling
+btn_scroll_to.addEventListener("click", function () {
+  section_1.scrollIntoView({ behavior: "smooth" });
+});
+
+///////////////////////////////////////
+// Operations
+tabs_container.addEventListener("click", function (e) {
+  // Identificando qual aba foi selecionada
+  const clicked = e.target.closest(".operations-tab");
+
+  // Certificando que apenas a área dos botões pode ser selecionada
+  // Clausula de defesa
+  if (!clicked) {
+    return;
+  }
+
+  // Abaixando botões não selecionados
+  tabs.forEach((tab) => tab.classList.remove("operations-tab-active"));
+
+  // Levantando botão selecionado
+  clicked.classList.add("operations-tab-active");
+
+  // Esconder as abas não selecionadas
+  tabs_content.forEach((content) =>
+    content.classList.remove("operations-content-active")
+  );
+
+  // Ativar o conteúdo certo levando em conta a aba selecionada
+  document
+    .querySelector(`.operations-content-${clicked.dataset.tab}`)
+    .classList.add("operations-content-active");
+});
+
+// Efeito de fade no menu
+// Função dos eventos
+function handle_hover(e, opacity) {
+  // Se o mouse estiver em cima de um elemento que tenha a classe "nav-link", ele entra no bloco
+  if (e.target.classList.contains("nav-link")) {
+    // Hover é o elemento que o mouse estiver em cima
+    const hover = e.target;
+
+    // Siblings são os elementos do menu nos quais o mouse não se encontra em cima
+    const siblings = hover.closest(".nav").querySelectorAll(".nav-link");
+
+    // Logo do menu
+    const logo = hover.closest(".nav").querySelector("img");
+
+    // Abaixando a opacidade de todos os siblings que não estão com o mouse em cima
+    siblings.forEach((el) => {
+      if (el !== hover) {
+        el.style.opacity = opacity;
+      }
+    });
+
+    // Abaixando a opacidade do logo
+    logo.style.opacity = opacity;
+  }
+}
+
+// Mouse em cima do elemento
+// nav.addEventListener('mouseover', handle_hover.bind(0.5))
+nav.addEventListener("mouseover", function (e) {
+  handle_hover(e, 0.5)
+});
+
+// Mouse saindo de cima do elemento
+// nav.addEventListener("mouseout", handle_hover.bind(1));
+nav.addEventListener("mouseout", function (e) {
+  handle_hover(e, 1);
 });
