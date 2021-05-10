@@ -51,7 +51,7 @@ document.addEventListener("keydown", function (e) {
 message.classList.add("cookie-message");
 message.innerHTML = `<p>Nós usamos cookies para melhorar o serviço</p> <button class="btn btn-close">Accept</button>`;
 message.style.backgroundColor = "lightblue";
-message.style.width = "120%";
+message.style.width = "100%";
 message.style.height = "80px";
 
 // Inserção da mensagem na página
@@ -126,11 +126,106 @@ function handle_hover(e, opacity) {
 // Mouse em cima do elemento
 // nav.addEventListener('mouseover', handle_hover.bind(0.5))
 nav.addEventListener("mouseover", function (e) {
-  handle_hover(e, 0.5)
+  handle_hover(e, 0.5);
 });
 
 // Mouse saindo de cima do elemento
 // nav.addEventListener("mouseout", handle_hover.bind(1));
 nav.addEventListener("mouseout", function (e) {
   handle_hover(e, 1);
+});
+
+///////////////////////////////////////
+// Navegação Sticky
+// getBoundingClientRect(); serve para conseguir algumas informações sobre o tamanho de um elemento
+const nav_height = nav.getBoundingClientRect().height;
+
+function sticky_nav(entries) {
+  const [entry] = entries;
+
+  // Ativar navegação sticky quando não for possível mais ver o banner principal
+  if (!entry.isIntersecting) {
+    nav.classList.add("sticky"); // Adicionando classe CSS ao menu de navegação
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+
+const header_observer = new IntersectionObserver(sticky_nav, {
+  root: null,
+  threshold: 0, // Navegação sticky será ativada quando 0% do header estiver na tela
+  rootMargin: `-${nav_height}px`,
+});
+
+header_observer.observe(header);
+
+///////////////////////////////////////
+// Revelar sessões conforme a página for descendo
+// Colocar todas as sessões em uma variável para poder observar todas ao mesmo tempo
+const all_sections = document.querySelectorAll(".section");
+
+// Função que irá revelar a sessão baseado na posição da página
+function reveal_section(entries, observer) {
+  const [entry] = entries;
+
+  // Clausula de defesa
+  if (!entry.isIntersecting) {
+    return;
+  }
+
+  // Removendo classe que esconde a sessão
+  entry.target.classList.remove("section-hidden");
+
+  // Removendo observer depois do mesmo ser usado
+  observer.unobserve(entry.target);
+}
+
+// Criação do observer
+const section_observer = new IntersectionObserver(reveal_section, {
+  root: null,
+  threshold: 0.15,
+});
+
+// Ativando o observer em todas as sessões
+all_sections.forEach(function (section) {
+  section_observer.observe(section);
+  // Deixando as sessões escondidas para criar o efeito
+  section.classList.add("section-hidden");
+});
+
+///////////////////////////////////////
+// Lazy loading images
+// Selecionar todas as imagens que contenham a propriedade "data-src"
+const img_targets = document.querySelectorAll("img[data-src]");
+
+// Criando função que acontecerá quando o observer funcionar
+function load_img(entries, observer) {
+  const [entry] = entries;
+
+  // Clausula de defesa
+  if (!entry.isIntersecting) {
+    return;
+  }
+
+  // Substituir src da imagem pelo data-src
+  entry.target.src = entry.target.dataset.src;
+
+  // Retirar classe de blur da imagem apenas depois do load acontecer
+  entry.target.addEventListener("load", function () {
+    entry.target.classList.remove("lazy-img");
+  });
+
+  // Removendo observer depois do mesmo ser usado
+  observer.unobserve(entry.target);
+}
+
+// Criando observer
+const img_observer = new IntersectionObserver(load_img, {
+  root: null,
+  threshold: 0,
+});
+
+// Ativando observer nas imagens
+img_targets.forEach(function (img) {
+  img_observer.observe(img);
 });
