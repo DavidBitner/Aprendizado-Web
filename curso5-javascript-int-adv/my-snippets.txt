@@ -72,5 +72,15 @@
     "body": [
       "`${1}`"
     ]
+  },
+
+  "Exercise": {
+    "prefix": "exer",
+    "body": [
+			"/* ${1:Exercise} */",
+			"",
+			"/* Answer */",
+			""
+    ]
   }
 }
