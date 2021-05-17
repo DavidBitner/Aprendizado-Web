@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Insert the image "smiley.gif" before, and after <p> elements, using the ::before and ::after pseudo-elements. */
+
+      /* Answer */
+      p::before,
+      p::after {
+        content: url("smiley.gif");
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+  </body>
+</html>
