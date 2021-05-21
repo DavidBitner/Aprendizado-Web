@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .space {
+      height: 100px;
+    }
+
+    /* RIGHT TOOLTIP */
+    .tooltip-right {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip-right .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: -5px;
+      left: 105%;
+    }
+
+    .tooltip-right:hover .tooltiptext {
+      visibility: visible;
+    }
+
+    /* LEFT TOOLTIP */
+    .tooltip-left {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip-left .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: -5px;
+      right: 105%;
+    }
+
+    .tooltip-left:hover .tooltiptext {
+      visibility: visible;
+    }
+
+    /* TOP TOOLTIP */
+    .tooltip-top {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip-top .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+
+    .tooltip-top:hover .tooltiptext {
+      visibility: visible;
+    }
+
+    /* BOTTOM TOOLTIP */
+    .tooltip-bottom {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip-bottom .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+
+    .tooltip-bottom:hover .tooltiptext {
+      visibility: visible;
+    }
+  </style>
+  <body style="text-align: center">
+    <h2>Right Tooltip</h2>
+    <p>Move the mouse over the text below:</p>
+
+    <div class="tooltip-right">
+      Hover over me
+      <span class="tooltiptext">Tooltip text</span>
+    </div>
+
+    <div class="space"></div>
+
+    <h2>Left Tooltip</h2>
+    <p>Move the mouse over the text below:</p>
+
+    <div class="tooltip-left">
+      Hover over me
+      <span class="tooltiptext">Tooltip text</span>
+    </div>
+
+    <div class="space"></div>
+
+    <h2>Top Tooltip</h2>
+    <p>Move the mouse over the text below:</p>
+
+    <div class="tooltip-top">
+      Hover over me
+      <span class="tooltiptext">Tooltip text</span>
+    </div>
+
+    <div class="space"></div>
+
+    <h2>Bottom Tooltip</h2>
+    <p>Move the mouse over the text below:</p>
+
+    <div class="tooltip-bottom">
+      Hover over me
+      <span class="tooltiptext">Tooltip text</span>
+    </div>
+  </body>
+</html>
