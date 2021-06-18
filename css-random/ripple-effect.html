@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ripple Effect</title>
+
+    <style>
+      /* Ripple effect */
+      span.ripple {
+        position: absolute;
+        border-radius: 50%;
+        transform: scale(0);
+        animation: ripple 300ms linear;
+        background-color: #94ec61;
+      }
+
+      @keyframes ripple {
+        to {
+          transform: scale(4);
+          opacity: 0;
+        }
+      }
+
+      .btn {
+        /* Ripple effect*/
+        position: relative;
+        overflow: hidden;
+        transition: background 400ms;
+
+        /* Botão */
+        display: inline-block;
+        text-decoration: none;
+        background-color: #112705;
+        color: #fbfef8;
+        margin: 5px;
+        padding: 10px;
+        width: 30px;
+        border: none;
+        border-radius: 3px;
+      }
+
+      .btn:hover {
+        box-shadow: 0 0 1px #fbfef8;
+      }
+
+      .btn-main {
+        background-color: #040901;
+      }
+
+      body {
+        text-align: center;
+        margin: 100px;
+        background-image: linear-gradient(black, #1d1d19);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="btn">Test</a>
+    <a href="#" class="btn">Test</a>
+    <a href="#" class="btn">Test</a>
+    <a href="#" class="btn">Test</a>
+
+    <script>
+      // Ripple effect
+      function create_ripple(event) {
+        const btn = event.currentTarget;
+
+        const circle = document.createElement("span");
+        const diameter = Math.max(btn.clientWidth, btn.clientHeight);
+        const radius = diameter / 2;
+
+        circle.style.width = circle.style.height = `${diameter}px`;
+        circle.style.left = `${event.clientX - (btn.offsetLeft + radius)}px`;
+        circle.style.top = `${event.clientY - (btn.offsetTop + radius)}px`;
+        circle.classList.add("ripple");
+
+        const ripple = btn.getElementsByClassName("ripple")[0];
+        if (ripple) {
+          ripple.remove();
+        }
+
+        btn.appendChild(circle);
+      }
+
+      const btns = document.getElementsByTagName("a");
+      for (const btn of btns) {
+        btn.addEventListener("click", create_ripple);
+      }
+    </script>
+  </body>
+</html>
