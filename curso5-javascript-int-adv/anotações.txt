@@ -269,11 +269,43 @@ btn_login.addEventListener("click", function (e) {
 }
 
 Função para numero aleatório estar sempre entre um minimo e um máximo:
-const rand_int = (min, max) =>
-  Math.floor(Math.random() * (max - min) + 1) + min;
+function rand_int(min, max) {
+  return Math.floor(Math.random() * (max - min) + 1) + min;
+}  
 console.log(rand_int(10, 20));
+
+Função para cor aleatória
+function random_color() {
+  let r = rand_int(0, 255);
+  let g = rand_int(0, 255);
+  let b = rand_int(0, 255);
+  return `rgb(${r}, ${g}, ${b})`;
+}
 
 Quando for necessário encerrar um loop sem que mais nada aconteça, se usa uma clausula de defesa como essa:
 if (!variavel) {
     return
 }
+
+Mostrar coordenadas do mouse
+document.addEventListener("mousemove", function (event) {
+  let x = event.clientX;
+  let y = event.clientY;
+
+  coord.innerHTML = `${x}   ${y}`;
+});
+
+Eventos do teclado
+document.addEventListener("keydown", function (event) {
+  if (event.code == "KeyS") {
+    console.log("SSSSSSSSSS");
+  } else if (event.code == "KeyC") {
+    console.log("CCCCC");
+  } else if (event.code == "KeyQ") {
+    console.log("+++++++++");
+  } else if (event.code == "KeyW") {
+    console.log(`------------------`);
+  } else {
+    console.log(event);
+  }
+});
