@@ -227,7 +227,7 @@ IMPORTANTE:
 Diferenças entre var, const e let:
 VAR = Variáveis declaradas com VAR serão mudadas caso redeclaradas dentro de uma função. As variáveis mudaram depois da função
 CONST = Variáveis declaradas com CONST não podem ser mudadas, a partir do momento que foram declaradas, não podem ser reatribuidas
-LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro de uma função.
+LET = Variáveis declaradas com LET não serão mudadas caso redeclaradas dentro de uma função, porém podem ser alteradas dentro de funções.
 
 
 Console JS:
@@ -292,7 +292,7 @@ document.addEventListener("mousemove", function (event) {
   let x = event.clientX;
   let y = event.clientY;
 
-  coord.innerHTML = `${x}   ${y}`;
+  coord.innerHTML = `${x} ${y}`;
 });
 
 Eventos do teclado
@@ -309,3 +309,39 @@ document.addEventListener("keydown", function (event) {
     console.log(event);
   }
 });
+
+Btn "disable":
+btn.style.pointerEvents = "none";
+btn.style.pointerEvents = "auto";
+
+Uncheck radio button:
+radio_btn.checked = false;
+
+Posicionar um elemento na frente de outro:
+front_element.style.zIndex = "1";
+back_element.style.zIndex = "0";
+
+Shuffle array function
+function shuffle(array) {
+  let currentIndex = array.length,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}
+let arr = [1, 2, 3];
+shuffle(arr);
+console.log(arr);
+
