@@ -83,7 +83,7 @@ const convert_title = function (title) {
     .split(" ")
     .map((word) => (exceptions.includes(word) ? word : capitalize(word)))
     .join(" ");
-  
+
   return capitalize(title_case);
 };
 
