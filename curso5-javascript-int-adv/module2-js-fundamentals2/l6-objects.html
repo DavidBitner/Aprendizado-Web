@@ -1,105 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Fundamentals – Part 1</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to top left, #1b1ee3, #7173f5);
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>JavaScript Fundamentals – Part 1</title>
-  <style>
-    body {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      background: linear-gradient(to top left, #1b1ee3, #7173f5);
-    }
+      h1 {
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
 
-    h1 {
-      font-family: sans-serif;
-      font-size: 50px;
-      line-height: 1.3;
-      width: 100%;
-      padding: 30px;
-      text-align: center;
-      color: white;
-    }
-  </style>
-</head>
+  <body>
+    <h1>JavaScript Fundamentals – Part 1</h1>
 
-<body>
-  <h1>JavaScript Fundamentals – Part 1</h1>
+    <script>
+      // Array
+      const david_array = [
+        "David",
+        "Bitner",
+        2021 - 1996,
+        "Programador",
+        ["James", "John", "Johnson"],
+      ];
 
-  <script>
-    // Array
-    const david_array = [
-      'David',
-      'Bitner',
-      2021 - 1996,
-      'Programador',
-      ['James', 'John', 'Johnson']
-    ]
+      // Object
+      const david_object = {
+        first_name: "David",
+        last_name: "Bitner",
+        age: 2021 - 1996,
+        job: "Programador",
+        friends: ["James", "John", "Johnson"],
+      };
 
-    // Object
-    const david_object = {
-      first_name: 'David',
-      last_name: 'Bitner',
-      age: 2021 - 1996,
-      job: 'Programador',
-      friends: ['James', 'John', 'Johnson']
-    }
+      console.log(david_object.first_name);
+      console.log(david_object["first_name"]);
 
-    console.log(david_object.first_name)
-    console.log(david_object['first_name'])
+      const name_key = "name";
+      console.log(david_object[`first_${name_key}`]);
+      console.log(david_object[`last_${name_key}`]);
 
-    const name_key = 'name'
-    console.log(david_object[`first_${name_key}`])
-    console.log(david_object[`last_${name_key}`])
+      const interested_in = prompt(
+        "What do you want to know about David? Choose between first_name, last_name, age, job and friends: "
+      );
 
-    const interested_in = prompt('What do you want to know about David? Choose between first_name, last_name, age, job and friends: ')
+      if (david_object[interested_in]) {
+        console.log(david_object[interested_in]);
+      } else {
+        console.log("Invalid Value");
+      }
 
-    if (david_object[interested_in]) {
-      console.log(david_object[interested_in])
-    } else {
-      console.log('Invalid Value')
-    }
+      // Para adicionar novos campos ao object
+      david_object.location = "Brasil";
+      david_object["State"] = "São Paulo";
 
-    // Para adicionar novos campos ao object
-    david_object.location = 'Brasil'
-    david_object['State'] = 'São Paulo'
+      console.log(david_object);
 
-    console.log(david_object)
+      console.log(
+        `${david_object.first_name} has ${david_object.friends.length} friends, and his best friend is called ${david_object.friends[0]}`
+      );
 
-    console.log(`${david_object.first_name} has ${david_object.friends.length} friends, and his best friend is called ${david_object.friends[0]}`)
+      /**
+       * Atividade 1
+       *
+       * 1.Create an object called 'myCountry'for a country of your choice, containing properties 'country', 'capital', 'language', 'population'and 'neighbours'(an array like we used in previous assignments)
+       */
+      console.log("Atividade 1");
 
-    /**
-     * Atividade 1
-     *
-     * 1.Create an object called 'myCountry'for a country of your choice, containing properties 'country', 'capital', 'language', 'population'and 'neighbours'(an array like we used in previous assignments)
-    */
-    console.log('Atividade 1')
+      const my_country = {
+        country: "Brasil",
+        capital: "Brasilia",
+        language: "Português",
+        population: 210,
+        neighbours: ["Argentina", "Peru", "Uruguai", "Venezuela"],
+      };
 
-    const my_country = {
-      country: 'Brasil',
-      capital: 'Brasilia',
-      language: 'Português',
-      population: 210,
-      neighbours: ['Argentina', 'Peru', 'Uruguai', 'Venezuela']
-    }
+      console.log(my_country);
 
-    console.log(my_country)
+      /**
+       * Atividade 2
+       *
+       * 1.Using the object from the previous assignment, log a string like this to the console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki.'
+       * 2.Increase the country's population by two million using dot notation, and then decrease it by two million using brackets notation
+       */
+      console.log(
+        `${my_country.country} has ${my_country.population} million ${my_country.language}-speaking people, ${my_country.neighbours.length} neighbouring countries and a capital called ${my_country.capital}`
+      );
 
-    /**
-     * Atividade 2
-     * 
-     * 1.Using the object from the previous assignment, log a string like this to the console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki.'
-     * 2.Increase the country's population by two million using dot notation, and then decrease it by two million using brackets notation
-    */
-    console.log(`${my_country.country} has ${my_country.population} million ${my_country.language}-speaking people, ${my_country.neighbours.length} neighbouring countries and a capital called ${my_country.capital}`)
+      console.log(
+        `${my_country.country} plus 2 million people has ${
+          my_country["population"] + 2
+        } people`
+      );
 
-    console.log(`${my_country.country} plus 2 million people has ${my_country['population'] + 2} people`)
-
-    console.log(`${my_country.country} minus 2 million people has ${my_country['population'] - 2} people`)
-  </script>
-</body>
-
+      console.log(
+        `${my_country.country} minus 2 million people has ${
+          my_country["population"] - 2
+        } people`
+      );
+    </script>
+  </body>
 </html>
