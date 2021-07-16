@@ -134,14 +134,6 @@ function clicar() {
     d.innerText = 'Clicou'
 }
 
-Exemplo de evento com tecla enter:
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Escape") {
-    close_modal();
-  }
-});
-
-
 CONDIÇÕES:
 IF:
 if (condição) {
@@ -268,13 +260,16 @@ btn_login.addEventListener("click", function (e) {
   e.preventDefault();
 }
 
+Condição ternaria, ternary, ternario:
+const drink = age >= 18 ? "allowed" : "prohibited";
+
 Função para numero aleatório estar sempre entre um minimo e um máximo:
 function rand_int(min, max) {
   return Math.floor(Math.random() * (max - min) + 1) + min;
 }  
 console.log(rand_int(10, 20));
 
-Função para cor aleatória
+Função para cor aleatória:
 function random_color() {
   let r = rand_int(0, 255);
   let g = rand_int(0, 255);
@@ -287,7 +282,7 @@ if (!variavel) {
     return
 }
 
-Mostrar coordenadas do mouse
+Mostrar coordenadas do mouse:
 document.addEventListener("mousemove", function (event) {
   let x = event.clientX;
   let y = event.clientY;
@@ -295,7 +290,7 @@ document.addEventListener("mousemove", function (event) {
   coord.innerHTML = `${x} ${y}`;
 });
 
-Eventos do teclado
+Eventos do teclado:
 document.addEventListener("keydown", function (event) {
   if (event.code == "KeyS") {
     console.log("SSSSSSSSSS");
@@ -345,3 +340,26 @@ let arr = [1, 2, 3];
 shuffle(arr);
 console.log(arr);
 
+Completar array:
+const array = [2, 4, ...[outro_array]];
+
+Atribuir resto:
+const [variavel1, variavel2, ...resto_das_variaveis] = [1, 2, 3, 4, 5];
+
+Inverter array:
+array.reverse();
+
+Juntar dois arrays em um:
+let arr_concat = array1.concat(array2);
+
+Fazer um array virar uma variável em que os valores são separados por "-":
+let variavel = array.join(" - ");
+
+Ordenar um array:
+array.sort();
+
+Ordenar um array de numeros:
+array.sort((a, b) => a - b);
+
+Ordenar decrescente:
+array.sort((a, b) => b - a);
