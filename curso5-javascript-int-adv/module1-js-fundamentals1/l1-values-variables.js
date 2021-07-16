@@ -3,11 +3,11 @@
 2.Log their values to the console
 */
 
-let first_name = "David"
-console.log(firstName)
+let first_name = "David";
+console.log(firstName);
 
-let country = 'Brasil'
-let continent = 'South America'
-let population = '200 Million'
+let country = "Brasil";
+let continent = "South America";
+let population = "200 Million";
 
-console.log(`${country}, ${continent}, ${population}`)
+console.log(`${country}, ${continent}, ${population}`);
