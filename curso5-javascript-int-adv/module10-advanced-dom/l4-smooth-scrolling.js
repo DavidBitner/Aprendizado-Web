@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 // JavaScript
 const btn_scroll_to = document.querySelector(".btn-scroll-to");

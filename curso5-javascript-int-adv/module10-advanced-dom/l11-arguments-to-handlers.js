@@ -30,7 +30,7 @@ function handle_hover(e, opacity) {
 // Mouse em cima do elemento
 // nav.addEventListener('mouseover', handle_hover.bind(0.5))
 nav.addEventListener("mouseover", function (e) {
-  handle_hover(e, 0.5)
+  handle_hover(e, 0.5);
 });
 
 // Mouse saindo de cima do elemento
