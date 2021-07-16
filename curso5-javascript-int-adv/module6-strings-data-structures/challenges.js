@@ -283,7 +283,7 @@ for (const info of flights_list2) {
   info[2] = info[2].slice(0, 3).toUpperCase();
   info[3] = `(${info[3].replace(":", "h")})`;
   let str = `${info[0]} from ${info[1]} to ${info[2]} ${info[3]}`;
-  if (!info[0].includes('Delayed')) {
+  if (!info[0].includes("Delayed")) {
     console.log(str.padStart(50));
   } else {
     str = console.log(`Emoji ${str}`.padStart(50));
