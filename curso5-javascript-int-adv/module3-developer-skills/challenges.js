@@ -13,16 +13,16 @@
  * Test data:
  * Data1: [17, 21, 23]
  * Data2: [12, 5, -5, 0, 4]
-*/
+ */
 function print_forecast(array) {
   for (let i = 0; i < array.length; i++) {
     process.stdout.write(`... ${array[i]}ºC in ${i + 1} days`);
   }
-  console.log(`...`)
+  console.log(`...`);
 }
 
 const data1 = [17, 21, 23];
 const data2 = [12, 5, -5, 0, 4];
 
-print_forecast(data1)
+print_forecast(data1);
 print_forecast(data2);
