@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Letflet map</title>
+    <style>
+      body {
+        height: 100vh;
+        text-align: center;
+        background: linear-gradient(to top left, #1b1ee3, #7173f5);
+      }
+
+      h1 {
+        font-family: sans-serif;
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        color: white;
+      }
+
+      #map {
+        height: 60%;
+        width: 80%;
+        margin: auto;
+      }
+    </style>
+
+    <!-- Leaflet script -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+
+    <script defer src="l3-leaflet-map.js"></script>
+  </head>
+
+  <body>
+    <h1>Letflet Map</h1>
+
+    <div id="map"></div>
+  </body>
+</html>
