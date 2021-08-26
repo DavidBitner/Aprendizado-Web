@@ -15,3 +15,17 @@ const today = new Date();
 
 // Copyright year
 year.innerHTML = today.getFullYear();
+
+// Função para conseguir a localização do usuário
+navigator.geolocation.getCurrentPosition(
+  function (position) {
+    const { latitude } = position.coords;
+    const { longitude } = position.coords;
+
+    // Criando link no google maps com as coordenadas
+    const google_position = `https://www.google.com.br/maps/@${latitude},${longitude}`;
+  },
+  function () {
+    alert("Could not get your position.");
+  }
+);
