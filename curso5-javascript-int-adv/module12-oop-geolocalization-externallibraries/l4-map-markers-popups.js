@@ -10,8 +10,8 @@ navigator.geolocation.getCurrentPosition(
     const coords = [latitude, longitude];
 
     // Leaflet
-    // Abrindo e carregando mapa
     const map = L.map("map").setView(coords, 13);
+
     L.tileLayer(
       "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
       {
@@ -26,8 +26,33 @@ navigator.geolocation.getCurrentPosition(
       }
     ).addTo(map);
 
-    // Adicionando marcador a posição atual do usuário com um popup
-    L.marker(coords).addTo(map).bindPopup("Hello World!").openPopup();
+    // Posição atual do usuário
+    L.marker(coords).addTo(map).bindPopup("My Position").openPopup();
+
+    // Função para colocar um popup ao clicar em uma posição do mapa
+    map.on("click", function (map_event) {
+      console.log(map_event);
+
+      // Desconstruindo em variáveis o objeto "latlng" que se encontra dentro do objeto "map_event"
+      const { lat, lng } = map_event.latlng;
+
+      // Popup
+      L.marker([lat, lng])
+        .addTo(map)
+        .bindPopup(
+          // Definindo configurações do popup
+          L.popup({
+            maxWidth: 250,
+            minWidth: 100,
+            autoClose: false,
+            closeOnClick: false,
+            className: "popup",
+          })
+        )
+        // Definindo texto dentro do popup
+        .setPopupContent(`Coord ${lat}:${lng}`)
+        .openPopup();
+    });
   },
   // Callback function para quando não é possível encontrar a posição
   function () {
