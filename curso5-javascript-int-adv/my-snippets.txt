@@ -1,11 +1,9 @@
 {
   "Print to console": {
-  	"scope": "javascript,typescript",
-  	"prefix": "con",
-  	"body": [
-  		"console.log(`$1`)",
-  	],
-  	"description": "Log output to console"
+    "scope": "javascript,typescript",
+    "prefix": "con",
+    "body": ["console.log(`$1`)"],
+    "description": "Log output to console"
   },
 
   "For Loop": {
@@ -15,7 +13,7 @@
       "\t$3",
       "}"
     ]
-	},
+  },
 
   "Else if": {
     "prefix": "elseif",
@@ -32,55 +30,55 @@
 
   "Const": {
     "prefix": "const",
-    "body": [
-      "const ${1:variable} = `$2`"
-    ]
+    "body": ["const ${1:variable} = `$2`"]
   },
 
   "Let": {
     "prefix": "let",
-    "body": [
-      "let ${1:variable} = `$2`"
-    ]
+    "body": ["let ${1:variable} = `$2`"]
   },
 
   "Array": {
     "prefix": "array",
-    "body": [
-      "const ${1:variable} = [$2]"
-    ]
+    "body": ["const ${1:variable} = [$2]"]
   },
 
   "Dictionary": {
     "prefix": "dictionary",
-    "body": [
-      "const ${1:dic name} = {",
-      "\t${2:key}: `${3:}`",
-      "}"
-    ]
+    "body": ["const ${1:dic name} = {", "\t${2:key}: `${3:}`", "}"]
   },
 
   "Query Selector": {
     "prefix": "query",
-    "body": [
-      "${1:document}.querySelector(`$2`)"
-    ]
+    "body": ["${1:document}.querySelector(`$2`)"]
   },
 
   "Bracers": {
     "prefix": "bracer",
+    "body": ["`${1}`"]
+  },
+
+  "Class": {
+    "prefix": "class",
     "body": [
-      "`${1}`"
+      "class ${1:ClassName} {",
+      "\tconstructor($2) {",
+      "\t\t$3",
+      "\t}",
+      "\t$4",
+      "}"
     ]
   },
 
-  "Exercise": {
-    "prefix": "exer",
+  "Class Extends": {
+    "prefix": "classextends",
     "body": [
-			"/* ${1:Exercise} */",
-			"",
-			"/* Answer */",
-			""
+      "class ${1:ClassName} extends ${2:ParentClass} {",
+      "\tconstructor($3) {",
+      "\t\t$4",
+      "\t}",
+      "\t$5",
+      "}"
     ]
   }
 }
