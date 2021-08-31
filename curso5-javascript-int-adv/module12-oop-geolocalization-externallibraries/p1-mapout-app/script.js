@@ -11,9 +11,6 @@ const input_elevation = document.querySelector(".form-input-elevation");
 
 let map_event, map;
 
-const year = document.querySelector("#year");
-const today = new Date();
-
 const months = [
   "January",
   "February",
@@ -29,6 +26,51 @@ const months = [
   "December",
 ];
 
+class Workout {
+  date = new Date();
+  id = (Date.now() + "").slice(-10);
+
+  constructor(coords, distance, duration) {
+    this.coords = coords; // [lat, lng]
+    this.distance = distance; // in km
+    this.duration = duration; // in min
+  }
+}
+
+class Running extends Workout {
+  constructor(coords, distance, duration, cadence) {
+    super(coords, distance, duration);
+    this.cadence = cadence;
+    this.calc_pace();
+  }
+
+  calc_pace() {
+    // min/km
+    this.pace = this.duration / this.distance;
+    return this.pace;
+  }
+}
+
+class Cycling extends Workout {
+  constructor(coords, distance, duration, elevation_gain) {
+    super(coords, distance, duration);
+    this.elevation_gain = elevation_gain;
+    this.calc_speed();
+  }
+
+  calc_speed() {
+    this.speed = this.distance / (this.duration / 60);
+    return this.speed;
+  }
+}
+
+// Testando classes
+const run1 = new Running([20, -30], 10, 50, 178);
+const cycling1 = new Cycling([20, -30], 500, 20, 200);
+console.log(run1, cycling1);
+
+///////////////////////////////////////////
+// Application Architecture
 class App {
   // Variáveis privadas da classe
   #map_event;
@@ -131,6 +173,3 @@ class App {
 }
 
 const app = new App();
-
-// Copyright year
-year.innerHTML = today.getFullYear();
