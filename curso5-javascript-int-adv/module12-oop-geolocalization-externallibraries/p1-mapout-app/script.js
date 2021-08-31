@@ -38,6 +38,8 @@ class Workout {
 }
 
 class Running extends Workout {
+  type = "running";
+
   constructor(coords, distance, duration, cadence) {
     super(coords, distance, duration);
     this.cadence = cadence;
@@ -52,6 +54,8 @@ class Running extends Workout {
 }
 
 class Cycling extends Workout {
+  type = "cycling";
+
   constructor(coords, distance, duration, elevation_gain) {
     super(coords, distance, duration);
     this.elevation_gain = elevation_gain;
@@ -64,17 +68,13 @@ class Cycling extends Workout {
   }
 }
 
-// Testando classes
-const run1 = new Running([20, -30], 10, 50, 178);
-const cycling1 = new Cycling([20, -30], 500, 20, 200);
-console.log(run1, cycling1);
-
 ///////////////////////////////////////////
 // Application Architecture
 class App {
   // Variáveis privadas da classe
   #map_event;
   #map;
+  #workouts = [];
 
   constructor() {
     this._get_position();
@@ -143,18 +143,68 @@ class App {
     // Prevenir que a página recarregue ao enviar formulário
     e.preventDefault();
 
+    // Funções auxiliares
+    // Função para validar inputs
+    const valid_inputs = (...inputs) =>
+      inputs.every((inp) => Number.isFinite(inp));
+
+    // Função para validar numeros positivos
+    const all_positive = (...inputs) => inputs.every((inp) => inp > 0);
+
+    // Coletar data do formulário
+    const type = input_type.value;
+    const distance = +input_distance.value; // + converte para numero
+    const duration = +input_duration.value;
+    const { lat, lng } = this.#map_event.latlng;
+    let workout;
+
+    // Se o workout for running, criar um objeto running
+    if (type === "running") {
+      const cadence = +input_cadence.value;
+
+      // Checar se as informações são validas
+      if (
+        !valid_inputs(distance, duration, cadence) ||
+        !all_positive(distance, duration, cadence)
+      ) {
+        return alert("Inputs have to be positive numbers!");
+      }
+
+      workout = new Running([lat, lng], distance, duration, cadence);
+    }
+
+    // Se o workout for cycling, criar um objeto cycling
+    if (type === "cycling") {
+      const elevation = +input_elevation.value;
+
+      // Checar se as informações são validas
+      if (
+        !valid_inputs(distance, duration, elevation) ||
+        !all_positive(distance, duration)
+      ) {
+        return alert("Inputs have to be positive numbers!");
+      }
+      workout = new Cycling([lat, lng], distance, duration, elevation);
+    }
+
+    // Adicionar o novo objeto ao array de workouts
+    this.#workouts.push(workout);
+
+    // Mostrar workout no mapa como marcador
+    this._render_workout_marker(workout);
+
+    // Mostrar workout na lista
+
     // Limpando campos do formulário depois de envia-lo
     input_cadence.value =
       input_distance.value =
       input_duration.value =
       input_elevation.value =
         "";
+  }
 
-    // Desconstruindo em variáveis o objeto "latlng" que se encontra dentro do objeto "map_event"
-    const { lat, lng } = this.#map_event.latlng;
-
-    // Marker e popup adicionados ao enviar formulário
-    L.marker([lat, lng])
+  _render_workout_marker(workout) {
+    L.marker(workout.coords)
       .addTo(this.#map)
       .bindPopup(
         // Definindo configurações do popup
@@ -163,11 +213,11 @@ class App {
           minWidth: 100,
           autoClose: false,
           closeOnClick: false,
-          className: "running-popup",
+          className: `${workout.type}-popup`,
         })
       )
       // Definindo texto dentro do popup
-      .setPopupContent(`Workout ${lat}:${lng}`)
+      .setPopupContent(workout.distance)
       .openPopup();
   }
 }
