@@ -87,7 +87,13 @@ class App {
   #workouts = [];
 
   constructor() {
+    // Função que vai coletar e mostrar a posição do usuario no mapa
     this._get_position();
+
+    // Coletar informações do local storage
+    this._get_local_storage();
+
+    // Event listener para quando o formulario do workout for enviado
     form.addEventListener("submit", this._new_workout.bind(this));
 
     // Event listener para quando o tipo de exercicio for selecionado
@@ -138,6 +144,11 @@ class App {
 
     // Função executada ao clicar no mapa
     this.#map.on("click", this._show_form.bind(this));
+
+    // Adicionar markers do local storage no mapa
+    this.#workouts.forEach((work) => {
+      this._render_workout_marker(work);
+    });
   }
 
   _show_form(map_e) {
@@ -229,8 +240,11 @@ class App {
     // Mostrar workout na lista
     this._render_workout(workout);
 
-    // Limpando campos do formulário depois de envia-lo
+    // Limpando campos do formulário e escondendo-o depois de envia-lo
     this._hide_form();
+
+    // Definindo um storage local para todos os workouts
+    this._set_local_storage();
   }
 
   _render_workout_marker(workout) {
@@ -327,6 +341,37 @@ class App {
         duration: 1,
       },
     });
+  }
+
+  // Função que vai armazenar dados do aplicativo em um storage local
+  _set_local_storage() {
+    // Transformando o objeto workouts em uma string para ser armazenado no local storage
+    localStorage.setItem("workouts", JSON.stringify(this.#workouts));
+  }
+
+  // Função que vai usar as informações depositadas no storage local
+  _get_local_storage() {
+    // Transformando a string do local storage em um objeto para usar no app
+    const data = JSON.parse(localStorage.getItem("workouts"));
+
+    // Clausula de defesa para caso não hajam informações no local storage
+    if (!data) {
+      return;
+    }
+
+    // Adicionando as informações do local storage ao aplicativo
+    this.#workouts = data;
+
+    // Usando as informações adicionadas ao aplicativo para mostrar os workouts na lista
+    this.#workouts.forEach((work) => {
+      this._render_workout(work);
+    });
+  }
+
+  // Função publica para resetar local storage pelo console do navegador
+  reset() {
+    localStorage.removeItem("workouts");
+    location.reload();
   }
 }
 
