@@ -37,6 +37,7 @@ class Workout {
       "December",
     ];
 
+    // Setando texto do popup dos workouts
     this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} on ${
       months[this.date.getMonth()]
     } ${this.date.getDate()}`;
@@ -80,8 +81,9 @@ class Cycling extends Workout {
 // Application Architecture
 class App {
   // Variáveis privadas da classe
-  #map_event;
   #map;
+  #map_zoom_level = 13;
+  #map_event;
   #workouts = [];
 
   constructor() {
@@ -90,6 +92,12 @@ class App {
 
     // Event listener para quando o tipo de exercicio for selecionado
     input_type.addEventListener("change", this._toggle_elevation_field);
+
+    // Event listener para quando clicar em item da lista o mapa centralizar no marker
+    container_workouts.addEventListener(
+      "click",
+      this._move_to_popup.bind(this)
+    );
   }
 
   // Função para conseguir a localização do usuário
@@ -110,8 +118,8 @@ class App {
     const coords = [latitude, longitude];
 
     // Variáveis usadas no mapa
-    this.#map = L.map("map").setView(coords, 13);
-    const marker_posicao_usuario = L.marker(coords).addTo(this.#map);
+    this.#map = L.map("map").setView(coords, this.#map_zoom_level);
+    L.marker(coords).addTo(this.#map);
 
     // Função de loadind do mapa
     L.tileLayer(
@@ -238,12 +246,14 @@ class App {
           className: `${workout.type}-popup`,
         })
       )
+      // Definindo texto do popup
       .setPopupContent(
         `${workout.type === "running" ? "🏃‍♂️" : "🚴‍♀️"} ${workout.description}`
       )
       .openPopup();
   }
 
+  // Função responsavel por mostrar workout na lista
   _render_workout(workout) {
     // prettier-ignore
     let html = `
@@ -291,7 +301,32 @@ class App {
       `;
     }
 
+    // Inserindo o html depois do formulário do exercicio
     form.insertAdjacentHTML("afterend", html);
+  }
+
+  // Função responsavel por centralizar o mapa no popup baseado no clique do usuario na lista
+  _move_to_popup(e) {
+    // Variavel definida com base no workout que o usuario selecionar
+    const workout_element = e.target.closest(".workout");
+
+    // Clausula de defesa para caso o usuario não selecione o workout
+    if (!workout_element) {
+      return;
+    }
+
+    // Coletando na lista de workouts o workout correto com base no que o usuario selecionou
+    const workout = this.#workouts.find(
+      (work) => work.id === workout_element.dataset.id
+    );
+
+    // Mudando a posição do mapa
+    this.#map.setView(workout.coords, this.#map_zoom_level, {
+      animate: true,
+      pan: {
+        duration: 1,
+      },
+    });
   }
 }
 
