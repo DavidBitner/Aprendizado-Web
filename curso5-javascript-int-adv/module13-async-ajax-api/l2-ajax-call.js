@@ -1,6 +1,5 @@
 "use strict";
 
-const btn = document.querySelector(".btn-country");
 const countries_container = document.querySelector(".countries");
 
 function get_country_data(country) {
