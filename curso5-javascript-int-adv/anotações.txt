@@ -363,3 +363,14 @@ array.sort((a, b) => a - b);
 
 Ordenar decrescente:
 array.sort((a, b) => b - a);
+
+
+fetch('link').then('código').catch('erro').finally('código');
+fetch serve para conseguir algo de um link
+.then serve para determinar o que o programa deve fazer caso um fetch seja bem sucedido
+.catch serve para determinar o que o programa deve fazer caso um fetch não seja bem sucedido
+.finally serve para determinar o que o programa deve fazer independente do resultado do fetch
+
+
+throw new Error('Error');
+Pedaço de código que serve para finalizar um bloco de código com um erro, normalmente usado dentro de um bloco if que dá as condições que determinam o erro
