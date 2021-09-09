@@ -279,7 +279,7 @@ function random_color() {
 
 Quando for necessário encerrar um loop sem que mais nada aconteça, se usa uma clausula de defesa como essa:
 if (!variavel) {
-    return
+  return
 }
 
 Mostrar coordenadas do mouse:
@@ -374,3 +374,11 @@ fetch serve para conseguir algo de um link
 
 throw new Error('Error');
 Pedaço de código que serve para finalizar um bloco de código com um erro, normalmente usado dentro de um bloco if que dá as condições que determinam o erro
+
+
+Desestruturação:
+Atribuir as variáveis lat e lng o conteudo latitude e longitude de dentro do objeto position.coords
+const { latitude: lat, longitude: lng } = position.coords;
+
+Atribuir a variável data o array que retorna do método "json" chamado no objeto "response"
+const [data] = await response.json();
