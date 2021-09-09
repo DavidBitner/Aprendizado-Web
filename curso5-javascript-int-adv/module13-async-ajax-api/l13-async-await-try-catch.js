@@ -73,3 +73,5 @@ async function where_am_i() {
     render_error(`${error.message}`);
   }
 }
+
+where_am_i();
