@@ -1,0 +1,12 @@
+dir / ls = Mostrar o conteudo do diretório
+cd = Mudar diretório
+cd .. = Mover um diretório para cima
+cd ../.. = Mover mais de um diretório acima
+cd nomeDoDiretório = Mover para o diretorio selecionado
+clear = Limpar console
+mkdir nomeDoDiretório = Criar diretório
+rmdir = Deletar diretório
+ni / touch = Criar arquivo
+del / rm = Deletar arquivo
+mv nomeDoArquivo nomeDoDiretório = Mover arquivo
+mv nomeDoArquivo .. = Mover arquivo para o diretório parente
