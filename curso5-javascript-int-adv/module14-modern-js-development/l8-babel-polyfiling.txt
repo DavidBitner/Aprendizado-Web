@@ -1,0 +1,7 @@
+Instalação dos pacotes que vão deixar a aplicação compatível com navegadores antigos
+npm i core-js
+npm i regenerator-runtime
+
+Imports para o arquivo ".js"
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
