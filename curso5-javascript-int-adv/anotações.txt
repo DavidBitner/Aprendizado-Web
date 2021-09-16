@@ -411,3 +411,9 @@ function timeout(seconds) {
     }, seconds);
   });
 }
+
+
+Código que vai fazer o parcel inserir mudanças feitas no código sem recarregar a página do live server
+if (module.hot) {
+  module.hot.accept();
+}
