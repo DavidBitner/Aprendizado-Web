@@ -6,6 +6,7 @@ npm -v = Verificar se o npm está instalado
 npm init = Iniciar NPM
 npm i nomeDoPacote = Instalar novo pacote NPM
 npm i = Instalar todos os pacotes que o diretório precisa para funcionar
+npm i nomeDoPacote --save-dev = Instalar novo pacote em uma nova dependencia
 
 IMPORTANTE:
 Quando for necessário passar um pacote para outro computador ou outro servidor, nunca copiar a pasta node_modules, usar "npm i" para instalar no novo ambiente de trabalho os pacotes.
