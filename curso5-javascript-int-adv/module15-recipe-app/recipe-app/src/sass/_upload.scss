@@ -47,7 +47,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem 6rem;
 
-  &-column {
+  &__column {
     display: grid;
     grid-template-columns: 1fr 2.8fr;
     align-items: center;
@@ -84,7 +84,7 @@
     }
   }
 
-  &-heading {
+  &__heading {
     font-size: 2.25rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -92,7 +92,7 @@
     grid-column: 1/-1;
   }
 
-  &-btn {
+  &__btn {
     grid-column: 1 / -1;
     justify-self: center;
   }

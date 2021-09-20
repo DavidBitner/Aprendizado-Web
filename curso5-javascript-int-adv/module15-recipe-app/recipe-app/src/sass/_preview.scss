@@ -1,5 +1,5 @@
 .preview {
-  &-link {
+  &__link {
     &:link,
     &:visited {
       display: flex;
@@ -20,7 +20,7 @@
     }
   }
 
-  &-fig {
+  &__fig {
     flex: 0 0 5.8rem;
     border-radius: 50%;
     overflow: hidden;
@@ -30,7 +30,7 @@
     backface-visibility: hidden;
 
     &::before {
-      content: "";
+      content: '';
       display: block;
       height: 100%;
       width: 100%;
@@ -54,7 +54,7 @@
     }
   }
 
-  &-data {
+  &__data {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 2rem;
@@ -62,7 +62,7 @@
     align-items: center;
   }
 
-  &-title {
+  &__title {
     grid-column: 1/-1;
     font-size: 1.45rem;
     color: $color-primary;
@@ -76,14 +76,14 @@
     overflow: hidden;
   }
 
-  &-publisher {
+  &__publisher {
     font-size: 1.15rem;
     color: $color-grey-dark-2;
     text-transform: uppercase;
     font-weight: 600;
   }
 
-  &-user-generated {
+  &__user-generated {
     background-color: darken($color-grey-light-2, 2%);
 
     display: flex;

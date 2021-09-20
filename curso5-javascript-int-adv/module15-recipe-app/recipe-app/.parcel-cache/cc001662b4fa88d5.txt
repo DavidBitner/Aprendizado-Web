@@ -1,4 +1,4 @@
-17441
+17453
 142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\utility-types\SUPPORT.md121436361000000000 0
 174C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\uncss\node_modules\postcss-selector-parser\dist\index.js121436361000000000 0
 123C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\1-user-stories.png132766190235961621 0
@@ -23,13 +23,13 @@
 149C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\css-tree\lib\tokenizer\index.js121436361000000000 0
 173C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\libxml2\libxml\xmlunicode.h132612604640000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\emoji-regex\README.md121436361000000000 0
-115C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\index.html132766230660542546 0
+115C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\index.html132766264559537498 0
 143C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\_createBaseEach.js121436361000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\use\package.json132766213350245677 0
 119C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\2-features.png132766191395436548 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\vm-browserify\example132766212681891271 1
 148C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\stable\array\concat.js121436361000000000 0
-117C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules132766232257719810 1
+117C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules132766232854481236 1
 135C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\pipe.js121436361000000000 0
 147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\stealthy-require\package.json132766213437419698 0
 174C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftimage.h132612604640000000 0
@@ -97,6 +97,14 @@
 131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\5132766213035617530 1
 146C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\whatwg-url\lib\public-api.js121436361000000000 0
 153C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\package-manager\lib\Pnpm.js121436361000000000 0
+150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\grayscale.scss121436361000000000 0
+128C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\source-map132766213464394106 1
+167C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\css-backdrop-filter.js121436361000000000 0
+142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\to-regex-range\README.md121436361000000000 0
+154C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\stable\instance\trim-left.js121436361000000000 0
+144C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\toPlainObject.js121436361000000000 0
+141C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\forInRight.js121436361000000000 0
+109C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist132766271663259941 1
 183C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\color-name\README.md131339336430000000 0
 156C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\modules\esnext.iterator.map.js121436361000000000 0
 154C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\es\instance\last-index-of.js121436361000000000 0
@@ -135,7 +143,7 @@
 149C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2017\UTF16Decode.js121436361000000000 0
 151C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\features\object\create.js121436361000000000 0
 124C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\assert132766213314506125 1
-113C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass132766194447806251 1
+113C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass132766252879878446 1
 129C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test132766232185997882 1
 178C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\pango-1.0\pango\pango-language.h132612604640000000 0
 143C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\csso\lib\replace\Value.js121436361000000000 0
@@ -162,7 +170,7 @@
 171C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gconverter.h132612604640000000 0
 138C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\word-wrap\index.d.ts131302624480000000 0
 142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\svgo\lib\svgo\plugins.js121436361000000000 0
-126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_header.scss132766194987329564 0
+126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_header.scss132482863140000000 0
 153C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\elliptic\lib\elliptic\curve\base.js121436361000000000 0
 181C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-scope\node_modules\postcss\docs\architecture.md121436361000000000 0
 129C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\create-hmac132766213350305540 1
@@ -184,7 +192,7 @@
 155C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\uncss\node_modules\chalk\templates.js121436361000000000 0
 148C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\which-boxed-primitive\index.js121436361000000000 0
 122C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\img\icons.svg132482863140000000 0
-127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_preview.scss132766202855800558 0
+127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_preview.scss132482863140000000 0
 143C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\array-unique\package.json132766213203681032 0
 171C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\generated\CanPlayTypeResult.js121436361000000000 0
 140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@babel\core\src\config132766212819165028 1
@@ -214,7 +222,7 @@
 137C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\wrap-ansi\readme.md121436361000000000 0
 125C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\hash.js132766213581146185 1
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\helpers\stylesheets.js121436361000000000 0
-126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_recipe.scss132766203165777321 0
+126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_recipe.scss132482863140000000 0
 141C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\_baseProperty.js121436361000000000 0
 145C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\_cloneArrayBuffer.js121436361000000000 0
 135C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\process\.eslintrc131169613630000000 0
@@ -249,7 +257,7 @@
 159C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\vips\thread.h132612604640000000 0
 178C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\xhr\XMLHttpRequestEventTarget-impl.js121436361000000000 0
 188C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\color-name\.eslintrc.json131174093250000000 0
-133C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_searchResults.scss132766203266429025 0
+133C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_searchResults.scss132482863140000000 0
 145C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\is-typed-array\package.json132766213288894132 0
 141C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sshpk\lib\ssh-buffer.js131837759770000000 0
 159C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\has-ansi\node_modules\ansi-regex\index.js131288365850000000 0
@@ -270,7 +278,7 @@
 160C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\features\string\virtual\italics.js121436361000000000 0
 146C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\babel-ast-utils\test132766212682080768 1
 132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\events\.github132766212993569065 1
-126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_upload.scss132766203416353314 0
+126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\sass\_upload.scss132482863140000000 0
 158C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\array-flat.js121436361000000000 0
 168C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\glib\gspawn.h132612604640000000 0
 137C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\invokeMap.js121436361000000000 0
@@ -289,7 +297,7 @@
 129C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\object-keys132766213572054345 1
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@babel\core\src\config\files\index-browser.ts121012626000000000 0
 142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\flattenDeep.js121436361000000000 0
-125C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\js\controller.js132766193929423120 0
+125C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\src\js\controller.js132766271661774744 0
 152C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\features\array\iterator.js121436361000000000 0
 161C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\public-encrypt\node_modules\bn.js\lib\bn.js121436361000000000 0
 129C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\cross-spawn132766213314565958 1
@@ -489,7 +497,7 @@
 127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\emphasize132766213435257375 1
 151C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\public-encrypt\test\rsa.2028.priv121436361000000000 0
 135C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\wcwidth\Readme.md130510791720000000 0
-150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\e\directory132766232184263097 1
+150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\e\directory132766232185320273 1
 162C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\stable\string\virtual\starts-with.js121436361000000000 0
 161C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\events\Event-impl.js121436361000000000 0
 135C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\each.js121436361000000000 0
@@ -515,7 +523,7 @@
 185C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\uncss\node_modules\postcss-selector-parser\dist\selectors\guards.js121436361000000000 0
 149C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\available-typed-arrays\index.js121436361000000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\src\pipeline.cc121436361000000000 0
-140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\e132766232184263097 1
+140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\e132766232185519738 1
 174C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gproxyaddress.h132612604640000000 0
 145C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-merge-longhand\dist132766212685172493 1
 135C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\gensync\README.md121436361000000000 0
@@ -947,7 +955,7 @@
 161C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\vips\resample.h132612604640000000 0
 182C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-local-by-default\node_modules\source-map\LICENSE131369414900000000 0
 143C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\cssom\lib\CSSMediaRule.js121436361000000000 0
-145C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\src\libvips\cplusplus132766232185689287 1
+145C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\src\libvips\cplusplus132766232185699263 1
 146C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\snapdragon-util\node_modules132766213177982788 1
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\async-clipboard.js121436361000000000 0
 123C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsesc132766213593543673 1
@@ -2397,7 +2405,7 @@
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\arr-diff\package.json132766213203681032 0
 126C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\posthtml132766213495370113 1
 130C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-svgo132766213434532049 1
-136C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\simple-concat\test132766232184093558 1
+136C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\simple-concat\test132766232184731849 1
 170C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\libxml2\libxml\nanoftp.h132612604640000000 0
 129C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\union-value132766213385354894 1
 167C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\css-conic-gradients.js121436361000000000 0
@@ -2538,11 +2546,6 @@
 133C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\snapdragon-util132766213465938811 1
 170C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gtestdbus.h132612604640000000 0
 169C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gioerror.h132612604640000000 0
-150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\grayscale.scss121436361000000000 0
-128C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\source-map132766213464394106 1
-167C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\css-backdrop-filter.js121436361000000000 0
-142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\to-regex-range\README.md121436361000000000 0
-154C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\stable\instance\trim-left.js121436361000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\request\index.js121436361000000000 0
 130C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\domutils\lib132766212999193809 1
 131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\source-map-js132766213459658428 1
@@ -2942,7 +2945,7 @@
 150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\request-promise-native\lib\rp.js121436361000000000 0
 155C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\stable\typed-array\methods.js121436361000000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\yaml\browser\types.js121436361000000000 0
-147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\node_modules\semver\bin132766232185977932 1
+147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\node_modules\semver\bin132766232186007845 1
 165C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\custom-elementsv1.js121436361000000000 0
 148C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\available-typed-arrays\.github132766213005731678 1
 138C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\yaml\browser\util.js121436361000000000 0
@@ -3384,7 +3387,7 @@
 150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2020\Number\equal.js121436361000000000 0
 156C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\modules\es.reflect.own-keys.js121436361000000000 0
 159C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\base\node_modules\define-property\LICENSE130839027050000000 0
-125C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\rc\test132766232185469870 1
+125C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\rc\test132766232185479847 1
 138C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\whatwg-url\README.md121436361000000000 0
 153C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\whatwg-url\lib\url-state-machine.js121436361000000000 0
 149C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\proposals\array-last.js121436361000000000 0
@@ -3665,7 +3668,7 @@
 148C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\src\Validation.js121436361000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\uuid\lib\sha1.js121436361000000000 0
 161C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\to-object-path\node_modules\kind-of\LICENSE130922319970000000 0
-144C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\.github\workflows132766232185459900 1
+144C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\.github\workflows132766232185579578 1
 153C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\features\instance\filter.js121436361000000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\safer-buffer\safer.js121436361000000000 0
 187C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\postcss.d.ts121436361000000000 0
@@ -4551,6 +4554,7 @@
 146C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\type-check\lib\parse-type.js130958412080000000 0
 140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tweetnacl\CHANGELOG.md131261002890000000 0
 138C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\hash\LICENSE121436361000000000 0
+127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.0e47d5c3.js132766262284692468 0
 142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\terser\tools\terser.d.ts121436361000000000 0
 155C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\defaults\node_modules\clone\clone.iml130965576200000000 0
 140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tweetnacl\nacl-fast.js131052160450000000 0
@@ -4893,7 +4897,7 @@
 165C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\node_modules\semver\internal\constants.js121436361000000000 0
 158C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\e\directory\.ignore121436361000000000 0
 137C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\pbkdf2\lib\async.js121436361000000000 0
-148C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\d\sub-dir132766232185808971 1
+148C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\d\sub-dir132766232185957981 1
 133C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\ignore\index.js121436361000000000 0
 193C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\source-map\lib\mapping-list.js131369414910000000 0
 156C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\promises.js121436361000000000 0
@@ -4911,7 +4915,7 @@
 190C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\lazy-result.js121436361000000000 0
 127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\pn\dns.js131594838820000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\astral-regex\index.js121436361000000000 0
-142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\b\a132766232186217897 1
+142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\b\a132766232186237731 1
 151C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\tar-fs\test\fixtures\b\a\test.txt121436361000000000 0
 162C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\generated\NodeList.js121436361000000000 0
 127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sshpk\lib132766212699314658 1
@@ -5138,7 +5142,7 @@
 147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\string.prototype.trimend\test132766212705832793 1
 159C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\textencoder.js121436361000000000 0
 181C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lmdb-store\dependencies\lmdb-data-v1\libraries\liblmdb\mtest5.c121436361000000000 0
-127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\src132766232185977932 1
+127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\src132766232185987905 1
 140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\diffie-hellman\LICENSE121436361000000000 0
 159C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\path-browserify\test\test-path-extname.js121436361000000000 0
 136C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\mime-types\LICENSE121436361000000000 0
@@ -6506,6 +6510,7 @@
 166C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gmenu.h132612604640000000 0
 135C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\is-bigint\.github132766212893187762 1
 167C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gmount.h132612604640000000 0
+128C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\icons.c097e590.svg132766269838542843 0
 141C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\prelude-ls\CHANGELOG.md130761311670000000 0
 176C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gmountoperation.h132612604640000000 0
 133C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\forIn.js121436361000000000 0
@@ -6779,7 +6784,6 @@
 152C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\hevc.js121436361000000000 0
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\sharp\node_modules\semver\functions\coerce.js121436361000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\semver\range.bnf121436361000000000 0
-179C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\has-flag\license131408182550000000 0
 177C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-values\node_modules\postcss\CONTRIBUTING.md121436361000000000 0
 137C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\isarray\.travis.yml130942154450000000 0
 132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\pbkdf2\LICENSE121436361000000000 0
@@ -7930,6 +7934,7 @@
 151C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\es\instance\trim-right.js121436361000000000 0
 149C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\html-encoding-sniffer\README.md131210607490000000 0
 196C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\postcss\docs\guidelines\runner.md121436361000000000 0
+179C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\has-flag\license131408182550000000 0
 184C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\has-flag\package.json132766213528008656 0
 181C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\has-flag\readme.md131593942790000000 0
 184C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules-extract-imports\node_modules\color-name\.npmignore130800019150000000 0
@@ -8008,7 +8013,7 @@
 164C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\has-values\node_modules\is-number\package.json132766213602894497 0
 185C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules\node_modules\source-map\lib\source-map-generator.js131508293880000000 0
 153C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@babel\types\lib\builders\generated132766212708954439 1
-134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\scripts132766232185011098 1
+134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\scripts132766232185220546 1
 169C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules\node_modules\source-map\lib\util.js131509318790000000 0
 171C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules\node_modules\postcss\lib\postcss.d.ts121436361000000000 0
 182C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\postcss-modules\node_modules\source-map\dist\source-map.debug.js131511695990000000 0
@@ -9053,7 +9058,7 @@
 158C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\features\typed-array\for-each.js121436361000000000 0
 173C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\transformer-posthtml\lib\PostHTMLTransformer.js121436361000000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\package.json132766232190332835 0
-131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\test132766232184223208 1
+131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\node-abi\test132766232184831586 1
 152C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\internals\string-repeat.js121436361000000000 0
 136C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\nice-try\README.md131796972250000000 0
 132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\ncp\.npmignore130614920630000000 0
@@ -9819,6 +9824,7 @@
 133C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\times.js121436361000000000 0
 136C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\toFinite.js121436361000000000 0
 137C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\toInteger.js121436361000000000 0
+130C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\favicon.62381efe.png132766269838383273 0
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@babel\traverse\lib\path\lib\virtual-types.js121012626000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\toJSON.js121436361000000000 0
 152C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2017\IterableToList.js121436361000000000 0
@@ -10231,8 +10237,6 @@
 150C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\lib\languages\1c.js121436361000000000 0
 143C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\forEachRight.js121436361000000000 0
 136C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\forIn.js121436361000000000 0
-144C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\toPlainObject.js121436361000000000 0
-141C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\forInRight.js121436361000000000 0
 140C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\fromPairs.js121436361000000000 0
 198C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\transformer-posthtml\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js121436361000000000 0
 139C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\lodash\fp\function.js121436361000000000 0
@@ -10913,7 +10917,6 @@
 170C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\helpers\mutation-observers.js121436361000000000 0
 166C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\modules\esnext.object.iterate-entries.js121436361000000000 0
 165C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\is-data-descriptor\node_modules\kind-of\LICENSE130922319970000000 0
-179C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src132766212787513740 1
 162C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\helpers\namespaces.js121436361000000000 0
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\helpers\ordered-set.js121436361000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\format\Readme.md130580565300000000 0
@@ -10974,7 +10977,7 @@
 132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsbn\README.md131313589580000000 0
 169C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\generated\HashChangeEvent.js121436361000000000 0
 173C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\generated\HashChangeEventInit.js121436361000000000 0
-147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\transformer-image\src132766232185509763 1
+147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\transformer-image\src132766232185579578 1
 142C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\stable\data-view132766213094800109 1
 161C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\jsdom\lib\jsdom\living\generated\History.js121436361000000000 0
 155C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\gradient-light.scss121436361000000000 0
@@ -11710,6 +11713,7 @@
 161C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\atelier-plateau-dark.scss121436361000000000 0
 162C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\atelier-savanna-light.scss121436361000000000 0
 165C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\atelier-sulphurpool-dark.scss121436361000000000 0
+127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.436439df.js132766271663220047 0
 154C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\atom-one-dark.scss121436361000000000 0
 155C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\highlight.js\scss\atom-one-light.scss121436361000000000 0
 134C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\core-js\index.js121436361000000000 0
@@ -13097,7 +13101,7 @@
 160C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2018\RequireObjectCoercible.js121436361000000000 0
 159C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@babel\core\node_modules\json5\lib\cli.js121436361000000000 0
 147C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2018\SameValue.js121436361000000000 0
-132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\delegates\test132766232184931313 1
+132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\delegates\test132766232185180645 1
 156C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2018\SameValueNonNumber.js121436361000000000 0
 151C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\es-abstract\2018\SameValueZero.js121436361000000000 0
 155C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\transformer-json\package.json132766213241341196 0
@@ -15806,6 +15810,7 @@
 153C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\meter.js121436361000000000 0
 151C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\mp3.js121436361000000000 0
 157C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\mpeg-dash.js121436361000000000 0
+131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.0e47d5c3.js.map132766262284732364 0
 163C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\mutation-events.js121436361000000000 0
 164C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\mutationobserver.js121436361000000000 0
 166C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\caniuse-lite\data\features\navigator-language.js121436361000000000 0
@@ -16791,6 +16796,7 @@
 169C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\main-global\package.json121436361000000000 0
 178C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json121436361000000000 0
 176C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\library-scopehoist\package.json121436361000000000 0
+179C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src132766212787513740 1
 188C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src\index.js121436361000000000 0
 187C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\invalid-target-source-missing\package.json121436361000000000 0
 172C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src132766212782732267 1
@@ -17440,3 +17446,9 @@
 131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\.bin\uuid.ps1132766213638680749 0
 132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\.bin\which.cmd132766213638740594 0
 132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\node_modules\.bin\which.ps1132766213638730621 0
+128C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\icons.1ea35d5c.svg132766269838542843 0
+131C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.436439df.js.map132766271663249969 0
+128C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.fa02a0b5.css132766269838702421 0
+132C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.fa02a0b5.css.map132766269838742312 0
+120C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\index.html132766269838702421 0
+127C:\Users\dede-\Documents\GitHub\Aprendizado-Web\curso5-javascript-int-adv\module15-recipe-app\recipe-app\dist\logo.739a33b1.png132766269838383273 0
