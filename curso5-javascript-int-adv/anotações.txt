@@ -124,6 +124,7 @@ mouseout = Quando o ponteiro do mouse sai do elemento
 keyup = Quando uma tecla do teclado é solta
 keydown = Quando uma tecla é pressionada
 keypress = Quando uma tecla é mantida pressionada
+hashchange = Quando o link hash muda
 
 Exemplo de evento com função:
 <div id="doidera" onclick="clicar()">
@@ -417,3 +418,9 @@ Código que vai fazer o parcel inserir mudanças feitas no código sem recarrega
 if (module.hot) {
   module.hot.accept();
 }
+
+
+Multiplos event handlers com a mesma callback function:
+["hashchange", "load"].forEach((event) =>
+  window.addEventListener(event, showRecipe)
+);
