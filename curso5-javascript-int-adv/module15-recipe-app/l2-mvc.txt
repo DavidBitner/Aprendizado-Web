@@ -1,0 +1,27 @@
+Model:
+Model é o coração da aplicação
+Dentro do módel estão as regras de negócio e as entidades.
+Model é a camada de acesso a dados da aplicação.
+Model é a camada onde está o banco de dados da aplicação.
+
+
+View:
+Responsável por renderizar o conteudo para o usuário
+Tudo que diz respeito a visualizar a aplicação
+Trabalha com JS, CSS e HTML
+
+
+Control:
+É a camada que vai servir de intermediário entre view e model.
+O control vai buscar informações no model, vai manipular essas informações e vai cuidar de jogar na view as informações.
+
+
+Exemplo:
+Requisição vem do browser
+Controller cuida da Requisição
+Caso a requisição exija algum tipo de dado do sistema, controller vai requisitar ao model os dados
+Model vai coletar os dados e mandar para o controller que vai manipular os dados
+Controller vai manipular os dados
+Controller vai passar para o view os dados
+View vai renderizar os dados para o usuario
+View vai mandar uma resposta para o browser renderizando os dados para o usuário
