@@ -3,6 +3,8 @@ Model é o coração da aplicação
 Dentro do módel estão as regras de negócio e as entidades.
 Model é a camada de acesso a dados da aplicação.
 Model é a camada onde está o banco de dados da aplicação.
+Model vai fazer os requests da aplicação.
+Model vai fazer a conexão da aplicação com api's
 
 
 View:
