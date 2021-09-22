@@ -1,0 +1,7 @@
+Para lidar com erro dentro de MVC:
+
+O render do erro para o usuário será feito pela view, com a função de render também dentro da view
+Se o erro em algum momento passar pelo model, o model terá um throw para o erro
+O controler vai fazer o catch final do erro e vai chamar a função do view que vai renderizar o erro para o usuário
+
+A mensagem de erro deve ser apontada dentro da própria view, como uma variável privada
