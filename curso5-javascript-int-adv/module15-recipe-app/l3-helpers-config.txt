@@ -1,0 +1,7 @@
+Um projeto com arquitetura MVC possiu dois módulos que servem de auxiliares para os outros módulos
+
+helpers.js:
+Nesse módulo são depositadas as funções que serão utilizadas mais de uma vez em multiplos módulos
+
+config.js:
+Nesse módulo são depositadas as variáveis constantes que serão utilizadas mais de uma vez em multiplos módulos
