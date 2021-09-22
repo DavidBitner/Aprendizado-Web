@@ -21,13 +21,13 @@ async function controlRecipes() {
 
     // Recipe render
     recipeView.render(model.state.recipe);
-
-    
   } catch (error) {
     alert(error);
   }
 }
 
-["hashchange", "load"].forEach((event) =>
-  window.addEventListener(event, controlRecipes)
-);
+function init() {
+  recipeView.addHandlerRender(controlRecipes);
+}
+
+init();
