@@ -1,6 +1,11 @@
 import * as model from "./model.js";
 import recipeView from "./views/recipeView.js";
 import searchView from "./views/searchView.js";
+import resultsView from "./views/resultsView.js";
+
+if (module.hot) {
+  module.hot.accept();
+}
 
 async function controlRecipes() {
   try {
@@ -25,12 +30,16 @@ async function controlRecipes() {
 
 async function controlSearchResults() {
   try {
+    resultsView.renderSpinnerLoading();
+
     const query = searchView.getQuery();
     if (!query) {
       return;
     }
 
-    await model.loadSearchResults("pizza");
+    await model.loadSearchResults(query);
+
+    resultsView.render(model.state.search.results);
   } catch (error) {
     console.log(error);
   }
