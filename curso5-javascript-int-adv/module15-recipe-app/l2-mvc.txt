@@ -11,6 +11,8 @@ View:
 Responsável por renderizar o conteudo para o usuário
 Tudo que diz respeito a visualizar a aplicação
 Trabalha com JS, CSS e HTML
+Todo querySelector deve estar dentro da view
+Todo eventListener deve estar dentro da view
 
 
 Control:
