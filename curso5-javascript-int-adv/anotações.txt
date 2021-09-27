@@ -310,6 +310,11 @@ Btn "disable":
 btn.style.pointerEvents = "none";
 btn.style.pointerEvents = "auto";
 
+Quando for necessário selecionar um valor de um elemento com base em um dataset usa-se:
+<button data-goto="5" class="btn--inline pagination__btn--next"></button>
+const btn = e.target.closest(".btn--inline");
+const goToPage = btn.dataset.goto;
+
 Uncheck radio button:
 radio_btn.checked = false;
 
