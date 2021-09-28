@@ -470,6 +470,7 @@ async function controlRecipes() {
         const recipeId = window.location.hash.slice(1);
         if (!recipeId) return;
         _recipeViewJsDefault.default.renderSpinnerLoading();
+        _resultsViewJsDefault.default.update(_modelJs.getSearchResultsPage());
         // Recipe load
         await _modelJs.loadRecipe(recipeId);
         const { recipe  } = _modelJs.state;
@@ -497,7 +498,7 @@ function controlPagination(goToPage) {
 }
 function controlServings(newServings) {
     _modelJs.updateServings(newServings);
-    _recipeViewJsDefault.default.render(_modelJs.state.recipe);
+    _recipeViewJsDefault.default.update(_modelJs.state.recipe);
 }
 function init() {
     _recipeViewJsDefault.default.addHandlerRender(controlRecipes);
@@ -739,6 +740,22 @@ class View {
         const recipeHtml = this._generateHtml();
         this._clear();
         this._parentElement.insertAdjacentHTML("afterbegin", recipeHtml);
+    }
+    update(data) {
+        this._data = data;
+        const newHtml = this._generateHtml();
+        const newDom = document.createRange().createContextualFragment(newHtml);
+        const newElements = Array.from(newDom.querySelectorAll("*"));
+        const curElements = Array.from(this._parentElement.querySelectorAll("*"));
+        newElements.forEach((newElement, index)=>{
+            const curElement = curElements[index];
+            // Update changed text
+            if (!newElement.isEqualNode(curElement) && newElement.firstChild?.nodeValue.trim() !== "") curElement.textContent = newElement.textContent;
+            // Update changed attributes
+            if (!newElement.isEqualNode(curElement)) Array.from(newElement.attributes).forEach((attribute)=>{
+                curElement.setAttribute(attribute.name, attribute.value);
+            });
+        });
     }
     _clear() {
         this._parentElement.innerHTML = "";
@@ -1051,7 +1068,8 @@ class ResultsView extends _viewJsDefault.default {
         return this._data.map(this._generateHtmlPreview).join("");
     }
     _generateHtmlPreview(result) {
-        return `\n      <li class="preview">\n        <a class="preview__link" href="#${result.id}">\n          <figure class="preview__fig">\n            <img src="${result.image}" alt="${result.title}" class="recipe__img" crossOrigin= "anonymous"/>\n          </figure>\n          <div class="preview__data">\n            <h4 class="preview__title">${result.title}</h4>\n            <p class="preview__publisher">${result.publisher}</p>\n          </div>\n        </a>\n      </li>\n    `;
+        const id = window.location.hash.slice(1);
+        return `\n      <li class="preview">\n        <a class="preview__link ${result.id === id ? "preview__link--active" : ""}" href="#${result.id}">\n          <figure class="preview__fig">\n            <img src="${result.image}" alt="${result.title}" class="recipe__img" crossOrigin= "anonymous"/>\n          </figure>\n          <div class="preview__data">\n            <h4 class="preview__title">${result.title}</h4>\n            <p class="preview__publisher">${result.publisher}</p>\n          </div>\n        </a>\n      </li>\n    `;
     }
 }
 exports.default = new ResultsView();
