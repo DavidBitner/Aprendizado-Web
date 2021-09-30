@@ -1,7 +1,7 @@
 import { API_URL, RESULTS_PER_PAGE } from "./config.js";
 import { getJSON } from "./helpers.js";
 
-export let state = {
+export const state = {
   recipe: {},
   search: {
     query: "",
@@ -9,7 +9,6 @@ export let state = {
     page: 1,
     resultsPerPage: RESULTS_PER_PAGE,
   },
-  bookmarks: [],
 };
 
 export async function loadRecipe(recipeId) {
@@ -26,14 +25,7 @@ export async function loadRecipe(recipeId) {
       servings: recipe.servings,
       cookingTime: recipe.cooking_time,
       ingredients: recipe.ingredients,
-    };
-
-    if (state.bookmarks.some((bookmark) => bookmark.id === id)) {
-      state.recipe.bookmarked = true;
-    } else {
-      state.recipe.bookmarked = false;
-    }
-    
+    };    
   } catch (error) {
     throw error;
   }
@@ -75,22 +67,4 @@ export function updateServings(newServings) {
   });
 
   state.recipe.servings = newServings;
-}
-
-export function addBookmark(recipe) {
-  console.log(state.bookmarks);
-  state.bookmarks.push(recipe);
-
-  if (recipe.id === state.recipe.id) {
-    state.recipe.bookmarked = true;
-  }
-}
-
-export function deleteBookmark(id) {
-  const index = state.bookmarks.findIndex((el) => el.id === id);
-  state.bookmarks.splice(index, 1);
-
-  if (id === state.recipe.id) {
-    state.recipe.bookmarked = false;
-  }
 }
