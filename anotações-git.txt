@@ -1,3 +1,5 @@
+git init == Iniciar pelo git bash o versionamento de um diretório
+
 git config --global user.name David
 git config --global user.email DavidEmail
 
