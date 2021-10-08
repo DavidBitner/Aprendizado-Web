@@ -1,0 +1,75 @@
+A modelagem de dominio está presente em três disciplinas do desenvolvimento de software:
+Business Modelling
+Requirements
+Analysis & Design
+
+
+Dominio: É a área de negócio observada, exemplo padaria
+Modelo de dominio: É um modelo que descreve as entidades (classes) do dominio e as inter-relações entre elas
+
+Existem 4 diferentes niveis de abstração do modelo de dominio:
+Conceitual de análise de negócio
+Conceitual de análise de sistema
+Lógico ou de design
+Fisico ou de implementação
+
+
+Modelo conceitual: 
+É um modelo que descreve a estrutura das informaç~çoes que o sistema vai gerenciar
+É o modelo de dominio em nível de análise
+Pertence ao escopo do problema e não ao escopo da solução
+Independe de paradigma
+Independe de tecnologia
+O modelo conceitual descreve conceitos, atributos e associações.
+
+Conceito: 
+Conceito pode ser qualquer entidade que tenha um significado para o sistema e que tenha uma necessidade de armazenamento de dados
+Exemplo: Cliente, pedido, produto, fornecedor
+
+Atributo: 
+Informações alfanuméricas simples, como números, textos e datas contidas em cada conceito
+Exemplo: Conceito produto, atributos descrição e preço. Conceito cliente, atributos, nome, email, telefone e cpf
+
+Associação:
+Associação é um relacionamento estático entre dois conceitos.
+Associações possuem três caracteristicas, nome da associação (tem, possui), papel (dono, autor, fornecedor), e multiplicidade
+
+
+Instância: As ocorrências dos conceitos recebem o nome de instância ou objeto
+
+
+Multiplicidade:
+É a quantidade minima e máxima de objetos que uma associação permite em cada um de seus papéis
+
+Para encontrar uma multiplicidade faz-se a pergunta:
+1 <conceito> pode ter quantos <papel>?
+1 carro pode ter quantos donos?
+1 pessoa pode ter quantos carros?
+
+Um para um: Em ambos os lados o máximo é um
+Muitos para muitos: em ambos os lados o máximo é vários
+Um para muitos: Em um dos lados o máximo é 1, no outro lado o máximo é varios
+
+Possíveis multiplicidades:
+"," significa "ou"
+".." significa "a"
+"*" significa "vários" (sem limite especifico)
+
+a) 1       exatamente um
+b) 2       exatamente dois
+c) 0..1    zero ou um
+d) 0..*    zero ou mais
+e) *       zero ou mais
+f) 1..*    um ou mais
+g) 2..*    dois ou mais
+h) 2..5    de dois a cinco
+i) 2,5     dois ou cinco
+j) 2,5..8  dois ou cinco a oito
+
+
+Associação obrigatória: Uma associação é obrigatória se o conceito associado desempenha um papel de multiplicidade mínima maior que zero
+Conceito dependente: Um conceito é dependente se ele possuir pelo menos uma associação obrigatória
+Associações multiplas: É quando dois conceitos possuem mais de uma associação
+Autoassociação: É quando um conceito é associado com ele mesmo.
+
+
