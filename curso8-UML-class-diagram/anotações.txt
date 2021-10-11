@@ -71,5 +71,3 @@ Associação obrigatória: Uma associação é obrigatória se o conceito associ
 Conceito dependente: Um conceito é dependente se ele possuir pelo menos uma associação obrigatória
 Associações multiplas: É quando dois conceitos possuem mais de uma associação
 Autoassociação: É quando um conceito é associado com ele mesmo.
-
-
