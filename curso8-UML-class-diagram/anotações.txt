@@ -81,3 +81,54 @@ Diamante preto: "Composição". O conceito parte é exclusivo de um todo.
 Classe de associação: 
 É uma classe que serve de intermediário entre duas outras classes.
 Caso uma associação de muitos-para-muitos tenha um atributo que pode pertencer a ambas as classes, é criado um novo conceito intermediário entre as duas classes.
+
+
+Enumerações:
+Uma enumeração pode ser considerada um "meio termo" entre um conceito e um atributo.
+Uma enumeração representa um conceito que possui um número finito de valores possíveis, valores estes que, para o negócio, valem a pena ser descritos.
+
+Tipos primitivos:
+Também podem ser considerados um "meio termo" entre um conceito e um atributo.
+É um conceito que, devido a sua simplicidade, "não merece" ser modelado como um conceito comum no diagrama do modelo conceitual.
+Sua regra de formação é meramente sintática e não depende de nenhum dado do sistema.
+Tipicamente não possui identificador.
+
+
+Herança: 
+Existe herança quando um conceito possui estruturas comuns originadas dele.
+A herança é uma associação de classes, e não de objetos (não há duas instâncias a serem ligadas). Um objeto comporta todas as informações, tanto do conceito genérico quando dos conceitos especificos.
+
+Definições:
+Relação É-UM: Quando uma classe herda outra.
+Relação de generalização: O conceito genérico é uma generalização dos conceitos especificos.
+Relação de especialização:  Os conceitos especificos são uma especialização do conceito genérico.
+Superclasse: O conceito genérico é a superclasse.
+Subclasse: Os conceitos especificos são as subclasses.
+Extensão: Os conceitos especificos são extensões do conceito genérico.
+Pode adicionar elementos: Os conceitos especificos adicionam elementos ao conceito genérico.
+Não pode remover elementos: Os conceitos especificos não podem eliminar elementos do conceito genérico.
+
+Herança total:
+É possível criar apenas instâncias das subclasses.
+Quando criar o diagrama de classes, a herança total é representada por uma classe abstrata (UML = classe com nome itálico).
+A superclasse é a classe abstrata.
+
+
+Entidade fraca: 
+É quando um conceito depende de outro. 
+Só existe quando o conceito "forte" for criado.
+É um conceito simples que não pode ser um atributo dentro de uma classe, porém não pode existir sem a criação de uma instância de um conceito.
+
+
+Associação direcionada:
+É quando existe uma associação de um conceito para outro, porém não existe associação do outro conceito para o um.
+Um cliente possui um telefone, porém através do telefone não é possível consultar o cliente.
+
+
+Chave primária: 
+É o atributo que define uma instância.
+Representado no diagrama pelo estereótipo "<<oid>>" ou "<<pk>>".
+
+Chaves candidatas: 
+São os atributos que podem definir uma instância, pois são unicos. 
+Representados no diagrama pelo estereótipo "<<unique>>".
