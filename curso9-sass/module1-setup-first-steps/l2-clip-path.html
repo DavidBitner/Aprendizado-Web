@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .header {
+        height: 95vh;
+        background-image: linear-gradient(to right bottom, black, white);
+        background-size: cover;
+        background-position: top;
+
+        /* 
+          clip-path corta imagens
+          https://bennettfeely.com/clippy/
+        */
+        clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+      }
+    </style>
+
+    <title>Title</title>
+  </head>
+  <body>
+    <header class="header">Some Text...</header>
+  </body>
+</html>
