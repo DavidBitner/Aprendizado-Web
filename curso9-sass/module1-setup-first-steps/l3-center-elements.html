@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      .header {
+        height: 95vh;
+        background-image: linear-gradient(to right bottom, red, pink);
+        background-size: cover;
+        background-position: top;
+
+        /* A posição do elemento parent precisa ser relativo para que os elementos child possam ser posicionados com absolute */
+        position: relative;
+      }
+
+      .logo-box {
+        /* Através da position absolute é possível usar os atributos top, left, bottom, right para posicionar os elementos */
+        position: absolute;
+        top: 40px;
+        left: 40px;
+      }
+
+      .logo {
+        height: 35px;
+      }
+
+      /* É importante que ao centralizar um elemento através do CSS, deixar esse elemento envolto em uma div especifica para ele*/
+      .text-box {
+        position: absolute;
+
+        /* 
+          Para centralizar um elemento em relação ao elemento parent
+          Primeiro posiciona-se o elemento 50% ao topo e a esquerda
+          Depois se corrige a posição do elemento posicionado-o menos 50% do seu próprio tamanho em relação a ele mesmo.
+        */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .heading-primary {
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      .heading-primary-main {
+        display: block;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 35px;
+      }
+
+      .heading-primary-sub {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 23.4px;
+      }
+    </style>
+
+    <title>Center elements</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-box">
+        <img src="img/logo-white.png" alt="Logo" class="logo" />
+      </div>
+
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">Centralizar</span>
+          <span class="heading-primary-sub">os elementos da página</span>
+        </h1>
+      </div>
+    </header>
+  </body>
+</html>
