@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+
+        /* Por padrão o box-sizing da página não é herdado, ao colocar na tag "*" o atributo "inherit", o box-sizing passa a ser herdado */
+        box-sizing: inherit;
+      }
+
+      html {
+        /* 
+          Por padrão a font-size do navegador é 16px, nesse documento o valor padrão desejado é o de 10px
+          Para que o valor seja 10px, é feita a conta 10/16*100 para determinar a font-size em porcentagem
+          Isso permite que o usuário seja capaz de aumentar e diminuir a fonte no seu próprio navegador
+          Com isso o valor de 1rem na página será 10px
+          Usar rem na página é importante para tornar o layout responsivo
+        */
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.7;
+        color: #777;
+        padding: 3rem;
+        box-sizing: border-box;
+      }
+
+      .header {
+        height: 95vh;
+        background-image: linear-gradient(
+            to right bottom,
+            rgba(126, 213, 111, 0.8),
+            rgba(40, 180, 133, 0.8)
+          ),
+          url(../img/hero.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+      }
+
+      .text-box {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    </style>
+
+    <title>Inheritance</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">Inheritance</span>
+          <span class="heading-primary-sub">everywhere</span>
+        </h1>
+      </div>
+    </header>
+  </body>
+</html>
