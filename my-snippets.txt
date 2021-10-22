@@ -80,5 +80,10 @@
       "\t$5",
       "}"
     ]
+  },
+
+  "SCSS Variable": {
+    "prefix": "$variable",
+    "body": "$${1:VariableName}: ${2:Value};"
   }
 }
