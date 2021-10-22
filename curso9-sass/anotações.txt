@@ -1,0 +1,45 @@
+Variable:
+$variable-name: value;
+$primary-color: #fff;
+
+
+Cor mais escura:
+background-color: darken($color: $primary-color, $amount: 10%);
+
+Cor mais clara:
+background-color: lighten($color: $primary-color, $amount: 10%);
+
+
+Snippet/mixin de scss:
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+nav {
+  background-color: $color-primary;
+
+  @include clearfix;
+}
+
+Mixin com variaveis:
+@mixin style-link-text($color) {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color;
+}
+nav {
+  padding: 10px;
+  @include style-link-text($primary-color);
+}
+
+
+Função scss:
+@function divide($a, $b) {
+  @return $a / $b
+}
+nav {
+  margin: divide(60, 2) * 1px; // 30px
+}
