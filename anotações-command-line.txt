@@ -1,0 +1,32 @@
+COMMAND LINE:
+dir / ls = Mostrar o conteudo do diretório
+cd = Mudar diretório
+cd .. = Mover um diretório para cima
+cd ../.. = Mover mais de um diretório acima
+cd nomeDoDiretório = Mover para o diretorio selecionado
+clear = Limpar console
+mkdir nomeDoDiretório = Criar diretório
+rmdir = Deletar diretório
+ni / touch = Criar arquivo
+del / rm = Deletar arquivo
+mv nomeDoArquivo nomeDoDiretório = Mover arquivo
+mv nomeDoArquivo .. = Mover arquivo para o diretório parente
+cp nomeDoArquivo nomeDoDiretorioCola = Copiar arquivos para um determinado lugar
+
+
+NPM:
+npm -v = Verificar se o npm está instalado
+npm init = Iniciar NPM
+npm i nomeDoPacote = Instalar novo pacote NPM
+npm i = Instalar todos os pacotes que o diretório precisa para funcionar
+npm i nomeDoPacote --save-dev = Instalar novo pacote na dependencia de desenvolvedor
+npm uninstall nomeDoPacote = Desinstalar pacote
+
+IMPORTANTE:
+Quando for necessário passar um pacote para outro computador ou outro servidor, nunca copiar a pasta node_modules, usar "npm i" para instalar no novo ambiente de trabalho os pacotes.
+
+
+SCRIPTS:
+"start": "parcel index.html"
+"build": "parcel build index.html --dist-dir ./dist"
+"compile:sass": "node-sass sass/main.scss css/style.css -w"
