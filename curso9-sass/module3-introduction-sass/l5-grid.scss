@@ -1,0 +1,70 @@
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+html {
+  // Rem = 10px
+  font-size: 62.5%;
+}
+
+.row {
+  max-width: $grid-width;
+  background-color: #eee;
+  margin: 0 auto;
+
+  // :not() serve para selecionar tudo menos o seletor de dentro da função
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+
+  // Seletor de atributo
+  [class^="col-"] {
+    background-color: orangered;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+
+  @include clearfix;
+
+  .col-1-of-2 {
+    // Ao fazer um cálculo em scss é necessário usar "#{variável}" para que seja possível efetuar a operação
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - #{$gutter-horizontal} * 2) / 3);
+  }
+
+  .col-2-of-3 {
+    width: calc(
+      2 * ((100% - #{$gutter-horizontal} * 2) / 3) + #{$gutter-horizontal}
+    );
+  }
+
+  .col-1-of-4 {
+    width: calc((100% - #{$gutter-horizontal} * 3) / 4);
+  }
+
+  .col-2-of-4 {
+    width: calc(
+      2 * ((100% - #{$gutter-horizontal} * 3) / 4) + #{$gutter-horizontal}
+    );
+  }
+
+  .col-3-of-4 {
+    width: calc(
+      3 * ((100% - #{$gutter-horizontal} * 3) / 4) + #{$gutter-horizontal} * 2
+    );
+  }
+}
