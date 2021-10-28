@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* background-blend-mode serve para misturar a imagem com o background */
+      body {
+        background-color: black;
+        color: white;
+      }
+
+      .img {
+        width: 400px;
+        height: 300px;
+        background-repeat: no-repeat, repeat;
+        background-color: blue;
+        background-image: url("paris.jpg");
+        margin-bottom: 10px;
+      }
+
+      #normal {
+        background-blend-mode: normal;
+      }
+      #multiply {
+        background-blend-mode: multiply;
+      }
+      #screen {
+        background-blend-mode: screen;
+      }
+      #overlay {
+        background-blend-mode: overlay;
+      }
+      #darken {
+        background-blend-mode: darken;
+      }
+      #lighten {
+        background-blend-mode: lighten;
+      }
+      #color-dodge {
+        background-blend-mode: color-dodge;
+      }
+      #saturation {
+        background-blend-mode: saturation;
+      }
+      #color {
+        background-blend-mode: color;
+      }
+      #luminosity {
+        background-blend-mode: luminosity;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>The clip-path property</h2>
+
+    <div class="img" id="normal">Normal</div>
+    <div class="img" id="multiply">Multiply</div>
+    <div class="img" id="screen">Screen</div>
+    <div class="img" id="overlay">Overlay</div>
+    <div class="img" id="darken">Darken</div>
+    <div class="img" id="lighten">Lighten</div>
+    <div class="img" id="color-dodge">Color-dodge</div>
+    <div class="img" id="saturation">Saturation</div>
+    <div class="img" id="color">Color</div>
+    <div class="img" id="luminosity">Luminosity</div>
+  </body>
+</html>
