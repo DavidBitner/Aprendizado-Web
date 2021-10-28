@@ -20,7 +20,6 @@
     }
 
     &--back {
-      background-color: green;
       transform: rotateY(180deg);
 
       &-1 {
@@ -28,6 +27,22 @@
           to right bottom,
           $color-secondary-light,
           $color-secondary-dark
+        );
+      }
+
+      &-2 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-primary-light,
+          $color-primary-dark
+        );
+      }
+
+      &-3 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
         );
       }
     }
@@ -41,6 +56,7 @@
     transform: rotateY(0);
   }
 
+  // Front styling
   &__picture {
     background-size: cover;
     height: 23rem;
@@ -51,25 +67,27 @@
       background-image: linear-gradient(
           to right bottom,
           $color-secondary-light,
-          $color-secondary-light
+          $color-secondary-dark
         ),
         url(../img/nat-5.jpg);
     }
+
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-light
+          $color-primary-light,
+          $color-primary-dark
         ),
-        url(../img/nat-5.jpg);
+        url(../img/nat-6.jpg);
     }
+
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-light
+          $color-tertiary-light,
+          $color-tertiary-dark
         ),
-        url(../img/nat-5.jpg);
+        url(../img/nat-7.jpg);
     }
   }
 
@@ -97,6 +115,22 @@
         rgba($color-secondary-dark, 0.85)
       );
     }
+
+    &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
   }
 
   &__details {
@@ -117,5 +151,31 @@
         }
       }
     }
+  }
+
+  // Back styling
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+
+  &__price-box {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 8rem;
+  }
+
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  &__price-value {
+    font-size: 8rem;
+    font-weight: 100;
   }
 }
