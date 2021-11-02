@@ -144,6 +144,7 @@ u-margin-top-big {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn:focus {
+  outline: none;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--white {
@@ -181,6 +182,10 @@ u-margin-top-big {
   border-bottom: 1px solid #55c57a;
   padding: 3px;
   transition: all 0.2s; }
+
+.btn-text:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); }
 
 .btn-text:hover {
   background-color: #55c57a;
