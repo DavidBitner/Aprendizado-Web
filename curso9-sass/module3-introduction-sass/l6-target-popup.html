@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Target-popup</title>
+
+    <style>
+      #btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .btn,
+      .btn:link,
+      .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all 0.2s;
+        position: relative;
+        font-size: 1.6rem;
+        border: none;
+        cursor: pointer;
+      }
+      .btn:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      }
+      .btn:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+      .btn:active {
+        outline: none;
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      }
+      .btn:focus {
+        outline: none;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      }
+      .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all 0.4s;
+      }
+      .btn--green {
+        background-color: #55c57a;
+        color: #fff;
+      }
+      .btn--green::after {
+        background-color: #55c57a;
+      }
+
+      .popup {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 4;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+      }
+      .popup__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        background-color: #fff;
+        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        display: table;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 0.4s 0.2s;
+      }
+      .popup__left {
+        width: 33.33333%;
+        display: table-cell;
+      }
+      .popup__right {
+        width: 66.66667%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 3rem 5rem;
+      }
+      .popup__img {
+        display: block;
+        width: 100%;
+      }
+      .popup__text {
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+        column-count: 2;
+        column-gap: 4rem;
+        column-rule: 1px solid #eee;
+        hyphens: auto;
+        -moz-hyphens: auto;
+      }
+      .popup:target {
+        opacity: 1;
+        visibility: visible;
+      }
+      .popup:target .popup__content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+      .popup__close:link,
+      .popup__close:visited {
+        color: #777;
+        position: absolute;
+        top: 2.5rem;
+        right: 2.5rem;
+        font-size: 3rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 0.2s;
+        line-height: 1;
+      }
+      .popup__close:hover {
+        color: #55c57a;
+      }
+    </style>
+  </head>
+  <a id="btn" href="#popup" class="btn btn--green">ABRIR POPUP</a>
+
+  <body>
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="l6-target-popup-img1.jpg" alt="Tour photo" class="popup__img" />
+          <img src="l6-target-popup-img2.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            alias consectetur nam. Eveniet obcaecati voluptas debitis provident.
+            Odio error ullam inventore in sit dicta quidem, eos dolor, incidunt,
+            fugiat nihil saepe. Pariatur quam libero quod quo, alias natus odio
+            dolorum, iste repellat, dicta fugit fugiat explicabo voluptas nulla
+            suscipit fuga labore aut quibusdam doloribus? Dolor, nulla nemo
+            illum ex nostrum cupiditate itaque aut voluptatem quas pariatur,
+            excepturi animi et, fuga tempore suscipit quibusdam consequuntur
+            nobis culpa. Quasi, enim! Pariatur, maxime repudiandae iste
+            exercitationem officiis consequatur repellat tempora ex eos,
+            recusandae corrupti laborum, error aspernatur asperiores? Sed rem
+            quisquam officia commodi.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
