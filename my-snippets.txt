@@ -85,5 +85,14 @@
   "SCSS Variable": {
     "prefix": "$variable",
     "body": "$${1:VariableName}: ${2:Value};"
+  },
+
+  "Include Media Querie":{
+    "prefix": "@includeMediaQuerie",
+    "body": [
+      "@include respond(${1:QuerieType}) {",
+      "\t${2:Config}: $3;",
+      "}"
+    ]
   }
 }
