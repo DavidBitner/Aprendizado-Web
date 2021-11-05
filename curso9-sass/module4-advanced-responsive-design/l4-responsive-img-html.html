@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive images</title>
+  </head>
+  <body>
+    <!-- 
+      Pixel density:
+      Usando o atributo srcset é possivel apontar mais de uma imagem e 
+      atribuir a cada imagem uma densidade, o navegador vai escolher a 
+      melhor imagem para ser mostrada para o usuario
+    -->
+    <img
+      srcset="img/logo-1x.png 1x, img/logo-2x.png 2x"
+      alt="Full logo"
+      class="footer__logo"
+    />
+
+    <!--
+      Pixel density e art direction:
+      Usando o atributo picture e source, é possível determinar uma media
+      querie para que quando a tela fique de um determinado tamanho
+      a imagem mostrada para usuario seja uma diferente da padrão
+    -->
+    <picture class="footer__logo">
+      <source
+        srcset="img/logo-1x 1x, img/logo-2x 2x"
+        media="(max-width:37.5rem)"
+      />
+      <img
+        srcset="img/logo-1x.png 1x, img/logo-2x.png 2x"
+        alt="Full logo"
+        class="footer__logo"
+      />
+    </picture>
+
+    <!--
+      Resolution switching:
+      No srcset é apontado o tamanho da imagem em width
+      No sizes é apontado o tamanho da tela, o quanto a imagem vai ocupar no 
+      determinado tamanho da tela e o tamanho padrão da imagem caso os 
+      breakpoints não sejam atingidos
+    -->
+    <img
+      srcset="img/1.jpg 300w, img/1-large.jpg 1000w"
+      sizes="(max-width:900px) 20vw, (max-width:600px) 30vw, 300px"
+      src="img/1-large.jpg"
+      alt="Photo 1"
+    />
+  </body>
+</html>
