@@ -1,0 +1,19 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/hero-small.jpg);
+
+  // No CSS é possível atraves de uma media querie apontar a resolução minima para que uma imagem grande seja mostrada para o usuário
+  // Na mesma media querie também é possível apontar a quantidade minima de pixels na tela para que uma imagem seja mostrada
+  @media (min-resolution: 192dpi) and (min-width: 600px), (min-width: 2000px) {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+      ),
+      url(../img/hero.jpg);
+  }
+}
