@@ -1,0 +1,10 @@
+// É possível usar a propriedade supports para checar se um determinado
+// atributo pode ser usado em um browser, e caso seja determinar quais
+// os atributos que serão aplicados
+html {
+  @supports (backdrop-filter: blur(10px)) or
+    (-webkit-backdrop-filter: blur(10px)) {
+    backdrop-filter: blur(10px);
+    background-color: rgba($color-black, 0.3);
+  }
+}
