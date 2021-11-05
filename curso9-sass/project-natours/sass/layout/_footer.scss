@@ -1,6 +1,6 @@
 .footer {
   background-color: $color-gray-dark-3;
-  padding: 10rem;
+  padding: 10rem 0;
   font-size: 1.4rem;
   color: $color-gray-light-1;
 
@@ -42,6 +42,10 @@
 
     &:not(:last-child) {
       margin-right: 1.5rem;
+
+      @include respond(tab-port) {
+        margin-right: 1rem;
+      }
     }
   }
 
