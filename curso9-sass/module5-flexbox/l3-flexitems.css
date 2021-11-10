@@ -39,6 +39,7 @@
   order: -1;
 }
 .i6 {
+  /* Flex Grow, Flex Shrink, Flex Basis, */
   flex: 1 0 0;
 }
 .i7 {
