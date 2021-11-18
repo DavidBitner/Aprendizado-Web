@@ -1,0 +1,45 @@
+.container {
+  width: 95vw;
+  margin: 30px auto;
+  background-color: #ddd;
+
+  display: grid;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  grid-auto-rows: 100px;
+
+  // stretch / center / end / start
+  align-items: center; // align vertically
+  justify-items: center; // align horizontally
+
+  .explicit-grid {
+    background-color: red;
+  }
+
+  .implicit-grid {
+    background-color: orangered;
+  }
+
+  .item {
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+
+    &--4 {
+      background-color: pink;
+      grid-row: 2/span 3;
+
+      // stretch / center / end / start
+      align-self: stretch;
+      justify-self: stretch;
+    }
+
+    &--7{
+      background-color: plum;
+      grid-column: 1/-1;
+    }
+  }
+}
