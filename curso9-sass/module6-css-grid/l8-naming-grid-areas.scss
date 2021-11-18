@@ -1,0 +1,60 @@
+.container {
+  background-color: #eee;
+  width: 95vw;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-rows: 100px 200px 400px 100px;
+  grid-template-columns: repeat(3, 1fr) 20%;
+  gap: 20px;
+
+  grid-template-areas: 
+    "head head head head" 
+    "box-1 box-2 box-3 side"
+    "main main main side"
+    "foot foot foot foot";
+
+  & > * {
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .header {
+    background-color: orangered;
+    grid-area: head;
+  }
+
+  .small-box {
+    &--1 {
+      background-color: violet;
+      grid-area: box-1;
+    }
+
+    &--2 {
+      background-color: pink;
+      grid-area: box-2;
+    }
+
+    &--3 {
+      background-color: blue;
+      grid-area: box-3;
+    }
+  }
+  
+  .sidebar {
+    background-color: brown;
+    grid-area: side;
+  }
+
+  .main-content {
+    background-color: black;
+    grid-area: main;
+  }
+
+  .footer {
+    background-color: green;
+    grid-area: foot;
+  }
+}
