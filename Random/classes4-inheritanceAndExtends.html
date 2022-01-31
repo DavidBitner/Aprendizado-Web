@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes: Inheritance and extends</title>
+  </head>
+  <body>
+    <h2 id="title">Classes: inheritance and extends</h2>
+
+    <script>
+      // Parent and Child Class
+      // Child class extends the parent class, it uses the same things inside the parent, and adds something
+      class Person {
+        constructor(_name, _age) {
+          this.name = _name;
+          this.age = _age;
+        }
+
+        describe() {
+          console.log(`I am ${this.name} and I am ${this.age} years old.`);
+        }
+      }
+
+      class Programmer extends Person {
+        constructor(_name, _age, _yearsOfExperience) {
+          // super is used to call the constructor from the parent class, after the super comes the custom behaviour from the child class
+          super(_name, _age);
+
+          // Custom behaviour
+          this.yearsOfExperience = _yearsOfExperience;
+        }
+
+        // Only child class objects will have access to methods from child classes
+        // child class objects will also have access to parent methods
+        code() {
+          console.log(`${this.name} is coding`);
+        }
+      }
+
+      let person1 = new Person("Deborah", 69);
+      let programmer1 = new Programmer("David", "25", 1);
+
+      console.log(person1);
+      console.log(programmer1);
+
+      programmer1.code();
+      programmer1.describe();
+    </script>
+  </body>
+</html>

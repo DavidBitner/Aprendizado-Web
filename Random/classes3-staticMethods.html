@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes: Static Methods</title>
+  </head>
+  <body>
+    <h2 id="title">Classes Static Methods</h2>
+
+    <script>
+      class Square {
+        constructor(_width) {
+          this.width = _width;
+          this.height = _width;
+        }
+
+        // Static methods are methods inside a class that are not instanciated inside the object created by the class
+        // A statit method don't need an instance of the class to be created in order to be used
+        // Static methods are usually helpers that are inside the class but are not bound to the object being created by the class
+        // Static methods are relevant to the class, but don't require an instance of the class to actually work
+        static compareSquares(a, b) {
+          return a.width * a.height === b.width * b.height;
+        }
+
+        static isValidDimensions(width, height) {
+          return width === height;
+        }
+      }
+
+      let square1 = new Square(8);
+      let square2 = new Square(8);
+
+      // To call a method from a class, is necessary to use the class itself as the base
+      console.log(Square.compareSquares(square1, square2));
+      console.log(Square.isValidDimensions(10, 5));
+    </script>
+  </body>
+</html>

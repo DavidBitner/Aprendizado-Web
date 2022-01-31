@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes Getters and setters</title>
+  </head>
+  <body>
+    <h2 id="title">Classes: Getters and Setters</h2>
+
+    <script>
+      class Square {
+        constructor(_width) {
+          this.width = _width;
+          this.height = _width;
+          this.numberOfRequestsForArea = 0;
+        }
+
+        // Getter is used to get values from inside de object
+        // It can also be a method that uses values inside the object to show information about the object
+        get area() {
+          this.numberOfRequestsForArea++;
+          return this.width * this.height;
+        }
+
+        // Setter is used to set values inside the object
+        set area(area) {
+          this.width = Math.sqrt(area);
+          this.height = this.width;
+        }
+      }
+
+      let square = new Square(4);
+      console.log(square.area);
+
+      square.area = 25;
+      console.log(square.height, square.width);
+    </script>
+  </body>
+</html>

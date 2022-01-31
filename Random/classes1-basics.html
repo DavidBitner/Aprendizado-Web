@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript classes basics</title>
+  </head>
+  <body>
+    <h2 id="title">Classes: Basics</h2>
+
+    <script>
+      /*
+        Class == Create object. Is the structure of the object being created
+
+        Instance Properties == what the object have
+          - name
+          - age
+          - height
+
+        Instance Methods == What the object do
+          - talk
+          - run
+          - jump
+
+        Class constructor == Is a method that runs once when the object is created.
+
+      */
+
+      class Rectangle {
+        // setup object
+        // In order for the user to be able to define the properties of the object, you allow the constructor to receive data from the user
+        constructor(_width, _height, _color) {
+          console.log(`The Rectanble is being created`);
+
+          // Inside the constructor, usually the properties of the object are defined
+          // In this case, "this" means the object that is being created, or the propertie of the object to be more precise
+          this.width = _width;
+          this.height = _height;
+          this.color = _color;
+        }
+
+        // Class methods under the constructor
+        getArea() {
+          return this.width * this.height;
+        }
+
+        printDescription() {
+          console.log(
+            `I am a rectangle of ${this.width} X ${this.height} and I am ${this.color}`
+          );
+        }
+      }
+
+      // New object from class deposited in variable
+      let myRectangle = new Rectangle(5, 3, "red");
+
+      console.log(myRectangle.getArea());
+      myRectangle.printDescription();
+    </script>
+  </body>
+</html>

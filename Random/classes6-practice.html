@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes: Practice</title>
+  </head>
+  <body>
+    <h2 id="title">Classes: HTML List Binding</h2>
+
+    <ul id="myList">
+      <!-- Filled by JS-->
+    </ul>
+
+    <script src="ListBinding.js"></script>
+    <script>
+      const myList = document.querySelector(`#myList`);
+      const listBinding = new ListBinding(myList)
+
+      listBinding.add("dog")
+      listBinding.add("cat")
+      listBinding.add("person")
+    </script>
+  </body>
+</html>

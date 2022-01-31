@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes: Polymorphism</title>
+  </head>
+  <body>
+    <h2 id="title">Classes: Polymorphism</h2>
+
+    <script>
+      // Polymorphism is the act of changing a parent method throught a child class redefinition of the method
+      class Animal {
+        constructor(_name) {
+          this.name = _name;
+        }
+
+        // Method to be polymorphed
+        makeSound() {
+          console.log(`Generic animal sound!!`);
+        }
+      }
+
+      class Dog extends Animal {
+        constructor(_name) {
+          super(name);
+        }
+
+        // Polymorphism
+        makeSound() {
+          // it is possible to call a super in order to execute the parent method before adding to the child method
+          // super.mekeSound();
+          console.log(`Woof! Woof!`);
+        }
+      }
+
+      let animal1 = new Animal("David");
+      let animal2 = new Dog("Johnsons");
+
+      animal1.makeSound();
+      animal2.makeSound();
+    </script>
+  </body>
+</html>
