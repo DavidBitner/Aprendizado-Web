@@ -1,0 +1,48 @@
+<limit_per_user: 99> 
+<bench_emote: remove> 
+<late_emote: remove> 
+<tentative_emote: remove> 
+<absence_emote: remove> 
+<apply_unregister: true> 
+<show_footer: false> 
+<show_header: false> 
+<show_numbering: false> 
+<color: 2> 
+<show_roles: false> 
+<show_classes: false> 
+<show_emotes: false> 
+
+<deletion: 1> 
+<create_discordevent: false>
+
+
+
+
+**ARGOS BUS + VALTAN NM 12PM WEDNESDAY**
+/quickcreate arguments: [template: 20] [date: __-___-____] [time:12:00 pm] [title: Argos+Valtan] [description: Argos p3 bus trades :arrow_right: Valtan NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 29> <show_roles: false> <show_classes: false> <show_emotes: false>]
+
+
+**VALTAN HM + VYKAS HM 12PM THURSDAY**
+/quickcreate arguments: [template: 20] [date: __-___-____] [time:12:00 pm] [title: Valtan+Vykas] [description: Valtan HM :arrow_right: Vykas HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 27> <show_roles: false> <show_classes: false> <show_emotes: false>]
+
+
+**ARGOS BUS + VALTAN HM + VYKAS NM 12PM SATURDAY**
+/quickcreate arguments: [template: 20] [date: __-___-____] [time:12:00 pm] [title: Argos+Valtan+Vykas] [description: Argos p3 busses :arrow_right: Valtan HM :arrow_right: Vykas NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759747027014/ArgosValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 16> <show_roles: false> <show_classes: false> <show_emotes: false>]
+
+
+**ARGOS + VALTAN NM 10:30 PM SATURDAY**
+/quickcreate arguments: [template: 20] [date: __-___-____] [time:10:30 pm][title: Argos+Valtan] [description: Argos p3 1400+ :arrow_right: Valtan NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://cdn.discordapp.com/attachments/1005793662409654272/1005793743250653264/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 24> <show_roles: false> <show_classes: false> <show_emotes: false>]
+
+
+
+**BLANK**
+/quickcreate arguments: [date: __-___-____] [time:__:__ _m] [title: ______________________] [description: ___________________________________] [announcement: signed, 15, ____________________________________!] [image: _______________________________________________] [template: 20] [channel: #raids] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 24> <show_roles: false> <show_classes: false> <show_emotes: false>]
+
+**DATE** = Date of event. Example: 01-jan-2022
+**TIME** = Starting time of event. Example: 01:00 am
+**TITLE** = Title of event
+**DESCRIPTION** = Description of event
+**ANNOUNCEMENT** = Message to people that reacted to the event 15 minutes before it starts
+**IMAGE** = Link to image inside event. Example: https://imgurl.com/img
+
+**REACTIONS**: After event is posted, must remove reactions that won't be used inside event
