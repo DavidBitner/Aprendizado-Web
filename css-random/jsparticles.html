@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Particles</title>
+
+    <style>
+      body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      #particles-js {
+        background-color: black;
+        color: white;
+        z-index: 2;
+        height: 99vh;
+        width: 99vw;
+      }
+
+      h1 {
+        position: absolute;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="particles-js">
+      <div class="text">
+        <h1>doidera</h1>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+      particlesJS.load("particles-js", "jsparticles.json", function () {
+        console.log(`Loaded particles`);
+      });
+    </script>
+  </body>
+</html>
