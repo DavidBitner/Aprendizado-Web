@@ -20,24 +20,91 @@
 /custom classes 
 
 
-**ARGOS BUS + VALTAN NM 12PM WEDNESDAY**
-/quickcreate arguments: [template: 20] [date: __-___-2022] [time:12:00 pm] [title: Argos+Valtan] [description: Argos p3 bus trades :arrow_right: Valtan NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 29> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+
+/custom specs template:21 class::Argos:  specs:877969260016730114 877969258263511070 877969260402606080 936456800067272714 877969258179596308 877969260100616273 877969260285157376 877969259337232414 936456799949824065 877969257709846580 877969258364157963 877969260444524584 877969259261747262 936456799740104715 877969258846490655 921078644238057592 936456799756910633 877969259706339358 877989308865318952
+
+/custom specs template:21 class::Valtan:  specs:877969260016730114 877969258263511070 877969260402606080 936456800067272714 877969258179596308 877969260100616273 877969260285157376 877969259337232414 936456799949824065 877969257709846580 877969258364157963 877969260444524584 877969259261747262 936456799740104715 877969258846490655 921078644238057592 936456799756910633 877969259706339358 877989308865318952
+
+/custom specs template:21 class::Vykas:  specs:877969260016730114 877969258263511070 877969260402606080 936456800067272714 877969258179596308 877969260100616273 877969260285157376 877969259337232414 936456799949824065 877969257709846580 877969258364157963 877969260444524584 877969259261747262 936456799740104715 877969258846490655 921078644238057592 936456799756910633 877969259706339358 877989308865318952
+
+
+
+/custom role template:22 role::Argos: parts::Argos: 
+/custom role template:22 role::Valtan: parts::Valtan:
+/custom role template:22 role::Vykas: parts::Vykas:
+
+
+
+**ARGOS + VALTAN HM 12PM WEDNESDAY**
+/quickcreate arguments: [template: 20] [date: 21-sep-2022] [time:12:00 pm] [title: Argos+Valtan] [description: Argos p3 1400+ :arrow_right: Valtan HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 29> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
 
 
 **VALTAN HM + VYKAS HM 12PM THURSDAY**
-/quickcreate arguments: [template: 20] [date: __-___-2022] [optout: ID] [time:12:00 pm] [title: Valtan+Vykas] [description: Valtan HM :arrow_right: Vykas HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 27> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+/quickcreate arguments: [template: 20] [date: 22-sep-2022] [optout: 1010168040475861072] [time:12:00 pm] [title: Valtan+Vykas] [description: Valtan HM :arrow_right: Vykas HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 27> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
 
 
-**ARGOS BUS + VALTAN HM + VYKAS HM 12PM SATURDAY**
-/quickcreate arguments: [template: 20] [date: __-___-2022] [time:12:00 pm] [title: Argos+Valtan+Vykas] [description: Argos p3 :arrow_right: Valtan HM :arrow_right: Vykas HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759747027014/ArgosValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 16> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+**ARGOS BUS + VALTAN NM 2PM FRIDAY**
+/quickcreate arguments: [template: 20] [date: 23-sep-2022] [time:2:00 pm] [title: Argos+Valtan] [description: Argos p3 bus trades :arrow_right: Valtan NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2>  <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 12> <show_roles: false> <show_classes: false> <show_emotes: false> <defaults_pre_req: false>]
 
 
-**VYKAS NM 1 PM SATURDAY**
-/quickcreate arguments: [template: 20] [date: __-___-2022] [time:1:00 pm] [title: Vykas NM] [description: Vykas NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761386987670/Vykas_1.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 9> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+**ARGOS + VALTAN NM + VYKAS NM 8PM FRIDAY**
+/quickcreate arguments: [template: 20] [date: 23-sep-2022] [time:8:00 pm] [title: Argos+Valtan+Vykas] [description: Argos p3 1400+ :arrow_right: Valtan NM :arrow_right: Vykas NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759747027014/ArgosValtanVykas.png] [advanced: <limit_per_user: 99> <bench_emote: remove> <deletion: 2> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 19> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
 
 
-**ARGOS + VALTAN NM 10:30 PM SATURDAY**
-/quickcreate arguments: [template: 20] [date: __-___-2022] [time:10:30 pm][title: Argos+Valtan] [description: Argos p3 1400+ :arrow_right: Valtan NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://cdn.discordapp.com/attachments/1005793662409654272/1005793743250653264/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 24> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+**VYKAS NM + VALTAN NM + ARGOS 1PM SATURDAY**
+/quickcreate arguments: [template: 20] [date: 24-sep-2022] [time:1:00 pm] [title: Vykas+Valtan+Argos] [description: Vykas NM :arrow_right: Valtan NM :arrow_right: Argos p3] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1015840685724815370/VykasValtanArgos.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 23> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+
+
+**VALTAN HM + VYKAS HM 9PM SATURDAY**
+/quickcreate arguments: [template: 20] [date: 24-sep-2022] [time:9:00 pm] [title: Valtan+Vykas] [description: Valtan HM :arrow_right: Vykas HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 16> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+
+
+
+
+
+/quickcreate arguments: [template: 17] [date: 25-dec-2024] [time:12:00 pm] [title: Valtan+Vykas] [description: _____________________________________] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 3> <show_roles: false> <show_classes: false> <queue_bench: true> <create_discordevent: false> <event_type: interaction> <spec_saving: false> <apply_specreset: false> <show_countdown: true>]
+
+/quickcreate arguments: [template: 21] [date: 23-dec-2024] [time:12:00 pm] [title: Argos+Valtan+Vykas] [description: _____________________________________] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759747027014/ArgosValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 1> <show_roles: false> <show_classes: false> <queue_bench: true> <create_discordevent: false> <event_type: interaction> <spec_saving: false> <apply_specreset: false> <show_countdown: true>]
+
+/quickcreate arguments: [template: 22] [date: 24-dec-2024] [time:12:00 pm] [title: Argos+Valtan] [description: _____________________________________] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 2> <show_roles: false> <show_classes: false> <queue_bench: true> <create_discordevent: false> <event_type: interaction> <spec_saving: false> <apply_specreset: false> <show_countdown: true>]
+
+
+<limit_per_user: 99> 
+<deletion: 2> 
+<bench_emote: remove>
+<late_emote: remove>
+<tentative_emote: remove>
+<absence_emote: remove>
+<apply_unregister: true>
+<show_footer: false>
+<show_header: false>
+<show_numbering: false>
+<color: 2>
+<show_roles: false>
+<show_classes: false>
+<create_discordevent: false>
+<event_type: interaction>
+<spec_saving: false>
+<apply_specreset: false>
+<show_countdown: true>
+
+
+
+
+**HOW TO SIGN UP**
+1st - Click blue button
+2nd - React with role
+3rd - Click blue button
+4th - React with role
+5th - Click blue button
+6th - React with role
+7th - Click blue button
+8th - React with...
+
+If you click more than one blue button before reacting, you gonna die.
+If you need some training, you can use the events in this channel, you can react there as many times as you need to until you get it right. GOOD LUCK!
+
+
 
 
 
@@ -52,13 +119,3 @@
 **IMAGE** = Link to image inside event. Example: https://imgurl.com/img
 
 **REACTIONS**: After event is posted, must remove reactions that won't be used inside event
-
-
-
-
-
-**VALTAN HM + VYKAS HM 12PM THURSDAY**
-/quickcreate arguments: [template: 20] [date: 12-dec-2023] [time:12:00 pm] [title: Static Thursday] [description: Valtan and Vykas Thursday static] [channel: #bottools] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_numbering: false> <color: 27> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true> <create_discordevent: false>]
-
-
-/quickcreate arguments: [template: 20] [optout: 1010168040475861072] [date: 12-dec-2023] [time:12:00 pm] [title: Valtan+Vykas] [description: Test copy attendance] [channel: #bottools] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 27> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true> <create_discordevent: false>]
