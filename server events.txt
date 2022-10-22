@@ -1,18 +1,3 @@
-<limit_per_user: 99> 
-<bench_emote: remove> 
-<late_emote: remove> 
-<tentative_emote: remove> 
-<absence_emote: remove> 
-<apply_unregister: true> 
-<show_footer: false> 
-<show_header: false> 
-<show_numbering: false> 
-<color: 2> 
-<show_roles: false> 
-<show_classes: false> 
-<show_emotes: false> 
-
-<deletion: 1> 
 <create_discordevent: false>
 
 [optout: ID] 
@@ -35,8 +20,14 @@
 
 
 
-**ARGOS + VALTAN HM 12PM WEDNESDAY**
-/quickcreate arguments: [template: 20] [date: 21-sep-2022] [time:12:00 pm] [title: Argos+Valtan] [description: Argos p3 1400+ :arrow_right: Valtan HM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 29> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
+17 == VALTAN + VYKAS
+21 == ARGOS + VALTAN + VYKAS
+22 == ARGOS + VALTAN
+
+
+
+**ARGOS + VALTAN HM + VYKAS NM 12PM WEDNESDAY**
+/quickcreate arguments: [template: 20] [date: 21-sep-2022] [time:12:00 pm] [title: Argos+Valtan+Vykas] [description: Argos p3 1400+ :arrow_right: Valtan HM :arrow_right: Vykas NM] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759747027014/ArgosValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 29> <show_roles: false> <show_classes: false> <show_emotes: false> <queue_bench: true>]
 
 
 **VALTAN HM + VYKAS HM 12PM THURSDAY**
@@ -61,7 +52,6 @@
 
 
 
-
 /quickcreate arguments: [template: 17] [date: 25-dec-2024] [time:12:00 pm] [title: Valtan+Vykas] [description: _____________________________________] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 3> <show_roles: false> <show_classes: false> <queue_bench: true> <create_discordevent: false> <event_type: interaction> <spec_saving: false> <apply_specreset: false> <show_countdown: true>]
 
 /quickcreate arguments: [template: 21] [date: 23-dec-2024] [time:12:00 pm] [title: Argos+Valtan+Vykas] [description: _____________________________________] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759747027014/ArgosValtanVykas.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 1> <show_roles: false> <show_classes: false> <queue_bench: true> <create_discordevent: false> <event_type: interaction> <spec_saving: false> <apply_specreset: false> <show_countdown: true>]
@@ -69,8 +59,19 @@
 /quickcreate arguments: [template: 22] [date: 24-dec-2024] [time:12:00 pm] [title: Argos+Valtan] [description: _____________________________________] [channel: #raids] [announcement: signed, 15, RAID ALERT!, Raid in 15 minutes!] [image: https://media.discordapp.net/attachments/1005327191011233802/1005881759390519326/ArgosValtan.png] [advanced: <limit_per_user: 99> <deletion: 2> <bench_emote: remove> <late_emote: remove> <tentative_emote: remove> <absence_emote: remove> <apply_unregister: true> <show_footer: false> <show_header: false> <show_numbering: false> <color: 2> <show_roles: false> <show_classes: false> <queue_bench: true> <create_discordevent: false> <event_type: interaction> <spec_saving: false> <apply_specreset: false> <show_countdown: true>]
 
 
+
+17
+Valtan+Vykas
+Valtan HM :arrow_right: Vykas HM
+1-oct-2022
+9:00 pm
+https://media.discordapp.net/attachments/1005327191011233802/1005881761017905232/ValtanVykas.png
+RAID ALERT!, Raid in 15 minutes!
+
+
+
 <limit_per_user: 99> 
-<deletion: 2> 
+<deletion: 8> 
 <bench_emote: remove>
 <late_emote: remove>
 <tentative_emote: remove>
@@ -79,32 +80,14 @@
 <show_footer: false>
 <show_header: false>
 <show_numbering: false>
-<color: 2>
+<color: 16>
 <show_roles: false>
 <show_classes: false>
-<create_discordevent: false>
 <event_type: interaction>
 <spec_saving: false>
 <apply_specreset: false>
 <show_countdown: true>
-
-
-
-
-**HOW TO SIGN UP**
-1st - Click blue button
-2nd - React with role
-3rd - Click blue button
-4th - React with role
-5th - Click blue button
-6th - React with role
-7th - Click blue button
-8th - React with...
-
-If you click more than one blue button before reacting, you gonna die.
-If you need some training, you can use the events in this channel, you can react there as many times as you need to until you get it right. GOOD LUCK!
-
-
+<queue_bench: true>
 
 
 
