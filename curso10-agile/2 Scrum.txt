@@ -1,0 +1,82 @@
+Scrum:
+Lightweight framework designed to solve complex problems that required sprinting or iterating through a solution
+
+Scrum values inspection, adaption and transparency
+
+In summary, Scrim is an Agile way of developing software or any project
+
+Scrum recommends a self-organizing and cross-functional team
+
+If there is a challenge or a conflict in the team, they come together and discuss and decide on a way to move forward as a team
+
+
+
+Scrum values:
+Openness:
+Be open to live scrum values over just doing scrum and be open to new ways of developing software and solve problems
+
+Commitment:
+Commitment to the sprint goal, commitment to working as a team and give their best to deliver value
+
+Focus:
+Focus on your job to deliver the best software
+
+Courage:
+Courage to tackle problems and to adapt to situations
+
+Respect:
+Respect each other in the team and be professional. Also respect and embrace differences, different opinions, ways of working, solving problems, culture and background
+
+
+
+Sprint (time-box):
+Anywhere from 1 to 4 weeks of duration
+A sprint is composed of planning, developing, testing and reviewing phase
+Sprint planning, daily standup, sprint review and retrospective all happen inside of the sprint
+
+
+
+Scrum roles:
+Product Owner:
+Talk to stakeholders and users to understand their needs and vision of the product
+Come back to the team and help the team understand the product vision
+Give the team some description of the product feature and what needs to be built
+Product Owner writes a simple description of the product feature from an end user's perspective (called user stories)
+
+Scrum Master:
+Ensures scrum is understood and used skillfully by scrum team
+Servant leader
+Model Agile mindset and Scrum framework
+
+The Scrum Team:
+Build product increment
+Dev team is cross functional
+Self organizing
+Accountable as a team
+Three to nine people
+
+
+
+Role of a scrum master:
+A scrum master is a facilitator
+At the beggining of a sprint planning he will ask questions like "what are you going to do today and do you have any impedimments to do that", throghout the day the scrum master will work to solve those impediments and facilitate the scrum team's job.
+The scrum master will also work to make sure everything is being done in resonance to scrum's principles, keeping tabs of what and how people is doing things and organazing the workflow to assure that everything is being done the right way.
+Scrum master also usually coordinate sprint reviews and retrospective, asking questions like "what we did right or wront", "how can we improve here", "should we move some user stories to another sprint" and other question like those
+
+
+
+Role of a product owner:
+A product owner is responsible for the user stories, meaning he will be the one talking with users and customers to understand which features a certain software need to have.
+He is also responsible to translating the user stories to the scrum team, he will show to the team all stories and let the team know the order or priority in all of those stories.
+He also will be responsible for saying which stories are higher priority or not, he will focus on delivering a mvp and not let the team be too hung up in pet features that might not be super valuable.
+
+MVP: Minimum viable product or, the smallest peace of software that will provide some value to the user/client
+
+
+
+Role of a scrum team:
+A scrum team will have all other roles except product owner and scrum master, the team will be responsible for developing the feature described in user stories.
+Some members of the team might be have specific roles, like UI design, but in a scrum team is very common to have multiple roles, so you can make progress faster and avoid bottlenecks, by having too much work in one member and the rest of the team just wait for that member to finish his work, so instead you just have multiple members work in a solution or even one of the members be put in a position of helper.
+
+
+
