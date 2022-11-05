@@ -1,0 +1,58 @@
+Daily Stand-Up Meeting:
+15 minutes meeting to learn and addapt
+Their main objective is to keep the whole team informed of what is happening and what is the progress that everybody is making
+
+Usually these meetings have 3 main questions that everybody in the team will answer:
+What did you do yesterday to achieve the sprint goal?
+What are you gonna do today to help achieve the sprint goal?
+Do you have any impedimments that can or will hinder us from achieving the sprint goal?
+
+Scrum Master is responsible to facilitate the meating
+Scrum team is responsible for attendint to the meeting
+Product owners and stakeholders can join the meeting to watch, but it's not ok for them to intervene in the meeting, is up to the scrum master to keep the team focused
+
+
+
+Sprint Planning:
+Is a meeting to determine what will happen throughout the next sprint, what piece of software will be delivered to the client, not only developed, but tested and ready to be used
+
+Scrum master will be responsible for facilitating the meeting, schedulling with everybody, reserving the room and helping with general details
+
+Product Owners are really important in these meetings, the product owner will be responsible for translating to the team what the client wants, he will show to the team the user stories and let the team know what is more important, what needs to be delivered first, what have more priority and therefore will be delivered to the client/users
+
+A sprint planning will take around 2 hours to happen, after the meeting ends, the team will have a clear objective, will know the risks and challenges behind the sprint and will have a backlog of everything that will be done in the sprint
+
+
+
+Sprint Review:
+Sprint review is a meeting conducted by the team to share the outcomes of the sprint with external stakeholders
+
+Sprint reviews are attended by everyone in the team, including product owner
+Ideally the customer is present at the sprint review
+
+Sprint reviews are normally between one and two hours in length
+
+In a sprint review you review the backlog and see if anything changed and if there's a new priority for the next sprint. You also see which and how many user stories got completed.
+
+
+
+Sprint retrospective:
+What went well in the last sprint?
+What didn't went well in the last sprint?
+How to improve?
+
+You basically review what went well what didn't really went well in the last sprint.
+
+In this meeting everyone talks about their challenges, what they would like to change and which things that happened where good and they should keep happening in the future.
+
+In this meeting you gather data about what happened in the last sprint, how it happened and then the entire team generates insights on why things happened and what could be improved for future sprints.
+
+After this meeting the team will have a clear view of what happened and what and how they should work on improving.
+
+
+
+Backlog Grooming (Refinement):
+In this meeting you reprioritize the product backlog, you make sure user stories are resized & refined (as appropriate) in preparation for the next sprint
+
+You also add move details in user stories in preparation for future sprints
+

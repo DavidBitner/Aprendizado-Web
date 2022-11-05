@@ -77,6 +77,3 @@ MVP: Minimum viable product or, the smallest peace of software that will provide
 Role of a scrum team:
 A scrum team will have all other roles except product owner and scrum master, the team will be responsible for developing the feature described in user stories.
 Some members of the team might be have specific roles, like UI design, but in a scrum team is very common to have multiple roles, so you can make progress faster and avoid bottlenecks, by having too much work in one member and the rest of the team just wait for that member to finish his work, so instead you just have multiple members work in a solution or even one of the members be put in a position of helper.
-
-
-
