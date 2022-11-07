@@ -1,0 +1,81 @@
+Introduction to Estimating:
+Estimating in general is roughly calculating how long it's going to take us to complete a certain activity or in this case, how long it's going to take to finish a User Story
+
+Estimating is making an educated guess of how much time you need to go from 0 to done done in a certain task
+
+You use your experience or a set of default documents to make an educated guess on how long is going to take to finish a task
+
+Estimating have 3 key components attached to it
+Elicited Information:
+This is the information you gathered from stakeholders, these are their needs, their wants, this is ultimatelly what put together the core of a certain user Story. This information is what you will use to give an estimate of how much time you need to come up with a solution to that story
+
+Past Experiences:
+Based on your own experience in past projects and stories, you can give a rough estimative of how long this project is going to take, because past user stories might have similarities with the current one
+
+Documentation:
+You can use documentation provided by your team or your organization, containing estimations of tasks similar to the one you will be doing
+
+
+
+Estimating in Agile:
+Estimating in Agile is relative to other tasks in the same project, you give estimatives based in how long other things took to be finished.
+
+You usually categorize tasks in small, medium and large, and depending on that you create an estimative to future tasks.
+
+Relative estaimatives are particular to that project, a small estimative could be 4 hours long in one project, but the same estimative for the same task could be considerate medium in another project
+
+Usually updates in that task would have minor impacts in that estimative
+
+
+
+Why Estimate:
+1. Provides estimated duration
+2. Drives out clarification questions
+3. Highlights complex and high risk tasks
+
+Estimating means you can have an estimative of how much time is going to take to finish a certain task
+
+By asking a person to give a estimative, you will force that person to read through the user story, pay attention to all details and therefore you will make sure they ask any clarification questions before having an estimative, so you will avoid those questions after the work have started
+
+By estimating you can highlight complex and high risk tasks, a member of the team might think a certain task is small, but another member might think that task is medium, so that invites conversation between members and will bring light to any hidden challenges that a task might have or solve problems that a member could see as more complex than it actually is
+
+
+
+Common estimation techniques:
+Big/Uncertain/Small (BUS):
+Categorized into groupings:
+  Big, Untertain Small
+
+Each user story is compared to others and assigned to a group:
+  'Big' stories should be broken up if possible
+  'Uncertain' stories need to be groomed or broken up
+
+Ideally in BUS you want as many features in small group as possible, so it means these features can be done in a small ammount of time
+
+If a story is big, the first thing is checking if that story can be broken down into smaller stories. Some stories will not be able to be broken down and maintain a satisfatory level of value, but you should always try to break them
+
+If a story is categorized as uncertain, it means that story needs to be groomed, you need to have more details, talk to users or product owner to deliver more deatils or having a conversation about that story to have a better perspective and find out if that story can be classified as small or big
+
+
+
+T-Shirt sizes:
+Categorized into typical t-shirt sizes
+  XS, S, M, L, XL sizes
+
+Each user story is compared to others and assigned a t-shirt size
+  Larger stories should be broken up if possible
+
+Shirt sizes are globally understood, so they are usually used because you can understand them really quickly
+
+L and XL stories are the ones that should be annalized and discussed so you can see if you can break them down
+
+
+
+Fibonacci sequence:
+Abstract value to represent size
+  1, 2, 3, 5, 8, 13, 21...
+
+Each user story is compared to others and assigned "Story Points"
+  Larger stories should be broken up if possible
+
+Number of points per sprint is the team's velocity

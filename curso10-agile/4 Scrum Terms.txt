@@ -1,0 +1,134 @@
+User Stories:
+Simple description of a product feature that is written from an end user's point of view
+
+User Stories capture 3 important items, who, what and why
+Who:
+Who is that feature for, who's gonna use that feature
+
+What:
+What is that feature going to do, what problem that feature is going to solve
+
+Why:
+What value is the feature going to bring to the customer/user
+
+User Story Format:
+As a (user of type of user)
+I want a (some goal or what)
+so that (I can achieve some value or why)
+
+Writing Great User Stories:
+User Stories are great invitations for conversation
+
+The 3 C's, card, conversation, confirmation
+Card:
+A high level description, here's come who, what and why
+
+Conversation:
+A dialogue between Product Owner and the team to answer questions about the story
+
+Confirmation:
+A dialogue between the team and user/client/product owner to make sure everything is aligned and the team understand what the feature is supposed to bring to the client
+
+
+
+Acceptance Criteria:
+Acceptance Criteria are simple notes or conditions added to the user story, that tells what the user story must do to satisfy the needs of the customer - defined by the product owner
+
+Acceptance Criteria show up in the confirmation phase of the 3 C's
+
+Acceptance Criteria enriches the user story by making it testable and ensures the story is ready for demo
+
+Product Owner writes the initial Acceptance Criteria and brings them to discuss with the team
+
+Acceptance Criteria Example:
+Story:
+As a new student,
+I want to be able to create an account,
+so that I can enroll into a course
+
+Acceptance Criteria:
+1. User should be able to create account from linkedin
+2. User should be able to create account from Google
+3. User should be able to create account from Facebook
+
+Acceptance Criteria covers 3 important things:
+1. Acceptance Criteria (AC) should be testable with pass/fail results
+2. Acceptance Criteria should be clear and concise
+3. Acceptance Criteria should be created with shared understanding
+
+
+
+Invest:
+As a story that is written in this format:
+As a (user), I want (goal) so that I can (value or why).
+You have these principles so the story is good:
+1. Independent: The story is independent of other stories
+2. Negotiable: Story needs to be flexible, so the team can think about the best way of finishing the story
+3. Valuable: The story must have some concrete value to the users
+4. Estimatable: It must be possible to know how much complexity a story has
+5. Small: Should be small enough so team members can at most finish the story in a few days
+6. Testable: Whenever you are writing a user story, it must be possible to test that story
+
+
+
+Product Backlog and Sprint Backlog:
+Product Backlog is a list of user stories organized by priority
+
+The team can look at the product backlog and deliver the stories at the top first, since they are the highest priority stories
+
+The Sprint Backlog is created from the Product Backlog in the Sprint Planning ceremony
+
+In the Sprint Backlog that will be all User Stories that will be fully finished within the lenght of that sprint
+
+The Product Backlog can contain fully detailed user stories, but it can also contain ideas and partial user stories - they are iterated in the Product Backlog and finalized before being commited to a Sprint Backlog
+
+
+
+Working Agreement:
+A Working Agreement is a list of rules, expectations and procedures that govern how a team will work together
+
+Is basically the rules a team will have amongst themselves to make sure they can work together
+
+Is best Practie to make the Working Agreement visible and accessible
+
+
+
+Definition of Ready:
+Definition of ready is a responsability of the scrum master and it applies to user stories
+
+Ready is when a story is actionable, is when the story have all details, what need to be done, how it needs to be done and how complex what needs to be done is
+
+A story is ready when it contains the what, who and why, have all acceptance criteria and is agreed upon all team members that it can be finished
+
+Definition of Ready is a mutually agreed upon set of conditions a user story must meet for development to begin
+
+Ready is when a user story is polished, is when a user story is set and ready to be used by the development team
+
+
+
+Definition of Done:
+Definition of Done is an accessible document created by the team to explain what done means to that team
+
+It can be a checklist of things that need to be done in order to determine if a User Story is done or not
+
+It can be a sentence long, like: User Story meets the Acceptance Criteria provided by the Product Owner
+
+Definition of done is usually within the Working Agreement
+
+Definition of Done ia a mutually agreed upon set of conditions a user story must meet for it to be considered "done done"
+
+Definition of Done is set for the entire project, not individual stories
+
+
+
+Product Increment:
+A potentially shippable, vertical slice of a solution that is created as part of a Sprint time-box
+
+Product increments are the results of sprints
+
+They are small pieces of the full software that are delivered at the end of sprints
+
+Finished User Stories usually have a Product Increment attached to them
+
+
+
