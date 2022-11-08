@@ -1,0 +1,98 @@
+The Role Triangle:
+Product Owner:
+Brings business vision
+Including what and why
+
+Development Team:
+Defines technical vision and Execution
+Self-organizing
+Decides how
+
+Scrum Master:
+Servant leader
+Facilitates scrum events
+Removes impediments
+
+Additional Roles:
+Project Sponsor
+Business Leaders
+Technology Leaders
+Subject Matter Expert / Senior User
+Business Users
+
+
+
+Project Sponsor:
+Approves project and budget
+Provides the big picture view
+Helps shape the project need and outcomes
+Ensures project stays aligned to company objectives
+Participates in Sprint Reviews (and other feedback demos)
+Recognizes the team for quality work
+Encourages cross-team / cross-departmente collabotation
+Provides perspective on product impact and use
+
+
+
+Business Leaders:
+Enables access to necessary business resources
+Provides the needs of management
+Ensures user story results are creating value for the business
+Escalates resolution of identified impediments (as needed)
+Participates in Sprint Reviews (and other feedback demos)
+Encourages cross-team / corss-department collaboration
+Acknowledges team successes and provides support
+
+
+
+Technology Leaders:
+Hires team members with the right skillset
+Gives up control - empowers, trusts, and supports the team
+Enables access to necessary technology resources
+Escalates resolution to identified impediments (as needed)
+Participates in Sprint Reviews (and other feedback demos)
+Encourages cross-team / cross-department collaboration
+Acknowledges team successes and resolves team conflicts
+Ensures solution is aligned with organizational standards
+
+
+
+Agile Detractors - Leadership
+Demands mid-sprint challenges
+Hijacks ceremonies to discuss 'high-priority' topics
+Not available for demos
+  Then requests changes at the sprint review
+Discourages communication with other teams
+Removes or changes available resources mid-project
+Doesn't value the Agile mindset
+  People over processes
+  Communication over documentation
+
+
+
+Subject Matter Expert / Senior User
+Provides their needs and the needs of other users
+Participates in Sprint Reviews (and other feedback demos)
+Provides continuous feedback on product deliverables
+Gains and communicates feedback from other users
+Provides perspective and context for requirements
+Completes requested testing in a timely manner
+Ensures user story results are used properly
+
+
+
+Business Users:
+Provides their needs (differentiates wants and needs)
+Provides perspective and context for requirements
+Attends feedback demos they  are invited to
+Attends, watches, or reads training on deliverables
+Utilized deliverables and gives feedback
+Completes requested testing in a timely manner
+
+
+
+Agile Coach:
+Experienced Agile Practitioner
+Trains, guides, and supports everyone
+Usually a consultant or somebody inside the company that understands Agile and make observations about how everyone is doing their job
+They ensure everyone is doing their job in resonance with the Agile guides, manuals and values

@@ -1,0 +1,55 @@
+SCRUM TERM MATCHING
+
+Instructions: Fill in the blanks with the appropriate letter of the Scrum terms
+
+ 
+P         Is a time-box - a specific set of time  
+D         Value: Do the right thing and work on tough problems
+G         User story contains enough details to be worked
+J         Vertical slice of a potentially shippable product
+B         Visual aid that shows trending of user stories completed
+S         Share lessons learned from the previous iteration
+O         Servant leader that removes roadblocks
+H         Value: Complete the right work based on sprint goals
+T         Meeting to demo progress made during the iteration
+V         Simple description of a feature from a user’s perspective
+Q         Committed user stories for upcoming iteration
+L         Tasked with understanding the product vision
+R         Discussion and commitment for the next iteration’s work
+M         Value: Treat everyone as a capable team member
+K         Prioritized list of user stories that grows and changes
+F         Common understanding of when something is complete
+E         Discussion of yesterday’s progress, today’s plan, and issues
+X         Team-created list of rules, expectations, and procedures
+I         Value: Discuss the work and challenges of the project
+N         Self-organizing, cross-functional group of people
+A         Compares total user stories versus completed user stories
+U         Number of story points that are completed per iteration
+C         Value: Give 100% effort to achieve project team’s goals
+W         Work that is currently being completed
+
+
+A.	Burn Up Chart
+B.	Burndown Chart
+C.	Commitment
+D.	Courage
+E.	Daily Standup
+F.	Definition of Done
+G.	Definition of Ready
+H.	Focus
+I.	Openness
+J.	Product Increment
+K.	Product Backlog
+L.	Product Owner
+M.	Respect
+N.	Development Team
+O.	Scrum Master
+P.	Sprint
+Q.	Sprint Backlog
+R.	Sprint Planning
+S.	Sprint Retrospective
+T.	Sprint Review
+U.	Team Velocity
+V.	User Story
+W.	Work in Progress
+X.	Working Agreement

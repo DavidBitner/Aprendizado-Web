@@ -1,0 +1,23 @@
+Team Velocity:
+Is the ammount of things a team can do in one sprint
+The team estimates a velocity, this velocity is what will dictates the ammount of user stories the team will take from the product backlog and put inside the sprint backlog, depending on how many stories the team was actually able to complete at the end of a sprint, a new velocity can be defined and future sprints can hold that ammount of user stories.
+
+
+
+Burndown Chart:
+Is a chart containing the ammount of story point and the ammount of sprints a certain project will have, in this chart there's also 2 lines, one representing the work and speed that story points need to be finished in order to the project to be finished in time, the second line is the actual ammount of story points finished by the team
+This chart is usefull so the team can have an idea of how much work is left, of how much work is done and if they are on track to finish the project in time or if they will need to make adjustments so the project will move faster of they actually need more sprints to finish the project
+
+
+
+Burnup Chart:
+A burnup chart is a chart that contains the ammount of story points left in a project and the ammount of sprints this project will have to be finished, in this chart there is 2 lines, one showing the total ammount of story points left for the project to be considered done, this line can change depending in how stories change, can change based in the fact that some features got added or deleted, or even change based in the resources available to that project, the second line is the ammount of story points finished, is an increasing line that shows the ammount of work done by the team
+This chart is usually better than burndown chart because it show variation in the ammount of story points in total that need to be completed
+
+
+
+Using Charts with Non-Fibonacci Estimates:
+You can define arbitrary values to different sizes of stories in estimate styles like T-shirt sizes and BUS, but it might not be as effective, since not all story sizes are the same, so charts are definitely more usefull using Fibonacci sequence estimates
+
+
+

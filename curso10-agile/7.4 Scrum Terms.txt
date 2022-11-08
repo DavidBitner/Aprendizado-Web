@@ -1,0 +1,26 @@
+Scrum Terms and Definitions:
+
+Burn Up Chart         Compares total user stories versus completed user stories
+Burndown Chart        Visual aid that show trending of user stories completed
+Commitment            Value: Give 100% effort to achieve project team's goals
+Courage               Value: Do the right thing and work on tough problems
+Daily Standup         Discussion of yesterday's progress, today's plan, and issues
+Definition of Done    Common understanding of when something is complete
+Definition of Ready   User story contains enough details to be worked
+Development Team      Self-organizing, cross-functional group of people
+Focus                 Value: Complete the right work based on sprint goals
+Openness              Value: Discuss the work and challenges of the project
+Product Increment     Vertical slice of a potentially shippable product
+Product Backlog       Prioritized list of use stories that grows and changes
+Product Owner         Tasked with understanding the product vision
+Respect               Value: Treat everyone as a capable team member
+Scrum Master          Servant leader that removes roadblocks
+Sprint                Is a time-box - a specific set of time
+Sprint Backlog        Commited user stories for upcoming iteration
+Sprint Planning       Discussion and commitment for the next iteration's work
+Sprint Retrospective  Share lessons learned from the previous iteration
+Sprint Review         Meeting to demo progress made during the iteration
+Team Velocity         Number of story points that are completed per iteration
+User Story            Simple description of a feature from a user's perspective
+Work in Progress      Work that is currently being completed
+Working Agreement     Team-created list of rules, expectations, and procedures
