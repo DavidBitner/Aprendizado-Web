@@ -1,0 +1,43 @@
+Four Basic Principles of Kanban:
+1. Start with what you do now
+2. Agree to pursue incremental change
+3. Respect current process, roles, responsibilities, titles
+4. Encourage acts of leadership at all levels
+
+
+
+Kanban Board:
+The Kanban Board have 3 columns and a bunch of cards
+The columns are:
+To do:
+Have all cards with various tasks that need to be done
+
+Doing:
+Have all cards with tasks that are being worked on
+
+Done:
+Have all cards with tasks that have being finished
+
+Cards:
+Cards contain details about the task that needs to be done, and also have all details about the person doing the task, with information about dates and times of when the task was created, when was in progress and when it was done
+
+
+
+Six General Practices of Kanban:
+1. Visualize the workflow
+2. Limit work in progress (WIP)
+3. Manage flow
+4. Make policies explicit
+5. Implement feedback loops
+6. Collaborate for improvement, evolve experimentally
+
+
+
+Key Metrics:
+Lead Time:
+It's the full extent of a task, from the moment the task was created, to the moment the task is moved in the kanban board to done
+
+Cycle Time:
+It's the amount of time it took from "doing" to "finished".
+
+These key metrics are important to get information about the team in general, with these key metrics you can see if there's any bottlenecks, if cycles are too long, why they are too long, if there's too many tasks in progress, etc.
