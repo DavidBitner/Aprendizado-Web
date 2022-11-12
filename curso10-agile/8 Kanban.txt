@@ -41,3 +41,10 @@ Cycle Time:
 It's the amount of time it took from "doing" to "finished".
 
 These key metrics are important to get information about the team in general, with these key metrics you can see if there's any bottlenecks, if cycles are too long, why they are too long, if there's too many tasks in progress, etc.
+
+
+
+Kanban Swimlanes:
+Swimlanes are grouped tasks based on similarities. These are lines that go horizontally through the entire Kanban board, and they can exist based on priority, on who is taking care of what, what department is responsible for which lane, it all depends on how that project or organization handles these lines.
+
+For instance, a Kanban board might have 3 swimlanes, one for development, one for marketing and one for design, in this example all tasks in the development swimlane would be handled by the development team, so that means the other teams don't need to lose their time looking into tasks that belong to the development lane.

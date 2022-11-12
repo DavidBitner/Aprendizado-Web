@@ -1,0 +1,8 @@
+1. Determine if physical or digital Kanban board is right for your team
+2. Create the Kanban Board (physical, Jira, Trello, Kanbanize, etc.)
+3. Visualize your work (create work units or user stories)
+4. Create a team Working Agreemtn - definition of ready and Definition of done
+5. Come up with explicit polivies that work out for the team
+5. Define and assign Work in Progress limits to Kanban columns
+6. Identify and discuss impediments or blockers that will prohibit the team's momentum forward
+7. Determine a cadence (repetition) of optional team meetings (sprint retrospective, prioritization session, backlog grooming, etc.)
