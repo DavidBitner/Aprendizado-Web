@@ -1,0 +1,41 @@
+Scrumban
+1. Visualize workflow with a Kanban board
+2. Utilizes daily scrum
+3. Work is pulled, rather than assigned
+4. Strict work in progress (WIP) limits
+5. Project team roles not clearly specified
+6. Specialized team members
+
+
+
+Sprint X Continuous Flow
+There's a debate about how to handle work in Scrumban, some say sprints are better, some say doing the general Kanban flow is better.
+
+Continuous Flow:
+1. Fluid movement of work - no timeboxes
+2. Pull items into Doing based on team capacity
+3. Plan at a certain number of To Do items
+4. Lead and cycle time are the key metrics
+
+Timeboxes/Sprints:
+1. Utilizes sprints (1-4 weeks)
+2. Iteration planning, reviews and retrospectives
+3. User Ready status to organize work items
+4. Uses lead and cycle time or burndown charts
+5. Kanban Board have a backlog column
+
+
+
+Triage and Feature Freeze
+1. Used as the project deadline is approaching
+2. Team identifies most important features not yet done
+3. Remainder of work items are frozen
+4. Focuses the team's energy on finishing critical tasks
+
+
+
+Target Audioence
+The types of organizations that might use Scrumban are:
+1. Organizations that use agile methods like Scrum for a long time, and want to change roles and the flow of work to not be as set into a framework, so they will use Scrumban as a form of transition method to make sure they are ready to go to Kanban
+
+2. Newer organizations that need an agile framework but don't have the need or simply don't want the roles inside Scrum, they want a more flexible way of progressing work
