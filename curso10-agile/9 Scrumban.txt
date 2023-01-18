@@ -34,7 +34,7 @@ Triage and Feature Freeze
 
 
 
-Target Audioence
+Target Audience
 The types of organizations that might use Scrumban are:
 1. Organizations that use agile methods like Scrum for a long time, and want to change roles and the flow of work to not be as set into a framework, so they will use Scrumban as a form of transition method to make sure they are ready to go to Kanban
 
